@@ -18,10 +18,83 @@ COMMON_ARGS: list[str] = [
     str(INDEX_TTS_ROOT / "checkpoints" / "config.yaml"),
 ]
 
+TOKEN_REPLACEMENTS = {
+    "CHARNAME": "you",
+    "PRO_HESHE": "they",
+    "PRO_HIMHER": "them",
+    "PRO_HISHER": "their",
+    "PRO_MANWOMAN": "person",
+    "PRO_LADYLORD": "my friend",
+    "LADYLORD": "friend",
+    "PRO_RACE": "traveler",
+    "RACE": "traveler",
+    "PRO_SIRMAAM": "friend",
+    "SIRMAAM": "friend",
+    "MALEFEMALE": "person",
+    "PRO_MALEFEMALE": "person",
+    "MANWOMAN": "person",
+    "PRO_BROTHERSISTER": "friend",
+    "BROTHERSISTER": "friend",
+    "PRO_GIRLBOY": "child",
+    "GIRLBOY": "child",
+    "GABBER": "friend",
+    "DAYNIGHTALL": "day",
+}
+
+TOKEN_PATTERN = re.compile(r"<([^>]+)>")
+
 
 def sanitize(text: str) -> str:
-    cleaned = re.sub(r"<[^>]+>", "", text)
-    cleaned = cleaned.replace("~", "").strip()
+    """Normalize dialogue text by removing WeiDU tokens and tidying spacing."""
+
+    def _replace(match: re.Match[str]) -> str:
+        token = match.group(1)
+        if token == "CHARNAME":
+            return "__CHARNAME__"
+        return TOKEN_REPLACEMENTS.get(token, "")
+
+    cleaned = TOKEN_PATTERN.sub(_replace, text)
+    cleaned = cleaned.replace("~", "")
+    cleaned = cleaned.replace("\u00a0", " ")
+    fallback = cleaned.replace("__CHARNAME__", "you").strip()
+    # Normalize stray mojibake dashes that appear in exports
+    cleaned = cleaned.replace("â€”", "—").replace("â€“", "—")
+
+    # Remove direct-address placeholders before replacing final token
+    cleaned = re.sub(r"(^|[.!?]\s*)__CHARNAME__,\s*", r"\1", cleaned)
+    cleaned = re.sub(r"(^|[.!?]\s*)__CHARNAME__\s*[!?]+\s*", r"\1", cleaned)
+    cleaned = re.sub(r",\s*__CHARNAME__\s*,", ", ", cleaned)
+    cleaned = re.sub(r",\s*__CHARNAME__([.!?])", r"\1", cleaned)
+    cleaned = re.sub(r",\s*__CHARNAME__", "", cleaned)
+
+    cleaned = cleaned.replace("__CHARNAME__", "you")
+    cleaned = re.sub(r"^(?:[Yy]ou[!?]+\s+)+", "", cleaned)
+    cleaned = re.sub(r"^[\s\-—]*[,.;:!?]+\s*", "", cleaned)
+    cleaned = cleaned.lstrip('\"')
+    cleaned = re.sub(r"\s{2,}", " ", cleaned)
+    cleaned = re.sub(r"\s+([,.!?;:])", r"\1", cleaned)
+    cleaned = re.sub(r",\s*,", ", ", cleaned)
+    cleaned = re.sub(r"(?<!\.)\.\.(?!\.)", ".", cleaned)
+    cleaned = re.sub(r"([!?;:]){2,}", lambda m: m.group(0)[0], cleaned)
+    cleaned = re.sub(r",([!?;:])", r"\1", cleaned)
+
+    for pattern, replacement in (
+        (r"\b[Yy]ou has\b", "you have"),
+        (r"\b[Yy]ou is\b", "you are"),
+        (r"\b[Yy]ou was\b", "you were"),
+        (r"\b[Yy]ou's\b", "your"),
+        (r"\b[Tt]hey has\b", "they have"),
+        (r"\b[Tt]hey is\b", "they are"),
+        (r"\b[Tt]hey was\b", "they were"),
+        (r"\b[Tt]hey decides\b", "they decide"),
+    ):
+        cleaned = re.sub(pattern, replacement, cleaned)
+
+    cleaned = cleaned.strip()
+    if not cleaned:
+        cleaned = fallback
+    if cleaned and cleaned[0].islower():
+        cleaned = cleaned[0].upper() + cleaned[1:]
     return cleaned
 
 
@@ -118,7 +191,13 @@ def synth_with_api(strref: str, voice_ref: str, config: dict, text: str, out_wav
     tts.infer(**kwargs)
 
 
-with open(LINES, newline="", encoding="utf-8") as lines_file:
-    reader = csv.DictReader(lines_file)
-    for row in reader:
-        synth_one(row["StrRef"], row["Speaker"], row["Text"])
+def synth_all() -> None:
+    """Synthesize every line from data/lines.csv."""
+    with open(LINES, newline="", encoding="utf-8") as lines_file:
+        reader = csv.DictReader(lines_file)
+        for row in reader:
+            synth_one(row["StrRef"], row["Speaker"], row["Text"])
+
+
+if __name__ == "__main__":
+    synth_all()
