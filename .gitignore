@@ -1,0 +1,43 @@
+# Build outputs (large audio files)
+build/
+*.wav
+*.ogg
+
+# Game files (too large, user-specific paths)
+BG2 Files/
+
+# Near Infinity exports (can be regenerated)
+exports/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+reports/*.csv
+
+# WeiDU backup
+backup/
+*.bak
+
+# Temp files
+*.tmp
+~*

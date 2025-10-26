@@ -1,0 +1,10 @@
+BACKUP ~vvoBG/backup~
+AUTHOR ~BG2 Voiceover Automation~
+
+BEGIN ~BG2 Voiceover: Imoen GOLEM line~
+
+// Ensure the dialog entry points to the synthesized audio
+STRING_SET 38606 ~Wow, a golem. Powerful magic stuff. Odd that it's not hostile. I suppose its maker didn't expect us to escape, so it never got orders for restraining us.~ [OH38606]
+
+// Ship the generated wave into the override so the game can play it
+COPY ~vvoBG/OGG/OH38606.wav~ ~override/OH38606.wav~

@@ -1,0 +1,22 @@
+{
+  "_default_": {
+    "voice": "narrator"
+  },
+  "Imoen": {
+    "ref": "C:\\Users\\tenod\\source\\repos\\BG2 Voiceover\\refs\\imoen_ref_multi.wav",
+    "emo_alpha": 1.0,
+    "interval_silence": 200
+  },
+  "Minsc": {
+    "voice": "male_booming"
+  },
+  "Jaheira": {
+    "voice": "female_mature"
+  },
+  "Viconia": {
+    "voice": "female_cool"
+  },
+  "Edwin": {
+    "voice": "male_sardonic"
+  }
+}
