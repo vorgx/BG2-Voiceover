@@ -5,6 +5,7 @@ build/
 
 # Game files (too large, user-specific paths)
 BG2 Files/
+"BG2 Files/"
 
 # Near Infinity exports (can be regenerated)
 exports/
