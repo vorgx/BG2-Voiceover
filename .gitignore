@@ -3,6 +3,9 @@ build/
 *.wav
 *.ogg
 
+# Audition files (temporary test audio)
+auditions/
+
 # Game files (too large, user-specific paths)
 BG2 Files/
 "BG2 Files/"

@@ -1,0 +1,17 @@
+Canonical,Aliases,DLGFiles,HasCanonicalVoice,Gender,AgeBand,Accent,Archetype,Energy,Timbre,Notes,VoicePreset,RefFile,Status
+Imoen,IMOEN;IMOEN2,IMOEN.DLG|IMOENJ.DLG,Partial,F,Young,Midwest-lite,Cheery,High,Bright,Iconic companion with extensive party banter,female_bright,refs/imoen_ref_multi.wav,Locked
+Minsc,MINSC,MINSC.DLG|MINSCJ.DLG,Partial,M,Adult,Neutral,Boisterous,VeryHigh,Boomy,Ranger with hamster Boo - heroic and simple,male_booming,,Pending
+Jaheira,JAHEIRA,JAHEIRA.DLG|JAHEIRAJ.DLG,Partial,F,Mature,Neutral,Stern,Medium,Mature,Druid widow - wise but sharp-tongued,female_mature,,Pending
+Viconia,VICONIA;VVICONI,VICONIA.DLG|VVICONI.DLG,Partial,F,Adult,Drow,Sardonic,Medium,Cool,Drow cleric - aloof and sarcastic,female_cool,,Pending
+Edwin,EDWIN,EDWIN.DLG|EDWINJ.DLG,Partial,M,Adult,Neutral,Arrogant,Medium,Sardonic,Red Wizard - scheming with internal monologue,male_sardonic,,Pending
+Aerie,AERIE,AERIE.DLG|AERIEJ.DLG,Partial,F,Young,Neutral,Timid,Low,Gentle,Avariel elf - shy and compassionate,female_gentle,,Draft
+Korgan,KORGAN,KORGAN.DLG|KORGANJ.DLG,Partial,M,Adult,Scottish,Aggressive,High,Gruff,Dwarven berserker - crude and bloodthirsty,male_gruff,,Draft
+Anomen,ANOMEN,ANOMEN.DLG|ANOMENJ.DLG,Partial,M,Young,Noble,Conflicted,Medium,Noble,Fighter/Cleric - proud but insecure,male_noble,,Draft
+Keldorn,KELDORN,KELDORN.DLG|KELDORJ.DLG,Partial,M,Mature,Neutral,Righteous,Medium,Wise,Paladin - noble and dutiful,male_wise,,Draft
+Nalia,NALIA,NALIA.DLG|NALIAJ.DLG,Partial,F,Young,Upper-class,Idealist,Medium,Light,Noble mage - caring and idealistic,female_uplift,,Draft
+HaerDalis,HAERDALI;HAERDA,HAERDALI.DLG,Partial,M,Adult,Theatrical,Poetic,Medium,Smooth,Tiefling bard - flowery and romantic,male_theatrical,,Draft
+Cernd,CERND,CERND.DLG|CERNDJ.DLG,Partial,M,Mature,Neutral,Philosophical,Low,Deep,Druid - contemplative and detached,male_deep,,Draft
+Mazzy,MAZZY,MAZZY.DLG|MAZZYJ.DLG,Partial,F,Adult,Neutral,Heroic,High,Strong,Halfling paladin - brave and determined,female_strong,,Draft
+Valygar,VALYGAR,VALYGAR.DLG|VALYGARJ.DLG,Partial,M,Adult,Neutral,Stoic,Low,Flat,Ranger - withdrawn and anti-magic,male_flat,,Draft
+Yoshimo,YOSHIMO,YOSHIMO.DLG,Partial,M,Adult,Asian-inspired,Charming,Medium,Smooth,Bounty hunter - friendly but secretive,male_smooth,,Draft
+Sarevok,SAREVOK,SAREVOK.DLG,Partial,M,Adult,Neutral,Menacing,Low,Deep,Former villain - dark and brooding,male_menacing,,Draft
