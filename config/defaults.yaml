@@ -1,0 +1,36 @@
+# Default configuration for BG2 Voiceover automation
+# Paths are set to the current working environment. Adjust as needed for other machines.
+
+paths:
+  repo_root: "C:/Users/tenod/source/repos/BG2 Voiceover"
+  game_dir: "E:/SteamLibrary/steamapps/common/Baldur's Gate II Enhanced Edition"
+  index_tts_root: "C:/Users/tenod/source/repos/TTS/index-tts"
+
+index_tts:
+  executable: "C:/Users/tenod/source/repos/TTS/index-tts/.venv/Scripts/indextts.exe"
+  config: "C:/Users/tenod/source/repos/TTS/index-tts/checkpoints/config.yaml"
+
+inputs:
+  lines_csv: "data/lines.csv"
+  voices_json: "data/voices.json"
+  characters_csv: "data/characters.csv"
+  targets_file: "data/chapter1_targets.csv"
+
+outputs:
+  ogg_dir: "build/OGG"
+  stage_dir: "mod/vvoBG/OGG"
+  reports_dir: "reports"
+  cache_file: "reports/synth-cache.json"
+
+sanitization:
+  chapter_csv: "data/chapter1_lines.csv"
+  split_dir: "data/chapter1_split"
+
+synthesis:
+  default_voice: "narrator"
+  sample_rate: 22050
+  bit_depth: 16
+
+weidu:
+  setup_binary: "mod/setup-vvoBG.exe"
+  tp2_script: "mod/vvoBG.tp2"

@@ -1,22 +1,147 @@
 {
   "_default_": {
-    "voice": "narrator"
+    "voice": "C:\\Users\\tenod\\source\\repos\\BG2 Voiceover\\refs\\imoen_ref.wav",
+    "notes": "Fallback voice for characters without specific assignments"
   },
   "Imoen": {
-    "ref": "C:\\Users\\tenod\\source\\repos\\BG2 Voiceover\\refs\\imoen_ref_multi.wav",
-    "emo_alpha": 1.0,
-    "interval_silence": 200
+    "ref": "refs/imoen_ref.wav",
+    "preset": "female_bright",
+    "notes": "Iconic companion with extensive party banter - Cheery, High energy, Bright timbre (59.2 sec ref from BG2 audio)",
+    "status": "Locked"
   },
   "Minsc": {
-    "voice": "male_booming"
+    "ref": "refs/minsc_ref.wav",
+    "preset": "male_booming",
+    "notes": "Ranger with hamster Boo - Boisterous, Very high energy, Boomy timbre (64.6 sec ref from BG2 audio)",
+    "status": "Locked"
   },
   "Jaheira": {
-    "voice": "female_mature"
+    "ref": "refs/jaheira_ref.wav",
+    "preset": "female_mature",
+    "notes": "Druid widow - Stern, Medium energy, Mature timbre (31.4 sec ref from BG2 audio). Using base reference only, no speed/pitch adjustment.",
+    "status": "Locked"
   },
   "Viconia": {
-    "voice": "female_cool"
+    "voice": "C:\\Users\\tenod\\source\\repos\\BG2 Voiceover\\refs\\imoen_ref.wav",
+    "preset": "female_cool",
+    "notes": "Drow cleric - Sardonic, Medium energy, Cool timbre",
+    "status": "Pending"
   },
   "Edwin": {
-    "voice": "male_sardonic"
+    "voice": "C:\\Users\\tenod\\source\\repos\\BG2 Voiceover\\refs\\imoen_ref.wav",
+    "preset": "male_sardonic",
+    "notes": "Red Wizard - Arrogant, Medium energy, Sardonic timbre",
+    "status": "Pending"
+  },
+  "Aerie": {
+    "voice": "C:\\Users\\tenod\\source\\repos\\BG2 Voiceover\\refs\\imoen_ref.wav",
+    "preset": "female_gentle",
+    "notes": "Avariel elf - Timid, Low energy, Gentle timbre",
+    "status": "Draft"
+  },
+  "Korgan": {
+    "voice": "C:\\Users\\tenod\\source\\repos\\BG2 Voiceover\\refs\\imoen_ref.wav",
+    "preset": "male_gruff",
+    "notes": "Dwarven berserker - Aggressive, High energy, Gruff timbre",
+    "status": "Draft"
+  },
+  "Anomen": {
+    "voice": "C:\\Users\\tenod\\source\\repos\\BG2 Voiceover\\refs\\imoen_ref.wav",
+    "preset": "male_noble",
+    "notes": "Fighter/Cleric - Conflicted, Medium energy, Noble timbre",
+    "status": "Draft"
+  },
+  "Keldorn": {
+    "voice": "C:\\Users\\tenod\\source\\repos\\BG2 Voiceover\\refs\\imoen_ref.wav",
+    "preset": "male_wise",
+    "notes": "Paladin - Righteous, Medium energy, Wise timbre",
+    "status": "Draft"
+  },
+  "Nalia": {
+    "voice": "C:\\Users\\tenod\\source\\repos\\BG2 Voiceover\\refs\\imoen_ref.wav",
+    "preset": "female_uplift",
+    "notes": "Noble mage - Idealist, Medium energy, Light timbre",
+    "status": "Draft"
+  },
+  "HaerDalis": {
+    "voice": "C:\\Users\\tenod\\source\\repos\\BG2 Voiceover\\refs\\imoen_ref.wav",
+    "preset": "male_theatrical",
+    "notes": "Tiefling bard - Poetic, Medium energy, Smooth timbre",
+    "status": "Draft"
+  },
+  "Cernd": {
+    "voice": "C:\\Users\\tenod\\source\\repos\\BG2 Voiceover\\refs\\imoen_ref.wav",
+    "preset": "male_deep",
+    "notes": "Druid - Philosophical, Low energy, Deep timbre",
+    "status": "Draft"
+  },
+  "Mazzy": {
+    "voice": "C:\\Users\\tenod\\source\\repos\\BG2 Voiceover\\refs\\imoen_ref.wav",
+    "preset": "female_strong",
+    "notes": "Halfling paladin - Heroic, High energy, Strong timbre",
+    "status": "Draft"
+  },
+  "Valygar": {
+    "ref": "refs/valygar_ref.wav",
+    "preset": "male_flat",
+    "notes": "Ranger - Stoic, Low energy, Flat timbre (44.0 sec ref from BG2 audio)",
+    "status": "Locked"
+  },
+  "Yoshimo": {
+    "ref": "refs/yoshimo_ref.wav",
+    "preset": "male_smooth",
+    "notes": "Bounty hunter - Charming, Medium energy, Smooth timbre (50.6 sec ref from BG2 audio)",
+    "status": "Locked"
+  },
+  "Sarevok": {
+    "voice": "C:\\Users\\tenod\\source\\repos\\BG2 Voiceover\\refs\\imoen_ref.wav",
+    "preset": "male_menacing",
+    "notes": "Former villain - Menacing, Low energy, Deep timbre",
+    "status": "Draft"
+  },
+  "Rielev": {
+    "ref": "refs/rielev_ref.wav",
+    "preset": "male_deep",
+    "notes": "Dying prisoner NPC (17.7 sec ref from BG2 audio)",
+    "status": "Locked"
+  },
+  "Dryad": {
+    "ref": "refs/dryad_ref.wav",
+    "preset": "female_gentle",
+    "notes": "Forest spirit NPC (8.1 sec ref from BG2 audio)",
+    "status": "Locked"
+  },
+  "Ilyich": {
+    "ref": "refs/ilyich_ref.wav",
+    "preset": "male_gruff",
+    "pitch_shift": -2,
+    "speed": 0.95,
+    "interval_silence": 0.45,
+    "notes": "Duergar clan chief - Scottish accent, military commander (ElevenLabs custom voice generation, deeper pitch -2, 5% slower, longer pauses)",
+    "status": "Locked"
+  },
+  "IDRYAD1": {
+    "ref": "refs/dryad_ref.wav",
+    "preset": "female_gentle",
+    "notes": "Dryad NPC (uses same ref as Dryad)",
+    "status": "Locked"
+  },
+  "IDRYAD2": {
+    "ref": "refs/dryad_ref.wav",
+    "preset": "female_gentle",
+    "notes": "Dryad NPC (uses same ref as Dryad)",
+    "status": "Locked"
+  },
+  "IDRYAD3": {
+    "ref": "refs/dryad_ref.wav",
+    "preset": "female_gentle",
+    "notes": "Dryad NPC (uses same ref as Dryad)",
+    "status": "Locked"
+  },
+  "PORTAL": {
+    "ref": "refs/valygar_ref.wav",
+    "preset": "male_flat",
+    "notes": "Portal genie - mystical entity that trades energy cells (using Valygar's voice)",
+    "status": "Locked"
   }
 }

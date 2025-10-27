@@ -1,0 +1,858 @@
+StrRef,Speaker,Text
+5009,Dryad,Hold Undead
+5041,Dryad,I did not so much get into adventuring as it was forced upon me.
+18447,Ilyich,"Suffice to say, this place is your doom. By the time the master returns, you shall be dead and we shall be rewarded. At 'em, lads! No mercy!"
+18449,Ilyich,I won't be givin' 'em to you. Come and get 'em... if you can!
+18450,Ilyich,"At 'em, lads! No mercy!"
+38537,Imoen,I can help you too. Should I not try? I hate to see you cooped up like that.
+38539,Imoen,"Minsc, that is horrible! I am so sorry for you."
+38543,Imoen,"Eww, I... really don't want to think about that too much."
+38559,Imoen,"What kind of monster is this guy? Captures us easy as pie, kills whoever he wants... that could have been us in those glass things."
+38563,Imoen,"I don't know about that, Minsc, but he sure is a cute little fuzzy wuzzy. Aren't you, Boo?"
+38584,Imoen,"We don't even know where we are, and my head is still doing funny things... He said something... something about potential."
+38599,Imoen,"Are we? Horrible, horrible things surround us, and my head still hurts like crazy. I want to know what he did to me. I remember... something about potential."
+38602,Imoen,He said it about you too: something about power that can be unleashed. I don't care; I just have to get out. Can we leave this room? It bothers me.
+38603,Imoen,I want to know what he did to me too. My head still hurts really bad. He said... said something about potential... about you too.
+38606,Imoen,"Wow, a golem. Powerful magic stuff. Odd that it's not hostile. I suppose its maker didn't expect us to escape, so it never got orders for restraining us."
+38611,Imoen,"They only do exactly what they are directed to; they don't really think. If it hasn't been told to keep quiet, we might get some information out of it."
+38619,Imoen,"No, it can't be. Not the person I know. This... this bed, that table... I know of them. He would... he would speak of them while... while he..."
+38620,Imoen,"It's for a lost love, kept in perfect condition. She... she despises him. This is his monument to her. He spoke of all of this, but... but his voice was cold..."
+38621,Imoen,"No emotion at all, not even remembered. He spoke of these things even while he cut... he cut... and the spells that wove through my brain... cold, ugly things!"
+38624,Imoen,"It still hurts... his sick fingers are still in my head, doing whatever it was he started. I see blood... and death... behind my eyes... Irenicus..."
+38625,Imoen,"This room: If he could care for anything, he would care for this room. Above the lives of all of us. It makes me sick. I feel... I feel... so much hate."
+38626,Imoen,"I would burn this place, but it is nothing. Even as it means so much, it is nothing. Let's do what we must and get out of this place; it is making me sick."
+38627,Imoen,"We are nothing; that's why the golems don't care. Why bother worrying about gnats? Besides, he doesn't need to catch us. I can tell. I can feel it."
+38628,Imoen,"Duergar, I think. Kind of evil, I guess, so I'm not surprised they would be working for our captor."
+38631,Imoen,"For the knives, probably. The knives... he has a lot of them... I'm going to have a couple of scars from this... looks like you will too."
+38632,Imoen,I doubt he cares for anything more than the quality of knives they make. He has a lot of them... I'm going to have scars from this... looks like you will too.
+38635,Imoen,"Stop calling me ""child."" I'm as old as you, and besides, I can tell you that Khalid did not suffer."
+38637,Imoen,I'm not babbling! I saw him do this! Khalid was dead when our captor started... doing those things to him!
+38639,Imoen,He... he showed me. He cut and... and showed me. He forced my eyes open and made me look as he...
+38641,Imoen,"He said I should see, so I would understand, but I don't know what he wanted! He would cut and say ""Do you see?"" Cut and say ""Do you see?"""
+38643,Imoen,"I am not a child! I'm as old as you, and I've... I've seen. I can see..."
+38645,Imoen,"I see now... in my head... cut, ""yes, I see..."""
+38649,Imoen,"I used to dream... but he doesn't. Your charms don't work on him anymore, do they?"
+38651,Imoen,Irenicus...
+38653,Imoen,"No, death sounds different. He showed me... I spit on his name. I spit on this place."
+38655,Imoen,"I have learned... something different. So beautiful you are. I almost can't see you. I just want to go home. Oh, when can we go home?"
+38665,Imoen,"I guess I should be used to sleeping with both eyes open. I don't deal with this well. We're alike because of Gorion, but I prefer being in the background."
+38671,Imoen,"He was a great mage, and supposedly a great adventurer. It's funny; we lived with him for years, and Jaheira seems to know more about him."
+38672,Imoen,"I guess he was a big friend of the Harpers. Even got a visit from Khelben ""Blackstaff"" once. Real powerful mage. Talked to Gorion like an equal."
+38674,Imoen,"I wish we could go back to those days, before all this fuss and bother. Before I learned... Well, we've seen so much. Candlekeep seems so small now."
+38686,Imoen,"Seems like we're not important enough to worry about. I'm just not up to this like you. We're alike because of Gorion, but I prefer being in the background."
+38690,Imoen,"Does it? Then I feel better. I figured I didn't deal with this as well as you. We're alike because of Gorion, but I prefer being in the background."
+38697,Imoen,"Well, when people are in danger, sure. Winthrop taught me how to get out of trouble, but Gorion always said there are times when it's worth getting into it."
+38703,Imoen,"Yeah, you're right. I don't want to spend a second more in this place than I have to. My head still hurts, and I keep seeing things in corners and such."
+38704,Imoen,"We won't be able to just walk away, you know. The guy that captured us... he knows about you. He said something about potential, something about great power."
+38705,Imoen,"Funny, that. I was sorry to go, but I couldn't let you wander off on your own, now could I? After Gorion d... died, you needed all the help you could get."
+38706,Imoen,"Not that I'm much help right now. My head still aches, and I keep seeing things. Too much death around here, everywhere. It's in everything, even me."
+38707,Imoen,"We still had friends there. They were proud, even if they didn't show it. Winthrop said so. He always thought Gorion was too stuffy. I don't know though."
+38708,Imoen,"Ooh, my head still hurts, and I keep thinking I see... things in the corners. Too much death here for my liking. It's in everything, even us."
+38735,Imoen,I wonder why Irenicus made her? I doubt he took pleasure in her company; he's beyond that. He's fascinated with death. He showed me... over and over...
+38788,Imoen,"But we did, didn't we? I just want to go home again. It doesn't matter where it is, just so long as I can call it home."
+47215,Imoen,"Something strange up here. Be careful, this place has all manner of dangerous devices in it. I don't know what they do, but I know we would be safer if we shut them off."
+47220,Imoen,"Do you smell that? Smells like lightning, but indoors? That can't be right. I think I remember. Look to the right... the machine making the storm..."
+49035,Imoen,Get out of my way! I don't want to fight any of you; I just want to leave!
+56483,Imoen,"Athkatla? That's... the City of Coin, right? A merchant city in Amn. We come from the Sword Coast, a ways to the north. Why do you think we're in Athkatla?"
+58492,Imoen,"Say we won't look back. I don't care if he can ""tap the power"" or access whatever avatar stuff. We've gotta get away from all this death."
+58496,Imoen,Means a lot to hear that. I can't stand all these shadows...
+58497,Imoen,"I appreciate that, but I doubt he meant you any good either. Didn't spare you the knives any more than me. Come on, I gotta get away from all these shadows."
+58498,Imoen,"Let it go, please? Whoever he is and whatever he can do, above it all, he's a vile bastard that's hurt us both. Come on, I gotta get away from all this death."
+58502,Imoen,"He said something like ""releasing power within you so it could be used,"" but if it means taking part in horrible things... I don't like this place. Can we go?"
+58503,Imoen,"I don't care if he could make us three ogres strong, I have to get out of this place. It bothers me. Makes me think I see... things."
+58504,Imoen,"As if I need another reminder. I don't care what power this guy thinks he can tap in you, he's just sick to the core. We can't ever look back."
+1090,Jaheira,"Sil... Silvanus guide the light... to the source. Take this man to what he justly deserves. By... nature's will, what was given is returned; what was turmoil is now... is now peace."
+1092,Jaheira,We... we must hurry before we are noticed. We must get out of this... this grave... and seek the light above. Let us go.
+1117,Jaheira,"You will watch your tongue lest I rip it from your mouth! I, more than anyone, know of the ways life may return, but there is a line that cannot be crossed!"
+1118,Jaheira,"We live in a time of miracles, and nature allows the rebirth of many that have passed beyond the veil, but there is a time when... when it is better to let go."
+1119,Jaheira,"I will mourn according to what I believe. His death... his death is horrible, but I am still trapped and we are still in danger. Should sorrow doom us all?"
+1136,Jaheira,"Nature is a cycle of birth and... death. Interrupting that cycle isn't... natural! Ah, there's no time for this! I will mourn, but we must still rescue ourselves!"
+1140,Jaheira,"That is the way of things. There will be... there will be payment for this crime, and I shall not rest until it is collected. When we are able, there will be..."
+1144,Jaheira,Enough. I would leave this place.
+1147,Jaheira,"I will not suffer this! You will learn the limits and understand, but I will not bear this idiocy now! Find your own path; I will not travel with you!"
+1149,Jaheira,"You will learn. There are things that cannot change, and others that cannot remain. And others..."
+1150,Jaheira,Another day! We must live to pose a bigger threat! There is no point joining the fray today; we would only end up dead or back in our cells. Another day...
+1152,Jaheira,"Of course I am afraid; what fool wouldn't be? We were captured with little difficulty, held with even less, and have escaped with friends dead or wounded."
+1153,Jaheira,We will exact vengeance when it is to our advantage. I will not start a losing battle. A guaranteed loss is a fool's endeavor. Another day... another day...
+1159,Jaheira,"Only an idiot is not afraid when they should be. We were captured and held with ease! Yes, we have earned our freedom, but it was at the cost of our friends!"
+1160,Jaheira,Agreed. We will exact justice when we have hope of succeeding. Until then... I will not forget. Another time and place...
+1162,Jaheira,"No, Athkatla is along the lower edge of the Sword Coast. I wonder whom we angered that we should be brought here? We should lay low, perhaps in the slums."
+1163,Jaheira,"Regardless, we will have to make sure we are out of sight for a while. I might know a few safe places here and there, by the docks or outside of town."
+1169,Jaheira,"Whatever our enemy, we should keep low for a while. Perhaps at the docks or out of town. I might know a few places."
+1172,Jaheira,"I would suggest the slums. There will be low-profile work, especially at the Copper Coronet. Someone might have heard of our capture or know where Imoen is."
+1174,Jaheira,"You might have never been here, but I have. Those Who Harp tend to travel. Khalid... Khalid and I came here... well, let us just say I have been here before."
+1191,Jaheira,"Forgive me, but I will require a little more information. Your name again?"
+1193,Jaheira,"No... no, I am terribly sorry, but your face is unfamiliar. Perhaps if you told me what you do..."
+1195,Jaheira,"I remember well, but I wanted you to say it, and I wanted others to hear. Quite the outburst, Mister Ployer. I assume you are still at odds with your new life?"
+1197,Jaheira,"MISTER Ployer, I wanted you *dead* instead of merely humiliated! The courts did not seem to think death was warranted, so they claimed your assets instead."
+1199,Jaheira,"He is none of your concern. If you value your teeth, you will not speak that name again. You dirty it."
+1206,Jaheira,"Well, the slander is going a bit far. You actually were a slaver, you know. It's not slander if it's proven."
+1209,Jaheira,"I don't think that word means what you think it means. You really were trading in slaves, you know? How am I libelous...?"
+1222,Jaheira,"Nobody made you a slaver; you just loved the profit! Now you blame those that caught you because you cannot take responsibility? You are a weak, weak man!"
+1228,Jaheira,"No, I... I'm fine. I just felt a little strange for a moment. That... that fat excuse for a slaver, he's cursed me! Damn him!"
+1232,Jaheira,"Try not to shout, please? My head is unsettled at the moment. There... it clears somewhat, but undoubtedly there will be more. That fat old slaver cursed me!"
+1238,Jaheira,"For the moment, though I do feel a touch under the weather. Damn him! I'll see his slaving heart stopped for this!"
+1243,Jaheira,"I doubt he would have bothered if the cure were quite so simple. If this curse was tailored to me, then we've no recourse but to exact its cure from his hide."
+1244,Jaheira,"The Harpers do not operate like that. No, I bet only the one who cast it can remove it. It likely resists conventional means if it was tailored to me."
+1245,Jaheira,I beg your pardon? I am to be cast out because of this? What is your reasoning?
+1246,Jaheira,"That may be my only option. If it was tailored to me, it might resist removal by normal means. I doubt Ployer would have done this if the solution were simple."
+1275,Jaheira,"I have a few options. Ployer mentioned that he lived in squalor, suggesting he may be in the poor section of the city. Not likely to find him quick though."
+1276,Jaheira,"He also mentioned Belgrade, a merchant that helped expose Ployer. He frequents the Copper Coronet, and the bartender Bernard might know his whereabouts."
+1277,Jaheira,"He also mentioned Belgrade, a merchant that helped expose Ployer. He frequents the Copper Coronet, and the bartender Bernard might know his whereabouts."
+1282,Jaheira,"True, there is a lot of ground to cover, but it seemed clear that he lives in squalor. I would begin in the poor sections of the city. It will take some time."
+1283,Jaheira,Again this side of you surfaces. I should not have believed your apologies in Irenicus's dungeon. I will not spend a... *cough*... a moment more in your company!
+1284,Jaheira,"You *cough* surprise me. To think this cold streak was within and I had only glimpsed it until now. Well then, I will cause you no more inconvenience."
+1287,Jaheira,"That is not *cough* amusing, and it's not the first time you have acted such. Perhaps you are colder than you let on, but I have little choice but to follow."
+1288,Jaheira,There is always a better path than simply abandoning those that are weak. You will not keep allies by demonstrating that you are willing to sacrifice them.
+1289,Jaheira,"Very well, though I should like to try and find Belgrade eventually. It has been... *cough*... it has been some time since we talked."
+1290,Jaheira,A good first step. Hopefully he can give us some idea where Ployer might... *cough*... might be.
+1327,Jaheira,Ooohhh... mm! I did not find resting at all comfortable last eve. I... *cough*... I just couldn't bring my eyes to close. My head pounds as thunder behind my temples.
+1332,Jaheira,"Aye, that I am, but well enough to walk. I will see that Ployer pay for this. Blasted slaver!"
+1333,Jaheira,"I am rested well enough. I will not coddle this curse. Sleeping may ease the aching, but it won't help remove it. Only finding that Ployer will do that."
+1334,Jaheira,"Lazy, am I? I wouldn't wish a wasting on many, but you come close. Ah, I have no time to bicker. We must continue on lest this affliction progress too far."
+1335,Jaheira,"I see. So despite assurances, you are indeed the bastard I thought you were after that stunt in Irenicus's jail. Oh, I remember, and I'll remember this too."
+1338,Jaheira,"Do not joke so! I am in grave straits, and you mock my condition with talk of leaving?"
+1343,Jaheira,You can get me Ployer. Never have I been so mad at another living thing. All this because he could not admit responsibility. He is irredeemable.
+1346,Jaheira,"I see. Then I will waste no more of your time. I will seek help on my own, and damn you for being so cold. Farewell. We will not meet again."
+1353,Jaheira,"Oh, I shall certainly save it. I shall save it just long enough to bring the fury of Mother Earth upon that fat slaver that would imprison her children."
+1358,Jaheira,What do you mean by that? Am I not worth the effort of rescue? Have you better things to do?
+1372,Jaheira,"Forgive my outburst as well; I am... *cough*... I am not myself. Come, we must go. I will see that slaver pay for this."
+1486,Jaheira,Despicable... *cough* *cough*... despicable wretch! You knew I would come here?
+1489,Jaheira,"I am... I am not here to grovel, Ployer. You would sooner get that from my corpse!"
+1491,Jaheira,"I— *COUGH* I AM NOT HERE TO GROVEL! I may be weak, even dying, but you WON'T get that! I have come to take what is mine! I (ehrm) will be free of you... of your..."
+1508,Jaheira,"I feel... weak, but better. I... *cough* *cough*... I thank you for helping me through this. You have earned my gratitude and... ehh... and I should really get a full day of rest."
+1513,Jaheira,"Ahh, yes, I'm the one with enemies we need to worry about. Do you even believe that yourself? Don't make me lau... ow... laugh."
+1514,Jaheira,"I certainly hope so. Such weakness... I swear, if I meet his like again, I'll not let the courts spare him. I'll... I'll be better after a night's rest."
+1515,Jaheira,"Like him? No. Well, perhaps, though he was certainly one of the more wretched. I doubt we'll see any more like him, though we'll never want for enemies."
+1516,Jaheira,*yawn*... I'm... I live to see the Earthmother's dawn once more? Then... then you have succeeded. Excellent. And Ployer? What of him?
+1524,Jaheira,Good riddance. It was years overdue. Most of his ilk in my past suffered a more final version of Harper justice. Let us go; I have sat about too long.
+1525,Jaheira,"The mages with him wore odd colors that might be traceable. Ask at the government building, as all magic is regulated in Athkatla. If they will talk..."
+1656,Jaheira,"I'm... I'm fine, Bernard. I just need..."
+1658,Jaheira,"Bernard, I'm FINE. I just need... need some information. I need to find Belgrade."
+1665,Jaheira,"Bernard, please. I need to know where they found Belgrade. I also need to know if you have seen Baron Ployer."
+1667,Jaheira,"I see... Thank you, Bernard. I... I really must be going now."
+1689,Jaheira,"Drenden, I... I am dying."
+1691,Jaheira,No arguments from... from me.
+1693,Jaheira,"Drenden, they have done nothing to me... I am... cursed. It cannot be removed. I cannot... I feel..."
+1695,Jaheira,It's... all right. Find... find Ployer and...
+9659,Jaheira,I said not to...
+9695,Jaheira,You do not need to...
+11072,Jaheira,"I make claim that you are an affront to all nature. You are a disruption that will not be allowed, and I will fight with the power of my faith and conviction."
+11170,Jaheira,"You will accept this challenge, and we will proceed! I will not have this place remain in your ""care""! By the Great Mother, you will not leave the duel alive!"
+14332,Jaheira,"What is this ""clap"" you speak of, child? Enough. Begone, you are disturbing me."
+14683,Jaheira,"He... Khalid... is dead, and has been so for some time! Beyond a point, there can be no raising, especially when the body has been... has been desecrated!"
+14685,Jaheira,"Yes, there are greater spells that raise even the aged dead, but they leech from the caster, and I will not ask that of someone! Khalid would not have it!"
+14687,Jaheira,"We live in a time of miracles, and nature allows the rebirth of many that have passed beyond the vale, but there is a time when... when it is better to let go."
+14691,Jaheira,"You will not speak ill of my life with Khalid! I will answer such insults with lethal intent, and rightfully so! You cannot know... you cannot!"
+14695,Jaheira,Your opinion is of a fool that thinks magic and spells are the ultimate forces that shape our lives! You will learn that some... some things are unalterable!
+14696,Jaheira,"We cannot prevail here; best we leave until we can. Another day, another place; there will be righteous vengeance, but in its own time. Oh yes... in time."
+14698,Jaheira,I doubt we would have come this far if a battle were not distracting our host! We will exact punishment when we can; there is no point in dying here.
+14699,Jaheira,"I expect less of you with each utterance. I have said what I know, and you can take it or leave it. Ask around and you will know I speak the truth."
+14700,Jaheira,"I was wondering the same, though we are not all that far from home and organizations can span continents. Perhaps it is not an individual that seeks our heads."
+14706,Jaheira,I do not know the city well enough to give directions though. We will have to seek out the slums. Perhaps we may find who holds Imoen still.
+14715,Jaheira,"Perhaps in the slums, we will find who planned this, or who has Imoen still. I have heard that the Copper Coronet is a good place to find information."
+14981,Jaheira,"I can speak for myself, human. And I can assure you that I am not ""available,"" as you put it."
+16092,Jaheira,"Do I know of you? Have you reason to subject me to your rude manner? I have no coin, if that is your wish."
+16093,Jaheira,I do not follow by a stranger's command. Who are you?
+16095,Jaheira,"I... Yes, I see. If you would give me a moment, I will do what needs be done."
+16097,Jaheira,"Relax, I will not be gone long. Please, I will explain when I return. I... I do not wish to be apart from you too long. I will return when I can."
+16098,Jaheira,"Try not to worry, I can take care of myself. I will return as soon as possible. I have obligations elsewhere that must be attended to."
+16099,Jaheira,"I have obligations elsewhere. Worry not, I will return shortly. You will survive without me for a time."
+16150,Jaheira,"No one is disputing that, but I do have obligations outside the group. I will return when I am able."
+16433,Jaheira,Remember your obligations elsewhere. We have to go to the Harper Hold in Athkatla as soon as possible. It would not be good to keep them waiting too long.
+16434,Jaheira,"We should make our way to the Harper Hold in Athkatla as soon as we are able. I do not look forward to the trip any more than you do, but we must."
+16436,Jaheira,"Please, it is very important that we go to the Harper Hold in Athkatla. They were very insistent that I bring you there, and we must go soon."
+16577,Jaheira,"I am a Harper in my heart; you know this. It is my duty to bring you to them, but... but I no more want to make the trip than you do. Nevertheless, we must go."
+16579,Jaheira,"Very true, but I am a Harper, as you know. They ask that I bring you. I will not make you go, and I will not leave you, but eventually we must."
+16580,Jaheira,"Harpers will wait an eternity for vengeance or justice, though defining the two is sometimes difficult. They made it clear I was to bring you to them."
+16583,Jaheira,"Please, do not make this difficult. I have a duty to take you, and I will not rest easy until we have gone. I will not force you, but eventually we must go."
+16764,Jaheira,"Your welcome is forced, Galvarey. You know I am here at the bidding of the Herald. Why have you come to greet me? This is too important to waste time on you."
+16795,Jaheira,You are no Herald! What is going on here?
+16803,Jaheira,I know you are an ambitious fool. You cannot be sanctioned to do this. Even this gaudy base is against our usual restraint. The position of Herald requires...
+16810,Jaheira,"Fine, set about with your questions so I can get on with my job as well."
+16838,Jaheira,"Galvarey, siblings we are in Harper blood, but if you do not cease your tongue, I shall remove it!"
+17017,Jaheira,"Mind yourself, this is very serious."
+17060,Jaheira,"Please, do not make this difficult for yourself."
+17086,Jaheira,"You are twisting their words, Galvarey. That is not what they meant."
+17090,Jaheira,Why do you ask the question if you are going to infuse the answer with your own meaning? you would never...
+17177,Jaheira,This is a difficult situation! Would you react any different?
+17216,Jaheira,What has *that* to do with anything?
+17325,Jaheira,"And also the sky, or the ocean! You are so intent on seeing what you wish the answer does not matter!"
+17337,Jaheira,"And also of apples, or the rose! You are so intent on seeing what you wish the answer does not matter!"
+17341,Jaheira,"And also of the sun above, or the daisy! You are so intent on seeing what you wish the answer does not matter!"
+17345,Jaheira,"And also of the night sky, or the coat of a fine steed! You are so intent on seeing what you wish the answer does not matter!"
+17433,Jaheira,"Thank you, but no. Tonight I am fine as I am."
+17441,Jaheira,"But you were to see you as they are, not as you expected them to be! I was to bring them here so..."
+17449,Jaheira,"I am sorry, this was not my intent at all! I thought..."
+17452,Jaheira,My... what? You are questioning me? You subject him to this... this witch hunt and you think I am the one that is to be questioned?
+17454,Jaheira,And what if they will restore the balance? What if their intent is good?
+17469,Jaheira,"Nay, Galvarey, there is but you and your four lackeys. I will have no part in this!"
+17472,Jaheira,"I... I will stand by your side if you will have me. You are... you are better than this, I know. I..."
+17475,Jaheira,"So... so be it, then. I will... I must not... I will have no part in either side of this!"
+17477,Jaheira,These are no friends of mine! I do not recognize them!
+17479,Jaheira,"Harpers may interfere, but it is for the greater good! Not this! I don't know you!"
+17480,Jaheira,You are my comrade in arms. I know you are good and true in heart. I will fight with you against this!
+17481,Jaheira,"I am Harper. I cannot fight by your side against my own, but I will not take part in this! I... I cannot side with either. Goodbye."
+17798,Jaheira,"What? If this is about the attack at the Harper Hold, you know I would not do such a thing if I had any alternative! They left me no choice!"
+17800,Jaheira,"It was Galvarey; he had me bring my companion there on the pretense of determining their danger, but he had no intention of letting you leave once there."
+17825,Jaheira,"If that is your wish. Reviane, suffice to say that Galvarey had an unhealthy interest in my compatriot. You must trust me in this matter."
+17826,Jaheira,"You have proven that they are not a slave to their origins, just as Galvarey proved that calling oneself a Harper is not enough to make you one in your heart."
+17831,Jaheira,"You must do as you will, Reviane. I have told you my circumstance; there is little more for me to say."
+17840,Jaheira,"If you attack, you are no better than Galvarey. I will meet your threats with whatever force that I can! Do not do this. Harpers seek the truth..."
+17846,Jaheira,"I will not draw arms against you, Reviane. This has been a huge mistake, and I will not be party to making another."
+17882,Jaheira,"As am I, Reviane."
+18240,Jaheira,"Of... of course, you were the one that introduced me to the Harpers."
+18242,Jaheira,"What... what are you getting at, Dermin?"
+18325,Jaheira,I see. And what power has decided that I should be killed? I serve nature and protect the good of the land through my work as a Harper. Who have I offended?
+18488,Jaheira,I have washed my hands of the incident in the Harper Hold. Galvarey was in the wrong and brought his fate upon himself.
+18490,Jaheira,"He was in the wrong! Of that I am certain! Galvarey sought to imprison you for his own gain, and I took the side of right. I could do no other!"
+18493,Jaheira,"This is wrong, Dermin. This is not the right solution."
+18498,Jaheira,"Do not concern yourself. This was the only course open, even if... I... I wish to not talk of this. This matter is... is behind me. Onward, we have much to do."
+18499,Jaheira,"I thank you, but part of me is gone. I... I will speak no more of this. This is behind me. I must go forward. Come, we have friends to avenge."
+18500,Jaheira,Dermin... I...
+18501,Jaheira,"Dermin, I cannot do as you ask. You are in the wrong, as was Galvarey. I was right to choose your side, and it is your loss if you cannot see this."
+18503,Jaheira,"This is not justice. This is revenge for a lie, a falsehood that none seem bothered to find the truth behind. If this is Harper justice, then I..."
+18505,Jaheira,"If this is the justice you represent, then I... I renounce you. I renounce... I renounce my life as a Harper."
+18507,Jaheira,"It would seem I am the only one that has thought any of this through. You do not, Galvarey did not, and now the Harpers out for blood do not."
+18508,Jaheira,"I mourn many fellows of the Harp, but they died fighting for balance and truth. Galvarey did not, and this matter cheapens their loss. I will not be party to it."
+18518,Jaheira,"It is their... it is my duty to ""meddle,"" you. It is only this instance where they are wrong. I cannot go along with this."
+18532,Jaheira,"No... no... I do not think it is. You are advocating revenge without thought. You are not giving the balance its due. I... I have little choice here, I think."
+18534,Jaheira,"Dermin... Dermin, I renounce my life as a Harper."
+18536,Jaheira,"You are right, of course, and they have proven it. No, I think it best if I return to tending the balance with my druidic brethren."
+18538,Jaheira,"That it is. I know you will not upset the balance, but if you change, we will meet again. I will not be happy if you cheapen my choice here today."
+18546,Jaheira,"It shall not be peaceful, but it is clearer than the course you are on. Goodbye, Dermin."
+18551,Jaheira,"Garbage? Do you comprehend the magnitude of what I have done? Do you see... what... no, I will not cheapen this moment by arguing with you."
+18552,Jaheira,"Find your own way. See to it that you continue the course we began. Do not make a liar of me, or we will meet again under violent circumstances."
+18555,Jaheira,"You are no burden; you are why I go on. I have friends to avenge, but life is also for the living. My life is worth pursuing. I... I hope you agree."
+18556,Jaheira,"Come, enough sadness for the day. We have much to do, and... and together we will not fail."
+18557,Jaheira,"I take strength from the group, but... more so in your company. I have friends to avenge, but life is also for the living. Life is worth pursuing. I... I hope you agree."
+18639,Jaheira,"Not the way they tell it, Bernard. You know me, so trust in what I do."
+19455,Jaheira,Then do so. I wish this matter behind me once and for all.
+19699,Jaheira,I... I don't know.
+19736,Jaheira,"I... I believe I have placed a proper name to your manner, now that I have experienced it up close. I should have thought you fond of anagrams, ""Terminsel."""
+20543,Jaheira,Don't make deals with this scum! He won't keep his—mmmph!
+20551,Jaheira,You lying son of a mMMPH!
+20553,Jaheira,Fight as best you can—I am free of him!
+20555,Jaheira,Gllgghh!
+20574,Jaheira,You IDIOT! Do you realize how easily he could have killed me? That was the most irresponsible thing I have EVER had the misfortune of seeing!
+20575,Jaheira,"Rest assured I'll not forget that! It's a wonder my head is still attached, or that yours ever was! Stand well back of me; I'm doubly careful from now on!"
+20581,Jaheira,"Regardless, I had thought you made of sterner mettle. I was mistaken, and will not expect as such from ye again."
+20585,Jaheira,"Good, I am so glad... you IDIOT! What were you thinking? You could have been killed! An arrow can pierce the heart or the eyes while you stand like a pincushion!"
+20590,Jaheira,*ahem*... I lost Khalid... to a pointless death. I'm not going... to lose you too.
+20592,Jaheira,"Oh, shut up and let's get out of here. We'll... we'll talk later."
+21397,Jaheira,"You'll keep your hands to yourself, lowly one, or have them cut off!"
+21778,Jaheira,"Do not test me, rogue. I have not the patience for it."
+22450,Jaheira,"You should go then, small one. The world is as easily accessible to you as one foot placed in front of the other."
+22512,Jaheira,"You should rub your drunken eyes, then, human sailor. And then avert them, for you are close to offending me."
+23696,Jaheira,"I would sooner jump into a whirlpool than to sit here for endless hours, as you must surely do."
+24798,Jaheira,Do you also find sensual my disdain for your disgusting manner?
+24802,Jaheira,"I could set you on fire with more than that, if you truly wish."
+24804,Jaheira,The first thing of sense you have said. Now stay out of my way.
+24836,Jaheira,"That you live in poverty is gratifying, if you must live at all! I would suggest you change your tone. I am not in a mood for giving charity to old slavers!"
+24875,Jaheira,I take it I am the one being addressed here?
+24877,Jaheira,I would say you are a fool trying to sell something you do not own and a wastrel attempting to take advantage of the innocent.
+24879,Jaheira,"It is because of dirt such as you that I do not like coming to the city. Do not speak to me again, criminal."
+25320,Jaheira,What is this? Why do you exhibit such an unpleasant demeanor? What have my people done to deserve such hatred from you?
+25322,Jaheira,"I lead no one to evil, human. And we elves have reason to be proud... we are an old race, far older than you."
+25324,Jaheira,"You are a fool, human, and I've no reason to discuss anything with you further."
+25458,Jaheira,Are... are you speaking of me? And Khalid? How do you know of this? Answer me!
+25600,Jaheira,"You should be careful, woman... you might miss him more than you think should your wish come true."
+25615,Jaheira,"Not all elves are ""flighty""... in their many years, they learn all too well the responsibilities and pitfalls of this world. You would do well to remember that."
+25741,Jaheira,"Have no fear for me, my friend. I am well capable of defending myself... and punishing those who commit such acts on others!"
+25783,Jaheira,"It is not the magic that is evil, but the purpose behind it, and the purpose of many magic users is good... something I am sure even you have benefited from somehow."
+26476,Jaheira,"N-no, that's quite all right. Do not make a fuss."
+26496,Jaheira,Heh...
+26497,Jaheira,Well...
+26498,Jaheira,What a... charming fellow. Completely insane of course. Out of his mind. Blind as a bat. No idea what he was saying.
+26503,Jaheira,Yes. Well.
+26504,Jaheira,Let's... let's get going shall we?
+26505,Jaheira,Um... I...
+26733,Jaheira,"The... the locket is lovely, by the way. Thank you."
+26963,Jaheira,What are you talking about?
+26965,Jaheira,What? Such a thing has never been done!
+26967,Jaheira,What do you mean?
+26973,Jaheira,"Very well, Dermin. I will think on this."
+26975,Jaheira,"Well, that was decidedly unpleasant, and more than I wish to worry about."
+26979,Jaheira,Of... of course. It would be senseless. It does put a different light on things though. I will give this much thought indeed.
+26980,Jaheira,I am going to do exactly what I said I would do. I am going to think about this. All of this.
+26981,Jaheira,I have known him a long time. He was a mentor when I had none. I will think on this a long time. All of this.
+27407,Jaheira,Dermin! I would speak at you!
+27409,Jaheira,"Shut up! I said I would speak AT you! This matter is finished! I will not acknowledge this again! If you press it, I will be forced to deal with you!"
+27411,Jaheira,"Yes, actually, and you well know it! Galvarey was no more a Harper than a treant. His actions betrayed him, and all those that followed him!"
+27412,Jaheira,"The garish Hold, his political agenda—he was merely using the weight of the Harper name to promote himself. Tell me: What did he offer you?"
+27414,Jaheira,"Then I am better for it. Call me traitor, but I have followed the spirit of the Harpers. You are the traitor, and if the events were known, others would see!"
+27416,Jaheira,"Of course not. Despite the ambushes, you will still be able to claim the moral high ground for your actions. What happened to you, Dermin? I do not know you."
+27418,Jaheira,At the cost of the innocents. That is always the way.
+27420,Jaheira,It certainly disrupted you. The innocents also include Harpers that have died thinking they were fighting for the right cause. Galvarey's cause. Your cause.
+27422,Jaheira,"As was yours, though I suspect you have been gone for years."
+27424,Jaheira,"Save it, Dermin. I have no more guilt about facing you or any other sent on this fool's crusade. You are the betrayers, not I. I know this in my heart."
+27426,Jaheira,"I did not wish to do this. I did not. We are in the right, but why does it still hurt?"
+27430,Jaheira,"Heh, you and your jokes make me smile far too often, even when I do not want to. People will think I am getting soft."
+27433,Jaheira,"Haha! Shush you! I'm supposed to be feeling bad about this whole thing. Oh, let's just get moving."
+27434,Jaheira,*snicker*
+27435,Jaheira,"I've sat through all of your little plots and plans. The least you can do is toss me a bone now and then. Yeesh, take their thunder for one conversation and they gets all touchy."
+27436,Jaheira,Let's get out of here. We've still got things to do.
+27437,Jaheira,"Yes, yes, you do what you can, not always what you want. The Big Little Book of Alaundo, right? Insightful."
+27438,Jaheira,"I am sorry, I shouldn't be taking my anger out on you. Let's just get moving. I'll be all right in a while."
+27439,Jaheira,"Heh, a wise move. I will not have this situation made trite. I may be in a foul mood for a while, you understand? Yes, I think you do. Thank you."
+27863,Jaheira,"Are you trying to tell me, bard, that you do not remember us? You were working for that evil sorceress, Silke, when we ran into you."
+27865,Jaheira,"Well, you didn't have many thoughts in your head then, and it is obvious you do not have many now."
+28450,Jaheira,"Perhaps you should go and soak your head within a bucket, guard, before you attempt to address me again."
+29651,Jaheira,"Obviously, if I did have a problem, you would be the very last person I would be speaking to, you selfish and close-minded fool."
+30033,Jaheira,You Amnian are too closed-minded about the demihuman kin that live amongst you in peace... they are not so different from you as you seem to think.
+30059,Jaheira,"You certainly are not! And perhaps you should think, sir, before you speak such insults so candidly."
+33663,Jaheira,"Her cause seems just, and she is druid kin of a sort. Let us do our best to aid."
+34526,Jaheira,"I will find my own way, and... *cough*... and damned if I won't live to see you die on this path you've chosen. Ah, I will waste no more breath on you!"
+34528,Jaheira,You wish me gone! I— *cough* I shall seek help on my own. A word before I go: Beware your friends. No doubt they will eventually treat you as you treat them.
+34529,Jaheira,"He was irredeemable when he was on trial. He lives because he ""donated"" to the state. I will make good use of our next meeting, but not just because of his attack."
+38636,Jaheira,"What are you babbling about, Imoen? I am not in the mood."
+38638,Jaheira,You saw this? You watched as it was done?
+38640,Jaheira,"Stop, I don't want to hear this."
+38642,Jaheira,"Be quiet, child! No more!"
+38644,Jaheira,"You've seen some horrible things best forgotten. We all have, in our day. This will pass when we... avenge the fallen and... bury this son of a bitch."
+38646,Jaheira,Imoen! Enough! Let's go!
+38675,Jaheira,"We have done nothing to you. I see that you are an elf... We are prisoners here, as are you. Perhaps if we could—"
+38676,Jaheira,"Nonsense, he was secretive with everyone. We just had... mutual acquaintances."
+38692,Jaheira,"So... I see we have a name for our captor at last. Irenicus, is it? Tell me, dryads, why this Irenicus would go to such lengths to keep you three here?"
+38699,Jaheira,Surely you won't refuse them the chance to return to their forest? It takes no effort from us and would be a kindness to them. Think it over.
+38720,Jaheira,"It is monstrous that one would do such a thing to a servant, to lock him away in an eternity of pain. It offends nature."
+38726,Jaheira,"Nature does not intend her creations to live past their allotted time. Certainly not this forgotten servant, tormented and then left for dead, but not dead."
+38729,Jaheira,"I wonder how this master came to live such a life that he abandons much of it? The fault of ill-considered magic, no doubt. We shall see when we find him."
+38742,Jaheira,"You will do as they decide is best. While kind enough to give the beggar a coin, there is no need for them to give away everything they owns."
+38761,Jaheira,"For shame, that you could speak to a child so. Have you no compassion for the helpless?"
+38773,Jaheira,"Take care. I have heard of these Cowled Wizards. Spellcasters of the highest order, the only magic-users allowed here in Amn, I believe."
+38862,Jaheira,"Greetings to you, good sir. I trust all is well?"
+38864,Jaheira,"I am not here in an official capacity, suspicious one. There is no need to worry."
+38877,Jaheira,"The gnome is dead. How he was able to perform these great feats of illusion will have to remain a mystery, it seems."
+38920,Jaheira,"That was unbecoming of you, to be so forceful with one of such a lesser station. But I suppose you shall do as you wish regardless."
+38941,Jaheira,"It sounds like there is a trade of flesh going on, but questioning this man will get us nowhere. Perhaps a more thorough inquiry is called for."
+38944,Jaheira,"I doubt this man is a prisoner. More likely a slave, prohibitions notwithstanding. A revolting practice wherever it is carried out."
+39178,Jaheira,"There is nothing wrong with a noble task duly undertaken. And perhaps it will be enjoyable to see you in a greener setting, dwarf."
+39181,Jaheira,I hope you intend to go to this village soon. A visit to greener lands would be welcome after our trek through this crowded city.
+39282,Jaheira,"You may wish to reconsider your refusal. This may be a way to overcome the slavers here for good. It is the honorable path, if you are interested."
+39362,Jaheira,"Do not overly concern yourself with the pursuit of precious metals alone, Korgan. There are other matters that we must consider here."
+39364,Jaheira,"Ah, a chance to strike at the heart of slavery here in Athkatla. Think of it; you could make a difference, if you wish. At least for a while."
+39372,Jaheira,"A thoroughly despicable man... and an equally despicable place. This is the sort of thing that comes naturally with civilization, it seems."
+39398,Jaheira,"No, he is not. He has no interest in anything you might have to sell, woman."
+39402,Jaheira,"Druids would not attack a town without cause. It would be a very extreme reaction, and is definitely something we should investigate."
+39413,Jaheira,"You will not, Korgan. There is a disturbance in nature that we are to restore... I will not have you swinging about, heedless of the consequences."
+39414,Jaheira,"You may wish to reconsider, Korgan. Doves can carry several diseases, and I wouldn't wish you vomiting and cramps simply for being an ignorant lout."
+39415,Jaheira,"You're welcome to try, but you are not the only one trained in martial skill. Remember that in the forest, you are in my domain and at an extreme disadvantage."
+39422,Jaheira,"I thought such childish antics to be above you. But if it makes you feel better, I suppose I cannot stop you."
+39424,Jaheira,I cannot believe you would partake in such cruelty. I refuse to watch this.
+39590,Jaheira,"So... I see we have a name for our captor at last. Irenicus, is it? Tell me, dryads, why this Irenicus would go to such lengths to keep you three here?"
+40725,Jaheira,"Get your hands off me! So help me, I'll..."
+42212,Jaheira,"Where are the mirrors, the switches to pull to show where he is hidden...? *sob* Khalid...!"
+42214,Jaheira,I... no.
+42218,Jaheira,Damn you! I will have the heart of who has done this! I will tear their blackened heart from their... I will...
+42219,Jaheira,Shut up! No more words! Words are nothing!
+42221,Jaheira,Stranger! Nobody! I will not hear your words! Leave me!
+42223,Jaheira,"No words! No more words! Save your speeches, save your proverbs! The only voice I wish to hear is... is dead! No more! No..."
+42224,Jaheira,Imbecile! Affront to nature! What do you and your rodent know? What can you know?
+42225,Jaheira,No...
+42226,Jaheira,"Khalid of my heart, let my love... my love guide the way..."
+42227,Jaheira,"Khalid? Silvanus, let him hear my vow... If I must, I shall empty this city of all within to find his killer... So do I swear."
+42231,Jaheira,"It is my wont to do this, and I shall see that it is done properly. If you would assist, more the better. If not, be prepared to stand aside."
+44178,Jaheira,"She seems distant. Those are not Imoen's eyes. Not the one we knew, anyway."
+47077,Jaheira,"An excellent warning, if vague. I shall think on your words, though I doubt I shall alter my course. What will come will come."
+48466,Jaheira,"Have you no sense of charity, dwarf? What is the sense of freeing such children only to subject them to starvation and destitution, then?"
+48475,Jaheira,"Really, couldn't you have spared a little gold for the child? You may have rescued them only to subject them to starvation and worse."
+48480,Jaheira,"And one wonders how long you have been able to hide your arrogance and disregard behind a semblance of honor, Anomen. Helm would disapprove, I think."
+48481,Jaheira,"I do not fear you, knight! Any moment you wish to meet on the field of battle, I will be there!"
+48485,Jaheira,"It comes as no surprise to me that an immoral dwarf such as you have a heart of stone, Korgan. I simply expect better from you."
+48491,Jaheira,"That you did, but there is a responsibility that comes with such actions as well. You might decide to ponder that at some point in the future."
+48512,Jaheira,"How sad, to have been kept prisoner in such a state. And by what? The presence in the sword? It does not make sense."
+48515,Jaheira,"A puzzle, obviously. We must find the four things spoken of to unlock whatever mystery is hidden here. Who would hide something in such a fashion, I wonder?"
+48530,Jaheira,I think it would be an excellent idea to get outside of the city and administer justice on such evil creatures. Tyranny is best matched with equal force.
+48534,Jaheira,"I've fought many an ogre in the past, dwarf, and many other powerful evil creatures aside from such. You should be wary that I do not add you to the list."
+48551,Jaheira,"Ah, Gorion once said that he and some Harpers dealt a humiliating blow to a dragon in the Stormhorn Mountains. I was not aware this was the same one."
+48573,Jaheira,"I am sure you have your reasons, but be not quick to turn down an offer of sanctuary. I am not eager to battle paladins without need."
+48592,Jaheira,"Indeed. They seek your agreement before telling you what they wish you to do. The Cowled Wizards are not to be trusted, as you well know."
+48599,Jaheira,"While surely all murderers must be brought to task, I wonder what manner of justice the Cowled Wizards would apply. It is something to consider."
+48630,Jaheira,"We will have to be careful with the Cowled Wizards now at our heels. But it is a righteous cause, and another companion to stand at our side is always welcome."
+48645,Jaheira,"And well you should be. This is coward's work, despicable to the core."
+48668,Jaheira,"You are mistaken. I do not bear that name, and I will not. The greater balance bids me here."
+48678,Jaheira,"You are lucky we did not allow the creatures to complete what they started. You are a fool, merchant, and should think with your head instead of your purse."
+48693,Jaheira,I think I should like to walk through this place when we no longer need anything from the devil we know.
+48762,Jaheira,"I... I am not always frowning, I... oh, go away, child. Why are the children of this city so annoying?"
+48814,Jaheira,Hmm... wait one moment... do I know you?
+48815,Jaheira,"I see. A Zhentish agent, if I recall, but one of no consequence. Pay him no heed."
+48889,Jaheira,"Ah, yes. The infamous capacity for drow compassion is revealed once again. Ignore her, and let us get this task over with quickly."
+48901,Jaheira,"Ah, Berinvar is not a Harper, but I certainly am. Will you treat my guests as friends and answer? I assume the guardians are spectral harpists?"
+48907,Jaheira,He and the others seem preoccupied with the trinkets around their necks. I find it odd I have not heard of this before now. Harpers do not often wear symbols to make themselves *more* noticeable.
+48924,Jaheira,This person makes me ill. I suggest we move on before I ignore the greater balance and return him to the dust.
+48926,Jaheira,No doubt you have plied your trade on good folk as well in the past. Your balance will come in the end. Nothing goes unpunished.
+48951,Jaheira,"The confines of the city do much to chisel at the sanity of its inhabitants, but I wonder if there is some other force at work. We had best be wary."
+48960,Jaheira,"I'm not sure the lieutenant should go alone. We have evidence of the culprit, but we know nothing of his ability. There may be danger we are not aware of."
+48967,Jaheira,"His work? What does he speak of? Quickly, we must stop him before he escapes!"
+48976,Jaheira,"This... this place smells heavily of death, and the evidence of it is all around us. Step carefully, for I believe we enter the workshop sanctum of a madman."
+48982,Jaheira,"I have little doubt, that we will also find Lieutenant Aegisfield somewhere herein... Hopefully, the man is still alive."
+49030,Jaheira,"You are mistaken, but I care not! Khalid will be avenged whether you stand aside willingly or not!"
+49206,Jaheira,"I should think not! Child, surely you are better than this? Are you certain of this choice?"
+49208,Jaheira,"That was unnecessarily harsh. I can see that we shall be at odds more often than not, drow."
+49248,Jaheira,Such a lack of compassion is unseemly for a knight. Would you have others judge you as quickly?
+49263,Jaheira,"One should not turn away an offered hand so quickly, but I would be wary of its secretive origin. Perhaps we can find Imoen on our own."
+49282,Jaheira,Shadow Thieves? Perhaps we shall finally get answers as to their interest in us.
+49295,Jaheira,"My own Harpers have used us. I should have suspected... the gaudy necklaces, the invitation. Ah well. If Xzar was doing as she said, he deserved his fate."
+49322,Jaheira,"I was wondering when you would turn up, Zhent. I had suspected our parting would not be permanent when last we met, and it appears my suspicions were correct."
+49339,Jaheira,"Be wary, the Harpers will not brook interference lightly, and this Zhent likely holds only the worst of intentions in his heart."
+49347,Jaheira,"Well, if you wish to investigate what has happened to the spy, that is up to you. I suggest caution and perhaps some common sense."
+49348,Jaheira,"If the Harpers will even speak to us, which I doubt, they certainly will not reveal what they did with the halfling. Best not to ask about him directly."
+49384,Jaheira,"It is good that this is the final of these tasks set for us. I've no taste for bounty hunting, but let us find this thief and have the deed done with quickly."
+49404,Jaheira,"Yes, this is an odd structure for the Harpers to erect. I have never heard of an opulent base such as this. Secrecy has always been the watchword before."
+49410,Jaheira,"I am a Harper, Meronia. May I be allowed to speak to these guardians? I assume they are spectral harpists. Perhaps they could satisfy my... curiosity."
+49419,Jaheira,"Yes... I've noticed the amulets you wear. I've heard of the Harper pins, but nothing of these. Is this a local custom?"
+49489,Jaheira,"Your memory is selective, Red Wizard. Why do you now work with Shadow Thieves, and what is your connection to our capture by Irenicus? Khalid is dead, and I will have an answer!"
+49540,Jaheira,"How about conscience, dwarf? Or morality? Perhaps you knows what is best."
+49552,Jaheira,"Do not make us laugh, thief master. We have heard of your guild war. You would not approach outsiders if your own house were strong and solid, hm?"
+49553,Jaheira,You would abandon Imoen here? I would rather leave myself than have you cast her away in this place. It is not right.
+49586,Jaheira,You would leave a person in obvious distress to his own devices? I would have expected better of you.
+49599,Jaheira,"But it is the truth, is it not? I am a Harper myself, and we simply wish to be treated as guests. you did bring you your poisoned friend, after all."
+49606,Jaheira,"That was foolish! The Harpers could have helped you. *sigh* But I suppose you will do as you always have, stubborn person."
+49608,Jaheira,"I am a Harper, friend, and I think I see where this is heading... Is all this really necessary?"
+49609,Jaheira,"*sigh* If the Harpers have asked this task to judge your worthiness, then there is no way around it. Let us proceed and be done with these ""creatures."""
+49612,Jaheira,"Hmm, I am surprised they are letting us in, even after all this. I warn you, be polite. Our reason for being here is questionable enough as it is."
+49627,Jaheira,"Hmmm... it's nice to know there's a ""softer"" and ""sweeter"" side to you... ""Eddie."""
+49631,Jaheira,"And all feared the Slayer, for it walked like a mortal, but in its wake there came murder, and in the future, there was death."
+49778,Jaheira,"This is a dark place to meet this woman, and I sense an unnaturalness about her that is disturbing to me. Step carefully."
+49783,Jaheira,"How does she know of our link to the Shadow Thieves? And what would they think of this meeting? Be careful, our lives may hang in the balance."
+49812,Jaheira,"Boldly said, creature, yet you do not face us. you have been underestimated by far better. You will rue the day of conflict when it comes, I think."
+49886,Jaheira,"Step slowly, you do not look well at all. How do you feel?"
+49913,Jaheira,"You have your money, but you could have avoided the inevitable reputation of a kidnapper. Sometimes I think you act without due consideration."
+49920,Jaheira,"Are you well? I am growing very worried about you, you know. I should not like to lose you in this evil place."
+49924,Jaheira,"Your lips move, but there is no sound. you!"
+49953,Jaheira,"Nature is not so vindictive, fool. It cares not who prostrates before it, it cares only that the balance is maintained."
+49963,Jaheira,"This is the hilt of a long sword. It appears to have been forged by a fine craftsman, even though the blade was broken off long ago and the pommel is obviously missing a large gem. STATISTICS: Weight: 2"
+49969,Jaheira,You would have killed me if I had let you. You would have left me to rot in this place.
+49974,Jaheira,"I'm not sure you should try to control it. We must distance you from it, not embrace it. We will make do despite the danger."
+49975,Jaheira,"No, you should not be alone during this. We will get through, I am sure. We just have to keep going, no matter what comes."
+49976,Jaheira,You are not the only one affected by this! It is so hard to see you...
+49977,Jaheira,"Please, let's just keep moving. We'll get through, I'm sure of it. Really."
+50006,Jaheira,Are you well? It would only be fitting to take some time to rest. You have been through quite an ordeal.
+50011,Jaheira,"Very well, but keep me apprised of your condition. Imoen supposedly went through the same ritual, but she did not seem to suffer from sudden attacks like that."
+50013,Jaheira,"That is troubling. I do not know what effect having the ritual had on you, but it does appear to be different from what Imoen suffered. Odd."
+50037,Jaheira,"I am glad that you have chosen this course. This cult stinks of wrongness, an affront against nature that must be stopped!"
+50053,Jaheira,You align yourself with a temple that threatens its followers? You would bow down before a vindictive god? You are strange indeed.
+50100,Jaheira,"Hold, do not be foolish! You there... how can we be certain of your innocence? Why are you here if you are no longer members of the cult?"
+50121,Jaheira,"This... this is the same child-killing gnome from Baldur's Gate! I remember! For the greater balance, his head must be brought to the authorities!"
+50124,Jaheira,"I... I understand. It is an avatar of a faded god, left guarding an item that has waned in power. Loathing has replaced the worship of his followers. A lingering fate."
+50534,Jaheira,"I have no love for drow, or for this drow in particular... but it seems that she has done nothing to deserve this fate other than simply be a drow. This is not justice."
+50555,Jaheira,"Is that what you see as justice? I sensed great sadness behind her darkness. With balance, she might have been... well, who knows?"
+50566,Jaheira,"Truth be known, I am not opposed to having Viconia travel with us. Remember, though, that many will think less of us simply because she is here."
+50639,Jaheira,Are you... yourself? That was... the Slayer! You became a form of the avatar of Bhaal... but the god is dead...
+50640,Jaheira,This is not right at all.
+50660,Jaheira,"We had best move quickly! The mages you have let loose will need direction, or they will be impossible to control."
+50957,Jaheira,"We must be subservient. To them, we are lesser drow and no doubt under suspicion. Any sign of disobedience would bring scrutiny upon us."
+50958,Jaheira,"The drow have a harsh culture, one I am not overly familiar with. We must harden our hearts if we are to blend in. The alternative is discovery and death."
+51254,Jaheira,"Just what are you on to? You think I am blind, not to see your foolish behavior with the drow woman? Why would you play such an idiotic game...? Do you not remember our situation?"
+51261,Jaheira,Jealous of a simple drow that turns her eyes up at you? Is your opinion of me so low? I merely think that flirtations will gain nothing and endanger us all.
+51264,Jaheira,It is a foolish one. Drow enjoy neither affection nor intense attraction. Sex is nothing but a game to them. To indulge would be... disappointing.
+51265,Jaheira,"Oh? I am disappointed. Indulge your carnality, by all means, if it means so much to you. I shall say no more on that subject or any other."
+52240,Jaheira,"You spent quite some time in the drow woman's chambers. Care to elaborate what you were about, as if I did not know?"
+52246,Jaheira,"I suppose that is true enough, although I can think of several lies you might have tried for our sake. But I trust you enough. Let us just... move on."
+52247,Jaheira,Hmph. You are just the sort to lie to me about this. And that this makes me uncomfortable is even worse. I think I prefer to be on my own for a time.
+52248,Jaheira,"I know the purpose. Simple self-gratification, or do you maintain there was no way to avoid the situation? Ahhh, enough... I do not want to hear any more."
+52249,Jaheira,"I am sorry too, and disappointed, but I suppose it could not be avoided... with you being male and in this guise. I shall... attempt to forget about it."
+52250,Jaheira,"No? Very well. I shall endeavor to keep my shrewish opinions to myself, on this and all other matters regarding us."
+52251,Jaheira,Hmmm... out so soon? Did the drow woman not dig her claws into you successfully? That is good. I shudder to think what might have happened otherwise.
+52293,Jaheira,"How can you refuse so coldly? I will not stand idly by. Nalia... we will aid you, as will you, I am sure. What is the problem, precisely?"
+55188,Jaheira,"A bitter end to a terrible man. We did well, I think, but I am not certain that all has been restored to as it was. Do you feel any different?"
+55650,Jaheira,I understand plenty already! This place reeks of corruption and deceit!
+55671,Jaheira,"Rest, child. None of this group shall harm you."
+55672,Jaheira,Oh? Is that what those retching noises were? I thought that perhaps there was a wounded seal somewhere onboard giving birth.
+55677,Jaheira,"Okay, I'm not quite so concerned about this little freak. Rule as you will, little tyrant, just as long as it is from a cell."
+55686,Jaheira,"I suppose we could expect no less from a simple pirate. Begone with you then, scoundrel. No doubt you would only bring us more trouble here than we need."
+55693,Jaheira,These are the same creatures we fought when we entered the lair of the vampire that was aligned against your own guild. Bodhi must be nearby indeed.
+55698,Jaheira,"Do you spend all your time in the guise of others, child? Do you not take solace in the balance of your true self?"
+55726,Jaheira,War? War amongst the elves? What could that mean? How could even Irenicus start such a thing? That would bring nothing but ruin!
+55740,Jaheira,"As much as I should not trust his advice, he may have a point. There are powerful mages above who may be the difference between life and death."
+55779,Jaheira,"What revenge do *you* have, wizard? You killed my Khalid with no more thought than one would give to a fly! I shall have *my* revenge! Nature's fury shall strike you down!"
+55788,Jaheira,"You think us fools? You knew your ship was scuttled when you first spoke to us, didn't you? You seek to use us somehow!"
+55809,Jaheira,She sees the universe unrestricted. It is amazing that she manages to be as lucid as she is.
+55813,Jaheira,"And what would you have to do with that, Edwin? Perhaps if ego were all that was required."
+55821,Jaheira,I should have known. Once again your peculiar destiny has drawn us into something. Even the shark gods flounder in anticipation of your arrival.
+55840,Jaheira,"I have never known you to be so judgmental, paladin. Surely you do not label all sahuagin so? Condemn them all to death and you are no better than they."
+55859,Jaheira,"Must it come to slaughter, sahuagin? Your priestesses speak of your entire people needing your blood... Have you attempted to resolve this with the king peacefully?"
+55876,Jaheira,"Well, Viconia. It would seem you carry less weight than you thought. He questions your worth, rightfully so."
+55889,Jaheira,"A most underhanded maneuver. Although I am sure it is no less than Phaere might have planned for us. There is an ironic justice in this, no?"
+55895,Jaheira,So... a war? Open battle between the drow and the surface has not occurred in... eons. With a greater demon to back them... I truly wonder why Irenicus would do this.
+55913,Jaheira,"You would commit such a sacrilege against nature? Had I known, I would never have accompanied you! No, I will not let this be!"
+55921,Jaheira,"As much as I despise this form, it does seem to have captivated our friend here. He seems fearful."
+55934,Jaheira,"Despite what she says, we may be able to use this situation to our advantage. Perhaps there is no need to kill Solaufein. Consider this, at least."
+55948,Jaheira,"Drow roaming the surface, even the most noble, should expect an occasional misunderstanding. I am sure this can be worked out... I suggest you try."
+55966,Jaheira,This drow is well respected by the Harpers. I will not assist you fighting him. I will return to Athkatla; consider your idiocy before we speak again.
+55997,Jaheira,An excellent idea. Adding Drizzt and his companions to our battle against Bodhi will certainly tip the scales. You show great wisdom.
+56009,Jaheira,"I know of this one, from the Harpers. A drow of good alignment and heroic reputation. He is deserving of respect."
+56041,Jaheira,"A fine sentiment, Cernd, though we may be forced into more trouble than we wish."
+56080,Jaheira,That was close. We must make an effort to act as we appear.
+56083,Jaheira,The Seldarine? The collection of elven gods led by Corellon Larethian? How would he ever propose to join such ranks? Mad! Mad!
+56085,Jaheira,"Your soul is borrowed, and it shall be returned. You are a blight upon nature, and you shall be destroyed!"
+56087,Jaheira,"Edwin, in some another time... some other place, such a comment would get you a beating of mythic proportions. It may yet."
+56130,Jaheira,I will not let you do this! You will not murder those that beg for aid! Who will follow me?
+56154,Jaheira,It would appear that neither of us have much of a choice in the matter. We must trust one another.
+56162,Jaheira,"Of course, my Lady Adalon. do keep quiet."
+56165,Jaheira,It is unfortunate that they did not offend you in some way. We might have been spared the headache of this journey if they had to face an angry silver.
+56174,Jaheira,To become such a hated thing... I do not look forward to that.
+56176,Jaheira,"You should have made more of an effort. We have an obligation to destroy you, as if we needed more reasons."
+56413,Jaheira,Knock him on the head? It is obvious this lout has no compassion for others and no inclination of how nature must be protected. Ignore him.
+56417,Jaheira,"You can't seriously consider poisoning this font. If there is evil there, we must cleanse it. To destroy it is sacrilege! I will not allow it!"
+56425,Jaheira,"No, no! This is evil! You poison nature itself! I shall not partake in this... who stands with me?"
+56453,Jaheira,"These people are slaves, mentally as well as physically, controlled despite themselves. All we can offer them, unfortunately, is a quick death."
+56457,Jaheira,"There are many who easily sidestep laws through wealth. Perhaps, in this case, it would be best to see why the law has failed so."
+56461,Jaheira,"The law may not be able to do anything, Anomen, but such men as this Saerk always trip over their own schemes. If he is responsible, he will pay, as you say."
+56465,Jaheira,"Too many of the wealthy escape justice, yes. If you are sure that Saerk is responsible for the death of your sister, then we must ensure he pays dearly!"
+56470,Jaheira,By... by the gods! You foolish man! Can you say that this young woman was a murderer as well? You have murdered an innocent!
+56474,Jaheira,I have the feeling we are intruding on a very private matter. I feel uncomfortable with our intrusion; perhaps we should leave...
+56481,Jaheira,"A fair line easily used by servants of the wizard themselves. We have been imprisoned and worse, and given many reasons to distrust strangers we encounter."
+56487,Jaheira,You have extorted a payment from Raelis in return for our help. I do not agree with this decision... it smacks of selfish greed.
+56498,Jaheira,"We must be calm. Vengeance will only bring conflict with the guard. To help Nalia, we must prove that our cause is just... there is no other way."
+56508,Jaheira,"A mind flayer? Here? A spy perhaps, using its psionic powers to keep its secret. Strange that Jan's mad uncle should be aware of its presence."
+56516,Jaheira,"You speak as if unaware of class distinction, and yet your manner exudes it. A sign of immaturity... perhaps adventuring is not the place for you."
+56517,Jaheira,"You speak as if unaware of class distinction, and yet your manner exudes it. A sign of immaturity... good, then, that you are sending you ahead."
+56528,Jaheira,You dare reprimand those who have died defending you? Even now they strive to protect you from evil you don't even understand! You could have been dead!
+56551,Jaheira,"I have no fear for his well-being, monster."
+56877,Jaheira,"Where? Where exactly is it being put to good use? We are not to be played with, Linvail. I should like to see results, and I should like to see them soon."
+56899,Jaheira,"Oh, how generous. Do you expect that to compensate while you delay our more important concerns? We have friends in need of rescue and vengeance both!"
+56906,Jaheira,And vengeance!
+57066,Jaheira,"I see. You must be the rogue, Jarlaxle, that was mentioned to us, yes?"
+57396,Jaheira,"A poor thing. We could have done better by these people with minimal effort. It is a better fate than what the drow had in store, however."
+57455,Jaheira,"No. ""Veldrin"" would not be interested in such diversions, male. I... as a female, I command you to stand away from him. Slug."
+57903,Jaheira,"Yes, declare your loyalty, Viconia. When you eventually betray us, I will hold your statement up as proof of the untrustworthy nature of your kind."
+57911,Jaheira,"Cernd, I would normally bow to your wisdom, but in this matter, I think you are... mistaken. I make no protest; I merely wish to state my opinion."
+58132,Jaheira,"We are bought off yet again. I do not deny that they are the best chance we have to find our quarry, but we had best do their little chores quickly."
+58133,Jaheira,"Thank you for your opinion, Korgan. I'll just place it over here where it can collect flies all on its own."
+58164,Jaheira,"You baffle me sometimes, Cernd, but I bow to your wisdom on this matter."
+58186,Jaheira,"Not just thieves, but traitorous thieves. Our associations sink ever lower in Aran's service. Let's get this over with."
+58187,Jaheira,"I have heard some in the Harpers speak of it. It is more than a prison or supposed asylum; it is a place to forget people that are ""troublesome."""
+58198,Jaheira,"Long ago, I promised to assist you if your adopted father fell. That promise has not expired, nor has your worthiness. I stand with you if you will have me."
+58247,Jaheira,It is not necessary to say anything. I know what comes next... I know what may happen. To either of us.
+58248,Jaheira,We have been through too much to let that stop what you must do. For all the pain that losing Khalid brought... I would not give up our years of good works.
+58249,Jaheira,Let us regain your soul and make you whole again. And what comes after... comes after. I look forward to it... should the gods prove willing.
+58518,Jaheira,"No, Valygar, we shall not give up on you. The Cowled Wizards believe much if they think to use everyone as they wish. You will receive nothing this day, mage!"
+58719,Jaheira,"You will hear the name ""traitor"" many more times today, Yoshimo, but let me be the first among the group to spit it at you!"
+60891,Jaheira,"I no more want the trip than you do, so I will not force and I will not leave, but I cannot rest easy until we go."
+60892,Jaheira,"If you wish, Dermin, you may return whence you came with the message that ""Jaheira the Harper"" is dead."
+60893,Jaheira,"Perhaps we will meet again, but I shall not look forward to it!"
+61015,Jaheira,I find it odd that this Irenicus would leave of his own volition. And why take Imoen when it is you he is so obviously interested in? Perhaps he expects us to give chase?
+61016,Jaheira,"We must step carefully then. We know little about him... whom he was fighting, who took him, or even where we are. We seem to be drawn into machinations not of our own making."
+61018,Jaheira,"Do not be foolish, Minsc. We must know our enemies... and the extent of our danger here... before we rush into anything."
+74583,Jaheira,You can't work with such as this. Have you forgotten all that Gorion taught you?
+74809,Jaheira,Take a moment and think. What would Gorion say about this pointless bloodshed?
+75712,Jaheira,"Careful. We want to walk into the gorge, not fall into it."
+77110,Jaheira,Beware. You cannot trust a tanar'ri.
+81447,Jaheira,An evil one.
+87844,Jaheira,We must proceed with caution. The Red Wizards are devious. They will expect retaliation.
+88081,Jaheira,"Animals should be wild, not kept as pets by wandering heroes. Tell Barad the gift is appreciated but inappropriate."
+88457,Jaheira,"The half-elf's magic may represent a threat to the balance, but I think she would do less harm with us than without us."
+89488,Jaheira,"Ha. My advice has the virtue of being in the common tongue, at least. And I can take the shape of a bear when I please."
+89527,Jaheira,Refusing to engage with him further was wise. I sense that he is a part of the magic that infects this forest.
+96641,Jaheira,You disappoint me more than I could ever say. I am glad Gorion is not around to see this.
+100114,Jaheira,Do you think it wise to spend so much time with Dorn? He seems to have taken an unhealthy interest in you.
+100115,Jaheira,He is not to be trusted.
+100116,Jaheira,He is a murderous half-orc with an unquenchable bloodlust. He is incapable of the feelings you and I possess.
+100117,Jaheira,"If you intend to take up with a barbaric half-orc, I must end this."
+100118,Jaheira,I am relieved to hear that.
+100119,Jaheira,I am glad Gorion did not live to see this.
+2648,Minsc,"Nonsense! All enjoy the sight of heroes. We'll be the talk of the town for days! Wave to the nice people, Boo. Wave to the nice hamster, people. WAVE!"
+2650,Minsc,"Yes! Lead evil by example, and one day we need no longer put the boots to those that stray off the path of goodness into the muck and bile of villainy and track great bloody footprints across our lily-white tiles! Boo will have clean wood shavings, you evil bastards!"
+2651,Minsc,"Good has no need of low profiles! There is no shame in boasting if one follows through, and I am not about to keep my voice low! Perhaps Boo will, but not I!"
+2674,Minsc,"Then say it louder! We must inspire fear in evil! Quiet tales of hamsters are foolish, but a man and his hamster that tear evil limb from limb? That's scary!"
+2676,Minsc,"Now you are speaking the language of Minsc! Next we must get you a hamster! Or perhaps an ice weasel, whatever your tastes."
+2677,Minsc,It's good that I know you are kidding. I would hate to have to cleanse my own party of evil. Always strive to be on the safe end of the justice boot.
+2678,Minsc,"I know I think clearly because Boo tells me so. That is enough for me, though it never seems to be enough for anyone else. Their loss, for I am content."
+2682,Minsc,"As long as some are scared and tell the rest, that is all that matters. Come, we must press on against the tide of naughtiness. Mind your step."
+2683,Minsc,"I don't understand the reference, but Boo enjoyed it. An omen of good things... or of horrible and humorous death, I am not sure which."
+2693,Minsc,"Words are just loud air. Actions must take priority in my mind. A phrase might cause some discomfort, but it is good deeds that cause evil the most pain."
+2694,Minsc,"That is all that can be asked. A crusade might be better, but few have the focus required. I will be the example if anyone wishes to follow in my wake."
+2695,Minsc,"A hero needs no profit. A sword is just a few coins; armor is only a few more. No, it is evil that needs gold to fund their machinations, not heroes."
+2700,Minsc,"Yes, that would be best. I should not like evil to get the jump on a weakened Minsc. We must be at our best for the fight to come."
+2701,Minsc,Minsc is no weakling! I have survived more than you could bear! It is just unwise to let wounds go untreated! Enemies will find their work half done already!
+2702,Minsc,"I know this, but Boo worries."
+2713,Minsc,"Perhaps I am a touch quick to combat, but I temper my temper with common sense about who I should attack. What? I do too! Why does Boo snicker?"
+2717,Minsc,"If I protect more people by being at the forefront, then so be it! I shall charge in an instant and make my enemies sorry they were born as bad as they are!"
+2735,Minsc,"If that is what you think, then you do not know Minsc. I never cower! Boo does, but he fears being underfoot. I do not! I am the over-foot placing evil at end-of-boot!"
+2774,Minsc,"If you don't care about your party, then it will be you that is left on the battlefield eventually! I can only fight as long as I have my health..."
+3022,Minsc,"Boo is a fine friend, and powerful in ways you don't let yourself see! To insult Boo is to insult all things small that try hard. Oh, and Minsc as well."
+14216,Minsc,"Boo is no rat, tiny one. He is a space hamster, and he will go for the eyeballs of children who call him rat."
+14247,Minsc,No. I have had enough of tiny people trying to steal Boo. Away!
+14311,Minsc,"Stupid is as stupid does, young one. So says Boo."
+14496,Minsc,"No! Boo is NOT for eating! Boo is mighty and wise and probably quite stringy. Er, and he is my companion!"
+14533,Minsc,I am sorry. I am only for Boo and my witch.
+15461,Minsc,I am not impressed by fighting slaves. But I would CRUSH any true opponent who dared to face me!
+15959,Minsc,You are coming from Rashemen? I remember it fondly and hope to take Boo to see it once I have completed my dajemma.
+15960,Minsc,No. Boo is my hamster. And Boo is my friend.
+24851,Minsc,Yes? You talking to Minsc?
+24855,Minsc,"Boo says such a sphere will not fit into my pocket. If I can't carry it with me, it's just not a good buy."
+24858,Minsc,Yes indeed. Boo is exceptionally smart for a hamster. Smarter than all the hucksters in Calimshan.
+24861,Minsc,"He mutters occasionally about fellow hamsters that will kill you all, but he is just moody, so don't worry. See how he glares? Shhh, we should leave him be."
+25009,Minsc,"Nobody cheats Minsc! If somebody dares to cheat me, they are in for a boot-stomping adjustment to their moral value systems!"
+25370,Minsc,I am always willing to help those in need! I will give your troubles the one-two boot-stomp of goodness!
+25375,Minsc,"I sometimes feel lost, but Boo tells me where to go. Boo points, I punch! Well, Boo actually just kind of runs, but I still punch! Yes, sir!"
+25378,Minsc,"Boo knows everything and is ever so willing to help others. You... you are kind to animals, aren't you? Rodents in particular?"
+25380,Minsc,"Boo doesn't like rats either. Something about their tails makes him... edgy, and you don't know creepy until you've seen an edgy hamster!"
+25385,Minsc,"Yes, Boo is friend to all. Such greatness, packed into a small, furry bundle of goodness."
+25452,Minsc,Eh? You are speaking of me? How do you know this?
+25589,Minsc,"No. I do not act. I fight, and fight for real."
+25649,Minsc,"I am sorry, little halfling."
+25686,Minsc,Why does this impish halfling jump around me like that? Is he dancing? Boo likes it when halflings dance around!
+25807,Minsc,I think this is good for you. Boo also is sending his congratulations.
+26277,Minsc,"I might join your hunt another time, but seabirds make Boo uncomfortable. It is best I spare them his wrath. Yes, best for all! But I must go now, little one."
+27689,Minsc,Boo is no pet... he is a fine companion for Minsc. But he seems to like you anyway.
+29580,Minsc,Perhaps people just need a swift kick in the punctuals!
+29582,Minsc,"No, I seldom have time for reading. Too much work to be done!"
+29662,Minsc,"Why? In beloved Rashemen, if things don't work, we encourage them with a loving backhand of productivity!"
+29838,Minsc,"A thinking game! Minsc knows the answer then! Evil ends in death, because I put my foot in its backside!"
+29839,Minsc,Oops. I apologize.
+29854,Minsc,This is a foolish question! Who travels with you? Minsc does! What else matters?
+29857,Minsc,"Oops. I apologize. Next time, I let Boo answer."
+30107,Minsc,"You cannot have Boo, little girl! But you may pet him and make pretty cooing noises if you wishes."
+33134,Minsc,Boo is not food. Maybe I should throw you to the cute little meat-eaters and see how you like it?
+38668,Minsc,This is silly! Buttons are not how one escapes dungeons! I would smash the button and rain beatings liberally down on the wizard for playing such a trick!
+38696,Minsc,"Irenicus? There is a special place in my bootprint for him, and I shall fill it in the name of Dynaheir! Such evil to keep forest spirits locked away!"
+38723,Minsc,"I would hate being forgotten in a bottle. It might depend somewhat on the type of bottle, but overall I expect the effect would be similar. It is not right."
+38764,Minsc,"We must help this child! I will find who took his mother and teach them a thing or three about decency, respect, and keeping their hands off of people's parents!"
+38774,Minsc,Owl wizards?
+38779,Minsc,"It is no risk! Not so long as we have swords and braveness to the brim of the tall glass of goodness! Right, Boo?"
+38911,Minsc,I will protect my witch! EVIL SHALL SUFFER AT THE HANDS OF MINSC AND HIS WITCH! WOE TO THOSE WHO WOULD BRING DANGER TO AERIE!
+38936,Minsc,We must aid him! Evil stands before me and demands a quick kick in the posterior!
+38943,Minsc,"I will not stand and watch men carting slaves! THEY SHALL FEEL MY BLADE AND BOOT AND BACKHAND AS WELL! GO FOR THE EYES, BOO, GO FOR THE EYES!"
+38960,Minsc,"Hmmm... the sphere is awfully big for only 500 gold pieces. It might be a good bargain. What say you, Boo?"
+39182,Minsc,"We shall go and save the village for the boy! I will crush the evil! All of the evil! Even the small, rodent-sized evil... although that is more Boo's job."
+39270,Minsc,They throw this man into a pit with a wild beast? This is a crime against man AND nature! They will surely feel my wrath for this travesty!
+39288,Minsc,"We are going to free this warrior and his people? This is a task of great honor! We shall be great heroes for this, heroes doing heroic things for all to see!"
+39353,Minsc,"This man is a great evil if he does such things! The shining blades of goodness must be raised against him! Justice demands a painful, pointy thrashing!"
+39365,Minsc,"More children kept as slaves! Boo is outraged by the evil that leaps about this city like a hot-footed weasel! We must save the children, we must!"
+39403,Minsc,"It cannot be! I would sooner tear out my eyes than strike down innocent animals! Well, perhaps only one eye... but do not think me any less incensed!"
+39410,Minsc,"You will not! I will fight to save each and every creature, dwarf! The forest feeds and nurtures, and I will not hesitate to put a birch up your backside!"
+39411,Minsc,"Why? I have never heard such head-biting villainy, except perhaps in the larger cities, but what passes for entertainment these days is not for me to decide."
+39412,Minsc,"Your strange jest is wearing thin, dwarf. I suggest you sate yourself with chicken in the proper place and time, and leave the woodland creatures as they were."
+39419,Minsc,"You insult you, and you insult Minsc! There will be liberal butt-kicking now!"
+39425,Minsc,You pay for dogs to fight in this filthy place? You cannot imagine my anger! I shall find properly heroic companions elsewhere if you continue such outrages!
+39591,Minsc,"Irenicus? There is a special place in my bootprint for him, and I shall fill it in the name of Dynaheir! Such evil to keep forest spirits locked away here!"
+40230,Minsc,"What? No, Boo is no glove! Boo is a hamster, and far more than a handful if he wishes, tiny woman!"
+42222,Minsc,"A brave man has fallen here, but that is no cause to hurl insults at the living. Here, Boo shall comfort you."
+44075,Minsc,Pirate Lord? Such a name does not conjure images of righteous behavior. Stand still a moment and let Boo have a look at you.
+44077,Minsc,Boo will soon have you figured out. You certainly seem friendlier than I would think a Pirate Lord would be. And where is your peg?
+44079,Minsc,"Your peg. A proper pirate has a peg, whether a leg, arm or... uh... some other expendable extremity. And a parrot."
+44081,Minsc,"Certainly! As I have my Boo, so too must you have your parrot. Boo likes parrots. They could wrassel."
+44176,Minsc,"Little Imoen, it is Minsc. See, here's Boo... Boo, stop that. It's Imoen. Sure she looks a bit... stressed, but it's still her."
+44177,Minsc,I don't know what's wrong. Boo is all jittery. Something is different about Imoen.
+47088,Minsc,"Oooh! This is most goodness of news, is it not, Boo?"
+48504,Minsc,"What? They have no shame in trading lives of others? Evil, meet my trusty sword! Sword: MEET EVIL!"
+48525,Minsc,Ooh! To take swords against monsters of great evil! Already I feel Boo wriggling in excited anticipation!
+48526,Minsc,"Of course it is Boo. Boo is always happy when opportunities for heroism come! We shall crush these ogres, and rangers and hamsters everywhere shall rejoice!"
+48559,Minsc,I... would strike for goodness... but this dragon is so... so... It would not be cowardice to come back another day with bigger swords!
+48585,Minsc,We must find this fiend who steals children and disguises knights as monsters and apply a butt-kicking for goodness! All must be avenged!
+48615,Minsc,This changes everything! A fellow ranger plunged into peril by evil wizards! Even Boo cringes at what we have been sent to do! this cannot be!
+48618,Minsc,A fellow brother of the woods! Is this the man the wizards have sent us to kill? tell me it is not so!
+48623,Minsc,"You... you would not lead Boo and me astray! We do good things; we are heroes! This man lies, I say, and I shall fight with you!"
+48624,Minsc,"No! I will not allow you to kill a fellow brother of the woods! You have become evil, and I have allowed it to happen! No longer will I stand by!"
+48631,Minsc,"Be welcome, brother of the woods! Together, you and Boo and I shall stride forward to crush all evil in our wake! Woe betide evil!"
+48713,Minsc,"Me? No, Boo would never allow such a thing! My sword is meant only for being firmly planted in the heart of evil!"
+48783,Minsc,"WHERE? Where is there a rat? Oh, you have frightened Boo with your screeching. Calm yourself, Boo. See? We are leaving the loud woman."
+48852,Minsc,"*sniff* Ahh, even Boo cringes from such a foul odor. Surely this instrument will never make beautiful music again."
+48902,Minsc,"They... they attack this funny man? Why? This evil must be stopped with generous doses of sword-swinging! Come, Boo, we go for the eyes!"
+48946,Minsc,"Heroes of goodness need no warning! Where we tread, evil trembles in our wake!"
+48959,Minsc,"I would rather have given a sword. Give a man a fish and he eats for a day, but teach a man to fight and he can chow down on the meaty marrow of evil!"
+48968,Minsc,"Wha-aat? This is the evil man who steals skins? He must be stopped! He must be stopped, or all who have skins will sleep in fear!"
+48969,Minsc,"We shall answer your attack, though even Boo sees no sense in it!"
+49023,Minsc,"I understand none of this, but if the one who killed Dynaheir is beyond, Boo and Minsc will make short work of you!"
+49269,Minsc,"We don't need money to find Imoen! We are heroes! We will crush wizard after wizard to find her! Hmm, we should start soon if we hope to be done by dinner..."
+49320,Minsc,I remember you! And so does Boo! A craven wizard who travels with his untrustworthy halfling!
+49415,Minsc,"Oh, I never step on toes... except by accident, maybe. If Boo had me step on toes for real, toes would gloriously be flying everywhere in the wake of my sword!"
+49474,Minsc,"You shall be called what you are! You are an enemy of fair, departed Dynaheir and therefore an enemy of mine! You shall be destroyed for the good of all!"
+49479,Minsc,"You will not speak of sweet Dynaheir in this fashion! Terrible hamster justice will be wreaked upon you! GO FOR THE EYES, BOO, GO—"
+49481,Minsc,"I... no. No, our cause must not be disrupted. Righteous fury will wait for now, but one day the wizard shall pay for his words with blood! So swears Minsc!"
+49506,Minsc,"My anger can only barely be contained! Speak to us as if we are anything but heroes, wizard, and you shall be receiving the rented-mule beating you deserve!"
+49510,Minsc,"Dynaheir's enemy comes with us? Please, say it will not be so! And if it is so, let it be brief! Boo shakes with such anger I cannot blame him!"
+49554,Minsc,We do the bidding of thieves now? Ehhh... this churns my belly like a hamster running endlessly within a wheel. This can't be a good sign.
+49556,Minsc,"Rashemen is my home, but I haven't seen it for many moons. I am on my dajemma. I... failed my last witch... but nothing will happen to Aerie! Nothing!"
+49557,Minsc,"No, it will not be! let Minsc and Boo take their chances here. Do not abandon Imoen to this place."
+49579,Minsc,Poisoned and dying! The tragedy of it sings in my skull! We must hurry and deliver this man to safe harbor!
+49784,Minsc,Such an offer from this woman sends chills up and down my spine like angry weasels... but you will know what to do. Even Boo is confident of this.
+49821,Minsc,"It is an option that bears no questioning! you are a champion of good, just as we all are! Always must we take the choice of righteousness!"
+49833,Minsc,No! Tell me this is not so! No heroes would commit such an act! I could never look Boo in the eyes again if I took part in such a thing!
+49840,Minsc,"My hamster's heart is crushed that you have fallen so far! How could this be? It is my fault, all mine, for letting it happen!"
+49843,Minsc,"I... I must leave to drown in my sorrows. If you pick yourself up, I shall be in that Copper Coronet. It seemed like a grand place for adventure, oh yes!"
+49847,Minsc,"This is more like it! A rescue from the hostage-takers! All shall quiver in the wake of our righteous fury! Yes, Boo, show them how they will quiver!"
+49856,Minsc,We will charge into the midst of the den of thieves and fling them about like pancakes! All that is glory shall be ours! And then breakfast.
+49871,Minsc,"Those who bury the living must be buried by our righteous fury! Woe betide those who would flout justice! So says Minsc, though ""betide"" was Boo's word."
+49909,Minsc,You would keep this woman a prisoner? Boo is not convinced that this is right. I agree that it smells of evil. Bad you! Bad!
+49911,Minsc,"So the woman is freed? What need is there to collect a reward from the man? Are we not heroes, you and Boo and I? This is most confusing."
+49968,Minsc,"It is more dangerous to call Boo a vermin, as he may leap upon you and show you his true warrior spirit. Nothing can contend with the might of an angry hamster!"
+50041,Minsc,"An assault on the most foul and evil of creatures! Such a victory shall make us heroes to be sung of throughout the land! Glory will be ours, oh yes!"
+50093,Minsc,The priest turns on us! For shame! Boo will gnaw on his eye sockets for this travesty!
+50106,Minsc,"We are stopping now? Why are we stopping? We are heroes, and heroes must face the final enemy and win over all!"
+50122,Minsc,"Boo remembers! Baldur's Gate! Neb the child murderer! You die, gnome, you die! RAAAAAGGGGGHHHH!"
+50130,Minsc,Tiny has met a god before this?
+50301,Minsc,"Boo is my stalwart companion, and he says that if you must wear the skins of a dead animal around your neck, the evil sharp-toothed weasel is a good choice."
+50343,Minsc,"Minsc and Boo fight with swords and teeth for goodness, not for countries. We are heroes, not soldiers, funny man."
+50416,Minsc,"He attacks? Such a display of wrongness fills even Boo with disgust! For my hamster, I must land a blow for goodness!"
+50537,Minsc,They... they will not burn the pretty elf? There must be no burning if she has committed no crime! This is not justice! we stop this travesty!
+50557,Minsc,"We do not rescue her? What was her crime? Maybe darker elves are not all good, but surely not all are totally evil? I am... confused. What does Boo think?"
+50578,Minsc,"We have saved her, and she is our responsibility. What if she was captured again? Neither Boo nor I could live with ourselves. No, she must come."
+50670,Minsc,Boo is worried that these inmates will harm themselves. We should see that they are safe and make sure they each have a hamster of their own.
+50671,Minsc,That last part was my idea.
+52288,Minsc,"True heroes demand no reward, and Boo knows you to be a true hero! We need only know what foes we are to face before the boot-stomping can begin!"
+52295,Minsc,No! Say it cannot be so! we must rescue the nice man's child and be off! Unless... unless you have some plan? Minsc is confused.
+52306,Minsc,No! Has you truly fallen so far? A glorious rescue has turned into a nightmare of epic proportion! Minsc and Boo will stop you!
+52607,Minsc,Boo knows! Do not stow thrones in grass houses!
+55186,Minsc,"The evil wizard is dead! Once again, Boo and Minsc and you emerge as victorious heroes! Much rejoicing and celebrating must be commencing soon!"
+55668,Minsc,"This young minstrel has lost his wits and his songs? Minds are common enough, but tunes of merit are few and far between."
+55680,Minsc,"Yes! Such fire and conviction! A pity there are no actual enemies to warrant the screaming, but good show anyway. Boo applauds!"
+55684,Minsc,"It is okay to come out now, Boo. The pale woman is gone. You can stop shivering too. You are a warrior hamster, so be brave! Brave!"
+55689,Minsc,All good peoples hang their head in shame! We are betrayed! The sailor man brings the vampires back amongst us... there shall be a mighty reckoning for this!
+55694,Minsc,"I do not think Boo is too thrilled about you borrowing his face. He only has the one. You don't hurt those you mirror, do you?"
+55763,Minsc,"Ughh, my head spins. So many quick words from so many small sources. Countersong, Boo. Relax my frazzled nerves."
+55767,Minsc,What does everyone stare at? Boo's churring calms me down. See?
+55776,Minsc,"Yes! Revenge! Revenge for precious Dynaheir! Tremble, wizard, for the mighty Boo will have your eyes! RAAAARRRRGHH!"
+55784,Minsc,"That's a much shorter interjection than Boo has become used to, Jan. Are you ill?"
+55819,Minsc,No! No collar! I will not be collared by the smelly fishmen! My warrior spirit will not bear such a thing!
+55825,Minsc,"Boo too has small teeth compared to fish-men. But they hurt just the same when they latch onto the eyes, yes sir!"
+55861,Minsc,"My skin may not have scales, but it has seen many suns come and go. Boo thinks you could use some sun too. Then you might not smell so much like wet laundry."
+55882,Minsc,"Don't worry, Aerie. I'm here to protect my witch. Boo too, though I think he would leap to protect anyone in distress. It's his heroic nature, you know."
+55892,Minsc,"Boo bristles at his words. I don't know the language, but he is insulting us for certain!"
+55915,Minsc,I cannot believe my ears! You would stand against all that is good and right? You shall suffer a terrible vengeance for this!
+55922,Minsc,Yes! Hello! Minsc is a drow! And Boo is a shadow hamster!
+55968,Minsc,"Another drow who speaks strange words! Even Boo bristles at his obvious lies! If you fights, then so does Minsc! Prepare for liberal butt-kickings!"
+56017,Minsc,"Ooh, another drow! I begin to see them everywhere, ever since the Underdark! They are so vicious even Boo cowers. What will we do?"
+56018,Minsc,I do not cause trouble! I merely seek it out and put the bootheels of justice to it! Ask Boo!
+56067,Minsc,"Boo is impressed, Korgan. You remember well to act like drow."
+56086,Minsc,"For Dynaheir and all fallen comrades, for what is good and right, for all these things shall Minsc and Boo fall upon you today! And we shall taste victory, evil man!"
+56092,Minsc,"Neither do we, right, Boo?"
+56093,Minsc,What's so funny?
+56124,Minsc,"Worry not, Viconia! Minsc and Boo stand at the ready to protect! Right, Boo?"
+56127,Minsc,No! You will not attack the small dark ones! Minsc and Boo will not allow it! And I hope no other will either!
+56152,Minsc,"And then Minsc will disrupt them with his bootheel! Yes, speak more of this evil-smashing partnership!"
+56170,Minsc,Boo shakes with disbelief! Such a crime will not go unanswered!
+56198,Minsc,Boo would have found her wherever she tried to put her evil foot! That's what we do!
+56409,Minsc,"Irenicus is the most vile of villains if he dared destroy a whole city! I can't believe that, and I have believed some amazing things, let me tell you!"
+56420,Minsc,"Groves are wonderful... you wouldn't really poison one, would you? Boo suggests that perhaps you are tricking this evil little man. Smart thinking, I agree."
+56429,Minsc,This is the evil killer who takes skins that do not belong to him! We have discovered him! We must take the bootheel to his ways!
+56458,Minsc,"To decide between justice and honor! Oh, it is a conundrum that would tie even Boo up in knots. I do not envy you. My decisions are usually easier than this."
+56471,Minsc,No! Minsc did not come here to kill young girls! You cannot tell us that the young girl was anything but innocent! This is not right!
+56482,Minsc,"We serve no evil mages, no sir! But Boo looks upon you with suspicion, little man. How is it you come to be here? Never have I seen Boo's whiskers quiver so!"
+56484,Minsc,"Then you too know the hardship of being set into a maze like a helpless hamster! We are comrades in peril! Boo asks what you propose we do next, little man."
+56492,Minsc,"What is this? Minsc and Boo were just getting into this wonderful story when it was sadly interrupted. A work of mastery, this is!"
+56499,Minsc,"Someone has rattled the little one's brains? Hmm, I know how she feels. If this was done on purpose, he deserves a mighty kick in his posterior at the least!"
+56514,Minsc,Helping others is good! What a nice little girl you are. Would you like to see my Boo? I think he approves of you too.
+56515,Minsc,Helping others is good! What a nice little girl you are. Would you like to see my Boo? I think he approves of you too.
+56675,Minsc,"I don't wish to alarm you, but Boo is absolutely fretting about your condition. Are you well? Fear in Boo is uncommon, and usually weasel-caused."
+56679,Minsc,"We can rest if you wish. I do not understand what Irenicus did, but Boo has said that it was traumatic, and I will guard if we must stay here a while."
+56680,Minsc,"That is good. I will guard if you need to rest. It is the least I can do, since I could not stop Irenicus."
+56682,Minsc,"Then Minsc and Boo will turn their attentions to more important things, like staying alive. We should get moving if you are through with your headache."
+56881,Minsc,"Boo does not think so, despite your kind words. You smell of treachery. Prove me wrong or face the boot!"
+56886,Minsc,You'd have bought a trip to the graveyard if you had spent the money we needed to rescue Imoen! Minsc and Boo would see to that!
+57740,Minsc,"When all others stand numb, it falls to Minsc and Boo to make comment. you..."
+57741,Minsc,Boo just soiled my backpack.
+57901,Minsc,"Boo does not favor the odds, but I have no doubt we will succeed!"
+57905,Minsc,Boo would have sensed any treachery long ago! She fights well with us!
+58137,Minsc,Boo concurs! We must hurry and dispense with this errandry so we can get to the fighting of greater evils more worthy of my bootprint!
+58138,Minsc,"Minsc and Boo will protect your street, Aerie! You will cross it for your pleasure, not for fear of it!"
+58179,Minsc,Then let us get going! Boo and I have several talents we will unleash upon it!
+58199,Minsc,Minsc owes much to the killer of Dynaheir! I stand with you! Nowhere shall I go until the heel of justice has been firmly imprinted once and for all into the wizard's evil backside! Nowhere!
+58519,Minsc,No! We do not abandon comrades! Never could I look Boo in the face again after such a thing! We shall give the evil wizard a certain boot-kicking instead!
+58756,Minsc,"A slap in the face of our trust! A sword to the heart of our confidence! A boot to the prunes of our friendship! Perhaps I go too far, but Boo is absolutely incensed!"
+59069,Minsc,"Minsc and Boo are the greatest of warriors, small one! I will crush your foes into little foe-shaped chunky bits! Who dares pick on you? Just point the way!"
+59071,Minsc,"No foes? I am relieved. I trust those who prey on children no farther than they can be thrown, even if I manage to throw them pretty far, and throw them I shall!"
+59072,Minsc,"What? Boo is outraged! See his fury! It's small, so look close. Trust me, it's there. What is wrong with your village, small one? How can we heroes help?"
+59073,Minsc,"Minsc has been inside out and angry before, and it is never a good thing. Sometimes it frightens even Boo."
+59075,Minsc,"Oh! Minsc has never been crazy, no sir. Being inside out was bad enough! Is there more, little boy?"
+59076,Minsc,"Then heroes are certainly needed! Heroes like Minsc and Boo and you! Where is your village, small one? Together we will save the day!"
+59078,Minsc,"Nothing removes fear better than a good sword and a swift kick in the evil! We shall go to your village and do what heroes do, right?"
+59088,Minsc,"There is always time to save the day! Don't worry, small one, we will go to your village as soon as I restore you to their senses. That is my job."
+59089,Minsc,Kicking the posterior of evil is never a fool's errand! Hmm is not their usual heroic self today. An evil influence? Or have their thoughts wandered elsewhere?
+59090,Minsc,"Since you are out of their mind, I must step up as a hero should. We go to your village as soon as you are better. So swear Minsc and Boo."
+59091,Minsc,Er... Boo wonders what you need a warrior for when you have no foes?
+59093,Minsc,"Boo is curious and keeps bringing up the question of when we will travel to the Imnesvale village, and I heartily agree! We are heroes, and they are in need of heroes—it is a match even Minsc can see!"
+59094,Minsc,"We must go where evil is in most need of a beating, so Minsc will leave that decision up to you. Still... we must not disappoint the little boy."
+59095,Minsc,"Did Minsc miss something? Did we already go and save the Imnesvale village? Boo demands that it is not so, but I cannot remember. Surely we would not shirk out heroic duty for so long! It cannot be!"
+59421,Minsc,"We come because the little boy, Delon, said that there was evil here in need of a butt-kicking! And good for us that we have our boots on, yes, sir!"
+59423,Minsc,"No, we can't leave this place without having destroyed all evil! Tell Boo this is not so! Do not destroy a young hamster's innocence!"
+59424,Minsc,Wolves? Ogres? Witches? Oh my! It is too much for Minsc's poor head to comprehend! Which of these are evil? The edge of my sword shall find the truth!
+59425,Minsc,"Oh, most glorious day! One step closer we come to being true heroes, yes indeedy! Even little Boo's fur stands on end from his anticipation!"
+59542,Minsc,Minsc agrees! It would be the essence of epic heroing! Dead dragons should litter our path wherever we go!
+60851,Minsc,"Bah, omens are for those that pay attention to their surroundings, not for such as we, right, Boo?"
+60868,Minsc,"Anyway, go out of city that way... Keep on the road, turn right at big church, and you will be out."
+60876,Minsc,"Boo says not to blame myself, but Boo is a hamster and not as concerned with honor."
+60880,Minsc,"Actually, this changes very little. Minsc is happy."
+60881,Minsc,And perhaps my Boo as well...
+60882,Minsc,And a good sword...
+60883,Minsc,"Ooh! And the occasional buffing, for the armor, you understand."
+61013,Minsc,"No, this cannot be! The murderer of Dynaheir flees from righteous butt-kicking vengeance! And he takes Imoen with him too!"
+61014,Minsc,"Something must be done! We must find this evil wizard! All that is goodness cries out for this! Even little Boo, although he cannot cry out quite so loudly."
+61017,Minsc,No! We must go quickly and save our friend Imoen! The wizard may be leering over her evilly even now!
+74513,Minsc,"He's not that ugly. Boo's seen much uglier half-orcs. Haven't you, Boo?"
+74615,Minsc,Are you calling Boo a fool?
+74692,Minsc,I'm with the hamster.
+74818,Minsc,Boo says it's rude to diminish a bride's radiance on her wedding day.
+75728,Minsc,"What do you think, Boo? Isn't this a nice tree?"
+75729,Minsc,Boo doesn't think this is a nice tree.
+75730,Minsc,I think Boo is right.
+77677,Minsc,Speak for yourself! Boo is the warm center of the universe that I orbit during my slumber each night!
+78870,Minsc,Trusts?
+79469,Minsc,"Boo dislikes this place. These people are trapped in a wheel that turns and turns, but never moves forward."
+79523,Minsc,"Boo dislikes this place. These people are trapped in a wheel that turns and turns, but never moves forward."
+80995,Minsc,"It's all right, Boo. They're dead, but I'm sure they're not bad—"
+80996,Minsc,"You were right, Boo. They weren't nice at all."
+81824,Minsc,Boo says smoking isn't healthy.
+88082,Minsc,"Minsc is torn! It seems only fair that you be able to walk with a small animal to advise them, too. But Minsc also fears for Boo... Dings might have a bad attitude toward hamsters."
+90282,Minsc,Boo says we should find the hairband! Boo believes the children are our future!
+93536,Minsc,"You will need an advisor, heir to the throne! It is Minsc's opinion that hamsters make the best advisors."
+17945,Valygar,"I see. If you are loyal followers, then I have little choice but to fight. You shall not take me peaceably to my doom at the hands of my ancestor, of that I am certain."
+17950,Valygar,"My proposal is that we return to the city and enter the sphere. That way, I will know if Lavok lives. If he does, we can exterminate his ghoulish existence once and for all."
+17961,Valygar,I refuse. I prefer the goodwill of the Cowled Wizards and the reward for you.
+17967,Valygar,The wizards have not been entirely truthful. How do you propose we solve this?
+17972,Valygar,The wizards will not rest until they get inside the sphere. And one cannot hope to stand up to the them for long... at least not without steady hands at one's back.
+17975,Valygar,Who are you that makes you so special? How do I know you are not lying to me?
+17981,Valygar,"Wait! I've a proposal, if you are but willing to hear it!"
+17992,Valygar,"I am the last of the Corthala line. That may mean little to you, but it means plenty to Lavok. When Lavok left Athkatla in the sphere, he was already many centuries old."
+11597,Rielev,"Suspended, I be... I am... dying... dead. No matter, I must be your cruel dream as you are mine."
+11598,Rielev,"Strangers be ye? Aaaa... things have gone... bad... since I have died. Threaten not the master, for you shall... surely... perish... Driven is he, and power he seeks..."
+11622,Rielev,"Prisoners be ye? Truly I have been... dead, but not dead too long. I seek... release... I have been alone for... too long. The master can take nothing more... I am forgotten."
+11626,Rielev,"Neither, neither. I am... between... the master has forgotten me... not killed me."
+11631,Rielev,"Please! I am alone here. For too long, alone. If you must... escape... release me..."
+11632,Rielev,Eternal... life... was to be my reward for faithful service. The master has suspended me until he can cure me... return my youth to me...
+11808,Rielev,He has forgotten because he does not wish to remember... what was taken... I barely remember myself.
+11814,Rielev,"They may know how the master exits the complex. Will you take these cells to revive them and learn what you can, in return for this path to freedom I have offered ye?"
+11842,Rielev,I thank ye... go and leave me to oblivion at last.
+11843,Rielev,You are heartless. I again feel hate.
+11846,Rielev,Leave me! Take the crystals and return me to oblivion!
+17355,Rielev,"This... unit that contains me is powered by cells, by crystals. Take them and I can sleep... die... again die at last."
+19951,Rielev,"I was a... faithful hound to the master. A friend, even. I was... dying... or dead, I cannot remember which. Truly you are a stranger to this place."
+37849,Rielev,You are heartless. I again feel hate.
+2722,Yoshimo,"I share your sentiments. I have seen much here that has disturbed me. I myself am a warrior with no evil intentions. Please, I would welcome any assistance you might offer."
+2730,Yoshimo,"I am no fiend! I am Yoshimo! You know, Yoshimo?"
+2734,Yoshimo,I do not know how long I was there before awaking.
+2738,Yoshimo,I do not know a way to escape this place. Perhaps we could search for this exit together.
+2741,Yoshimo,Perhaps then Yoshimo's predicament won't seem so funny!
+2747,Yoshimo,"At last, an admirer! I do not know a way to escape this place. Perhaps we could search for this exit together."
+2755,Yoshimo,What do you need to know?
+2759,Yoshimo,"If you are ever in Athkatla and need some assistance, I reside at the Copper Coronet, an inn of some renown. First, however, a warning..."
+2763,Yoshimo,You have changed your mind? Shall we draw our blades with a common purpose?
+2770,Yoshimo,"I agree. Welcome to the Copper Coronet, my home here in Athkatla. What can Yoshimo offer you? Information? Contacts? Equipment? Perhaps you would like me to join you?"
+2783,Yoshimo,"The barkeep's name is Bernard. He will sell you high-quality equipment at a reasonable price. If you have the time, though, I would suggest the Adventure Mart in the promenade."
+2788,Yoshimo,I would be honored to wield my sword for you.
+2792,Yoshimo,"Welcome to the Copper Coronet, my home here in Athkatla. What can Yoshimo offer you? Information? Contacts? Equipment? Perhaps you would like me to join you?"
+4292,Yoshimo,It is good to see you again.
+4349,Yoshimo,I did not hurt the nymph! She released me from the fairy circle. I am a free man again and ready to join your party.
+4358,Yoshimo,"After the nymph released me, I ran to catch up with you and had a little run-in with a worg. The worg wounded me."
+4362,Yoshimo,It is the truth! I would not harm that innocent nymph! She released me from the fairy circle so that I could rejoin my companions. You must believe me!
+4366,Yoshimo,I am pleased to travel with you again.
+4367,Yoshimo,I am very sorry to hear that. You shall find me in Athkatla should you need me. I will be staying at the Copper Coronet. Travel safely.
+4368,Yoshimo,"When you have thought about this and realized your error, you will find me at the Copper Coronet in Athkatla. I will now take my leave of you."
+18900,Yoshimo,"These little beasties keep coming in through the portals. Perhaps if the portals are destroyed, one could defeat the beasts that have already come through."
+18902,Yoshimo,I have noticed that each wand is locked into the pedestal and could be removed if one had the proper key. I know not where these keys are. Let us begin!
+20021,Yoshimo,"Shortly beyond that chamber, there is a hallway that contains several wands mounted in pedestals. They blast all that walk before them."
+20022,Yoshimo,"It is actually quite uh... embarrassing. My profession does not leave itself open to those who are not wary, yet somehow I was caught unaware."
+20023,Yoshimo,"I came to Athkatla years ago from Kara-Tur to seek my fortune. At some point, I went to bed in my room at the Copper Coronet, and I awoke in a strange room with a very sore head."
+20024,Yoshimo,Maybe you should try to face the perils of this place alone!
+20025,Yoshimo,"I am unsure. I may have been drugged when I was brought here. I may have been unconscious... either way, I do not know how long."
+20030,Yoshimo,"If that is how you wish it to be, then go ahead and forge the trail. I will follow your path once I have rested a bit."
+20058,Yoshimo,You do not know what happened! I must leave now before my anger rises any more.
+20067,Yoshimo,"One more thing... you will find a wide hall before too long that contains several wands mounted on pedestals. If you walk before these wands, you may be killed."
+20072,Yoshimo,"I am not sure how I came to be here... like you, I suspect. I have been trying to find my way out, but I was wounded in my attempt to do so."
+20074,Yoshimo,"In the next chamber beyond the one in which we stand, four portals lie. Each of these portals releases a little cackling fiend which tries to kill me."
+20082,Yoshimo,"In the next chamber beyond the one in which we stand, four portals lie. Each of these portals releases a little cackling fiend which tries to kill me."
+20090,Yoshimo,"Shortly beyond that chamber, there is a hallway that contains several wands mounted in pedestals. They blast all that walk before them."
+20103,Yoshimo,"In the next chamber, there are four portals. Each of these portals releases little cackling fiends which try to kill me."

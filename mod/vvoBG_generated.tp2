@@ -1,0 +1,10 @@
+// Auto-generated voice entries
+BEGIN ~BG2 Voiceover - Test~
+
+// StrRef 38537
+COPY ~vvoBG/OGG/OH38537.wav~ ~override~
+STRING_SET 38537 @38537
+
+// StrRef 38606
+COPY ~vvoBG/OGG/OH38606.wav~ ~override~
+STRING_SET 38606 @38606

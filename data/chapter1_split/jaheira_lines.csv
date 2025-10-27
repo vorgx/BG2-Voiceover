@@ -14,7 +14,7 @@ StrRef,Text
 1150,Another day! We must live to pose a bigger threat! There is no point joining the fray today; we would only end up dead or back in our cells. Another day...
 1152,"Of course I am afraid; what fool wouldn't be? We were captured with little difficulty, held with even less, and have escaped with friends dead or wounded."
 1153,We will exact vengeance when it is to our advantage. I will not start a losing battle. A guaranteed loss is a fool's endeavor. Another day... another day...
-1159,"Only an idiot is not afraid when <PRO_HESHE> should be. We were captured and held with ease! Yes, we have earned our freedom, but it was at the cost of our friends!"
+1159,"Only an idiot is not afraid when they should be. We were captured and held with ease! Yes, we have earned our freedom, but it was at the cost of our friends!"
 1160,Agreed. We will exact justice when we have hope of succeeding. Until then... I will not forget. Another time and place...
 1161,"I know this place... these buildings. Yes, that person was assuredly correct; this is Athkatla. We are in the state of Amn."
 1162,"No, Athkatla is along the lower edge of the Sword Coast. I wonder whom we angered that we should be brought here? We should lay low, perhaps in the slums."
@@ -30,7 +30,7 @@ StrRef,Text
 1199,"He is none of your concern. If you value your teeth, you will not speak that name again. You dirty it."
 1206,"Well, the slander is going a bit far. You actually were a slaver, you know. It's not slander if it's proven."
 1209,"I don't think that word means what you think it means. You really were trading in slaves, you know? How am I libelous...?"
-1220,"What have you just done, Ployer?! Speak!"
+1220,"What have you just done, Ployer? Speak!"
 1222,"Nobody made you a slaver; you just loved the profit! Now you blame those that caught you because you cannot take responsibility? You are a weak, weak man!"
 1224,"By the horns of Silvanus, I'll plant him beneath the Stones of Aisath if I... if I..."
 1228,"No, I... I'm fine. I just felt a little strange for a moment. That... that fat excuse for a slaver, he's cursed me! Damn him!"
@@ -57,14 +57,14 @@ StrRef,Text
 1335,"I see. So despite assurances, you are indeed the bastard I thought you were after that stunt in Irenicus's jail. Oh, I remember, and I'll remember this too."
 1338,"Do not joke so! I am in grave straits, and you mock my condition with talk of leaving?"
 1343,You can get me Ployer. Never have I been so mad at another living thing. All this because he could not admit responsibility. He is irredeemable.
-1346,"I see. Then I will waste no more of your time. I will seek help on my own, and damn you for being so cold. Farewell, <CHARNAME>. We will not meet again."
+1346,"I see. Then I will waste no more of your time. I will seek help on my own, and damn you for being so cold. Farewell. We will not meet again."
 1347,"My very bones ache today. It is as though I age on the inside. Ohh, this cannot go on for long."
 1353,"Oh, I shall certainly save it. I shall save it just long enough to bring the fury of Mother Earth upon that fat slaver that would imprison her children."
 1358,What do you mean by that? Am I not worth the effort of rescue? Have you better things to do?
 1372,"Forgive my outburst as well; I am... *cough*... I am not myself. Come, we must go. I will see that slaver pay for this."
 1486,Despicable... *cough* *cough*... despicable wretch! You knew I would come here?
 1489,"I am... I am not here to grovel, Ployer. You would sooner get that from my corpse!"
-1491,"Iâ€” *COUGH* I AM NOT HERE TO GROVEL! I may be weak, even dying, but you WON'T get that! I have come to take what is mine! I (ehrm) will be free of you... of your..."
+1491,"I— *COUGH* I AM NOT HERE TO GROVEL! I may be weak, even dying, but you WON'T get that! I have come to take what is mine! I (ehrm) will be free of you... of your..."
 1508,"I feel... weak, but better. I... *cough* *cough*... I thank you for helping me through this. You have earned my gratitude and... ehh... and I should really get a full day of rest."
 1513,"Ahh, yes, I'm the one with enemies we need to worry about. Do you even believe that yourself? Don't make me lau... ow... laugh."
 1514,"I certainly hope so. Such weakness... I swear, if I meet his like again, I'll not let the courts spare him. I'll... I'll be better after a night's rest."
@@ -82,7 +82,7 @@ StrRef,Text
 1693,"Drenden, they have done nothing to me... I am... cursed. It cannot be removed. I cannot... I feel..."
 1695,It's... all right. Find... find Ployer and...
 9659,I said not to...
-9695,<CHARNAME>! You do not need to...
+9695,You do not need to...
 11072,"I make claim that you are an affront to all nature. You are a disruption that will not be allowed, and I will fight with the power of my faith and conviction."
 11170,"You will accept this challenge, and we will proceed! I will not have this place remain in your ""care""! By the Great Mother, you will not leave the duel alive!"
 14332,"What is this ""clap"" you speak of, child? Enough. Begone, you are disturbing me."
@@ -101,48 +101,48 @@ StrRef,Text
 16092,"Do I know of you? Have you reason to subject me to your rude manner? I have no coin, if that is your wish."
 16093,I do not follow by a stranger's command. Who are you?
 16095,"I... Yes, I see. If you would give me a moment, I will do what needs be done."
-16097,"Relax, <CHARNAME>, I will not be gone long. Please, I will explain when I return. I... I do not wish to be apart from you too long. I will return when I can."
-16098,"Try not to worry, <CHARNAME>, I can take care of myself. I will return as soon as possible. I have obligations elsewhere that must be attended to."
+16097,"Relax, I will not be gone long. Please, I will explain when I return. I... I do not wish to be apart from you too long. I will return when I can."
+16098,"Try not to worry, I can take care of myself. I will return as soon as possible. I have obligations elsewhere that must be attended to."
 16099,"I have obligations elsewhere. Worry not, I will return shortly. You will survive without me for a time."
 16150,"No one is disputing that, but I do have obligations outside the group. I will return when I am able."
-16433,"Remember your obligations elsewhere, <CHARNAME>. We have to go to the Harper Hold in Athkatla as soon as possible. It would not be good to keep them waiting too long."
+16433,Remember your obligations elsewhere. We have to go to the Harper Hold in Athkatla as soon as possible. It would not be good to keep them waiting too long.
 16434,"We should make our way to the Harper Hold in Athkatla as soon as we are able. I do not look forward to the trip any more than you do, but we must."
 16436,"Please, it is very important that we go to the Harper Hold in Athkatla. They were very insistent that I bring you there, and we must go soon."
 16577,"I am a Harper in my heart; you know this. It is my duty to bring you to them, but... but I no more want to make the trip than you do. Nevertheless, we must go."
-16579,"Very true, <CHARNAME>, but I am a Harper, as you know. They ask that I bring you. I will not make you go, and I will not leave you, but eventually we must."
+16579,"Very true, but I am a Harper, as you know. They ask that I bring you. I will not make you go, and I will not leave you, but eventually we must."
 16580,"Harpers will wait an eternity for vengeance or justice, though defining the two is sometimes difficult. They made it clear I was to bring you to them."
 16583,"Please, do not make this difficult. I have a duty to take you, and I will not rest easy until we have gone. I will not force you, but eventually we must go."
 16764,"Your welcome is forced, Galvarey. You know I am here at the bidding of the Herald. Why have you come to greet me? This is too important to waste time on you."
-16795,You! You are no Herald! What is going on here?
+16795,You are no Herald! What is going on here?
 16803,I know you are an ambitious fool. You cannot be sanctioned to do this. Even this gaudy base is against our usual restraint. The position of Herald requires...
 16810,"Fine, set about with your questions so I can get on with my job as well."
 16838,"Galvarey, siblings we are in Harper blood, but if you do not cease your tongue, I shall remove it!"
-17017,"Mind yourself, <CHARNAME>, this is very serious."
-17060,"Please, <CHARNAME>, do not make this difficult for yourself."
-17086,"You are twisting <PRO_HISHER> words, Galvarey. That is not what <PRO_HESHE> meant."
-17090,Why do you ask the question if you are going to infuse the answer with your own meaning? <CHARNAME> would never...
+17017,"Mind yourself, this is very serious."
+17060,"Please, do not make this difficult for yourself."
+17086,"You are twisting their words, Galvarey. That is not what they meant."
+17090,Why do you ask the question if you are going to infuse the answer with your own meaning? you would never...
 17177,This is a difficult situation! Would you react any different?
-17216,What has *that* to do with anything?!
+17216,What has *that* to do with anything?
 17325,"And also the sky, or the ocean! You are so intent on seeing what you wish the answer does not matter!"
 17337,"And also of apples, or the rose! You are so intent on seeing what you wish the answer does not matter!"
 17341,"And also of the sun above, or the daisy! You are so intent on seeing what you wish the answer does not matter!"
 17345,"And also of the night sky, or the coat of a fine steed! You are so intent on seeing what you wish the answer does not matter!"
 17433,"Thank you, but no. Tonight I am fine as I am."
-17441,"But you were to see <CHARNAME> as <PRO_HESHE> is, not as you expected <PRO_HIMHER> to be! I was to bring <PRO_HIMHER> here so..."
-17449,"I am sorry, <CHARNAME>, this was not my intent at all! I thought..."
-17452,My... what?! You are questioning me?! You subject him to this... this witch hunt and you think I am the one that is to be questioned?
-17454,And what if <PRO_HESHE> will restore the balance? What if <PRO_HISHER> intent is good?
+17441,"But you were to see you as they are, not as you expected them to be! I was to bring them here so..."
+17449,"I am sorry, this was not my intent at all! I thought..."
+17452,My... what? You are questioning me? You subject him to this... this witch hunt and you think I am the one that is to be questioned?
+17454,And what if they will restore the balance? What if their intent is good?
 17469,"Nay, Galvarey, there is but you and your four lackeys. I will have no part in this!"
-17472,"<CHARNAME>, I... I will stand by your side if you will have me. You are... you are better than this, I know. I..."
+17472,"I... I will stand by your side if you will have me. You are... you are better than this, I know. I..."
 17475,"So... so be it, then. I will... I must not... I will have no part in either side of this!"
 17477,These are no friends of mine! I do not recognize them!
 17479,"Harpers may interfere, but it is for the greater good! Not this! I don't know you!"
-17480,"<CHARNAME>, you are my comrade in arms. I know you are good and true in heart. I will fight with you against this!"
-17481,"<CHARNAME>, I am Harper. I cannot fight by your side against my own, but I will not take part in this! I... I cannot side with either. Goodbye."
+17480,You are my comrade in arms. I know you are good and true in heart. I will fight with you against this!
+17481,"I am Harper. I cannot fight by your side against my own, but I will not take part in this! I... I cannot side with either. Goodbye."
 17798,"What? If this is about the attack at the Harper Hold, you know I would not do such a thing if I had any alternative! They left me no choice!"
-17800,"It was Galvarey; he had me bring my companion there on the pretense of determining <PRO_HISHER> danger, but he had no intention of letting <CHARNAME> leave once there."
-17825,"If that is your wish, <CHARNAME>. Reviane, suffice to say that Galvarey had an unhealthy interest in my compatriot. You must trust me in this matter."
-17826,"<CHARNAME> has proven that <PRO_HESHE> is not a slave to <PRO_HISHER> origins, just as Galvarey proved that calling oneself a Harper is not enough to make you one in your heart."
+17800,"It was Galvarey; he had me bring my companion there on the pretense of determining their danger, but he had no intention of letting you leave once there."
+17825,"If that is your wish. Reviane, suffice to say that Galvarey had an unhealthy interest in my compatriot. You must trust me in this matter."
+17826,"You have proven that they are not a slave to their origins, just as Galvarey proved that calling oneself a Harper is not enough to make you one in your heart."
 17831,"You must do as you will, Reviane. I have told you my circumstance; there is little more for me to say."
 17840,"If you attack, you are no better than Galvarey. I will meet your threats with whatever force that I can! Do not do this. Harpers seek the truth..."
 17846,"I will not draw arms against you, Reviane. This has been a huge mistake, and I will not be party to making another."
@@ -152,46 +152,46 @@ StrRef,Text
 18242,"What... what are you getting at, Dermin?"
 18325,I see. And what power has decided that I should be killed? I serve nature and protect the good of the land through my work as a Harper. Who have I offended?
 18488,I have washed my hands of the incident in the Harper Hold. Galvarey was in the wrong and brought his fate upon himself.
-18490,"He was in the wrong! Of that I am certain! Galvarey sought to imprison <CHARNAME> for his own gain, and I took the side of right. I could do no other!"
+18490,"He was in the wrong! Of that I am certain! Galvarey sought to imprison you for his own gain, and I took the side of right. I could do no other!"
 18493,"This is wrong, Dermin. This is not the right solution."
 18498,"Do not concern yourself. This was the only course open, even if... I... I wish to not talk of this. This matter is... is behind me. Onward, we have much to do."
-18499,"I thank you, <CHARNAME>, but part of me is gone. I... I will speak no more of this. This is behind me. I must go forward. Come, we have friends to avenge."
+18499,"I thank you, but part of me is gone. I... I will speak no more of this. This is behind me. I must go forward. Come, we have friends to avenge."
 18500,Dermin... I...
-18501,"Dermin, I cannot do as you ask. You are in the wrong, as was Galvarey. I was right to choose <CHARNAME>'s side, and it is your loss if you cannot see this."
+18501,"Dermin, I cannot do as you ask. You are in the wrong, as was Galvarey. I was right to choose your side, and it is your loss if you cannot see this."
 18503,"This is not justice. This is revenge for a lie, a falsehood that none seem bothered to find the truth behind. If this is Harper justice, then I..."
 18505,"If this is the justice you represent, then I... I renounce you. I renounce... I renounce my life as a Harper."
 18507,"It would seem I am the only one that has thought any of this through. You do not, Galvarey did not, and now the Harpers out for blood do not."
 18508,"I mourn many fellows of the Harp, but they died fighting for balance and truth. Galvarey did not, and this matter cheapens their loss. I will not be party to it."
-18518,"It is their... it is my duty to ""meddle,"" <CHARNAME>. It is only this instance where they are wrong. I cannot go along with this."
+18518,"It is their... it is my duty to ""meddle,"" you. It is only this instance where they are wrong. I cannot go along with this."
 18532,"No... no... I do not think it is. You are advocating revenge without thought. You are not giving the balance its due. I... I have little choice here, I think."
 18534,"Dermin... Dermin, I renounce my life as a Harper."
-18536,"You are right, of course, and <PRO_HESHE> has proven it. No, I think it best if I return to tending the balance with my druidic brethren."
-18538,"That it is. <CHARNAME>, I know you will not upset the balance, but if you change, we will meet again. I will not be happy if you cheapen my choice here today."
+18536,"You are right, of course, and they have proven it. No, I think it best if I return to tending the balance with my druidic brethren."
+18538,"That it is. I know you will not upset the balance, but if you change, we will meet again. I will not be happy if you cheapen my choice here today."
 18546,"It shall not be peaceful, but it is clearer than the course you are on. Goodbye, Dermin."
-18551,"Garbage?! Do you comprehend the magnitude of what I have done?! Do you see... what... no, I will not cheapen this moment by arguing with you."
-18552,"<CHARNAME>, find your own way. See to it that you continue the course we began. Do not make a liar of me, or we will meet again under violent circumstances."
-18555,"You are no burden, <CHARNAME>; you are why I go on. I have friends to avenge, but life is also for the living. My life is worth pursuing. I... I hope you agree."
+18551,"Garbage? Do you comprehend the magnitude of what I have done? Do you see... what... no, I will not cheapen this moment by arguing with you."
+18552,"Find your own way. See to it that you continue the course we began. Do not make a liar of me, or we will meet again under violent circumstances."
+18555,"You are no burden; you are why I go on. I have friends to avenge, but life is also for the living. My life is worth pursuing. I... I hope you agree."
 18556,"Come, enough sadness for the day. We have much to do, and... and together we will not fail."
 18557,"I take strength from the group, but... more so in your company. I have friends to avenge, but life is also for the living. Life is worth pursuing. I... I hope you agree."
 18639,"Not the way they tell it, Bernard. You know me, so trust in what I do."
 19455,Then do so. I wish this matter behind me once and for all.
 19689,Ah... I...
 19699,I... I don't know.
-19717,"Undoubtedly. I would do as such again without hesitation. <CHARNAME> is proven decent, and others are all the more fools for not seeing so."
+19717,"Undoubtedly. I would do as such again without hesitation. you are proven decent, and others are all the more fools for not seeing so."
 19736,"I... I believe I have placed a proper name to your manner, now that I have experienced it up close. I should have thought you fond of anagrams, ""Terminsel."""
-20543,Don't make deals with this scum! He won't keep hisâ€”mmmph!
+20543,Don't make deals with this scum! He won't keep his—mmmph!
 20551,You lying son of a mMMPH!
-20553,"Fight as best you can, <CHARNAME>â€”I am free of him!"
+20553,Fight as best you can—I am free of him!
 20555,Gllgghh!
 20558,No! Blast you filthy bogslimes! Not again!
 20563,Fight! I am free of him!
 20564,You... you...
 20565,You... you were pretty quick to give up your equipment.
 20566,Are... are you all right?
-20574,You IDIOT! Do you realize how easily he could have killed me?! That was the most irresponsible thing I have EVER had the misfortune of seeing!
+20574,You IDIOT! Do you realize how easily he could have killed me? That was the most irresponsible thing I have EVER had the misfortune of seeing!
 20575,"Rest assured I'll not forget that! It's a wonder my head is still attached, or that yours ever was! Stand well back of me; I'm doubly careful from now on!"
 20581,"Regardless, I had thought you made of sterner mettle. I was mistaken, and will not expect as such from ye again."
-20585,"Good, I am so glad... you IDIOT! What were you thinking?! You could have been killed! An arrow can pierce the heart or the eyes while you stand like a pincushion!"
+20585,"Good, I am so glad... you IDIOT! What were you thinking? You could have been killed! An arrow can pierce the heart or the eyes while you stand like a pincushion!"
 20590,*ahem*... I lost Khalid... to a pointless death. I'm not going... to lose you too.
 20592,"Oh, shut up and let's get out of here. We'll... we'll talk later."
 21397,"You'll keep your hands to yourself, lowly one, or have them cut off!"
@@ -236,21 +236,21 @@ StrRef,Text
 27407,Dermin! I would speak at you!
 27409,"Shut up! I said I would speak AT you! This matter is finished! I will not acknowledge this again! If you press it, I will be forced to deal with you!"
 27411,"Yes, actually, and you well know it! Galvarey was no more a Harper than a treant. His actions betrayed him, and all those that followed him!"
-27412,"The garish Hold, his political agendaâ€”he was merely using the weight of the Harper name to promote himself. Tell me: What did he offer you?"
+27412,"The garish Hold, his political agenda—he was merely using the weight of the Harper name to promote himself. Tell me: What did he offer you?"
 27414,"Then I am better for it. Call me traitor, but I have followed the spirit of the Harpers. You are the traitor, and if the events were known, others would see!"
 27416,"Of course not. Despite the ambushes, you will still be able to claim the moral high ground for your actions. What happened to you, Dermin? I do not know you."
 27418,At the cost of the innocents. That is always the way.
 27420,It certainly disrupted you. The innocents also include Harpers that have died thinking they were fighting for the right cause. Galvarey's cause. Your cause.
 27422,"As was yours, though I suspect you have been gone for years."
 27424,"Save it, Dermin. I have no more guilt about facing you or any other sent on this fool's crusade. You are the betrayers, not I. I know this in my heart."
-27426,"I did not wish to do this. I did not. We are in the right, <CHARNAME>, but why does it still hurt?"
+27426,"I did not wish to do this. I did not. We are in the right, but why does it still hurt?"
 27430,"Heh, you and your jokes make me smile far too often, even when I do not want to. People will think I am getting soft."
 27433,"Haha! Shush you! I'm supposed to be feeling bad about this whole thing. Oh, let's just get moving."
 27434,*snicker*
-27435,"I've sat through all of your little plots and plans. The least you can do is toss me a bone now and then. Yeesh, take <PRO_HISHER> thunder for one conversation and <PRO_HESHE> gets all touchy."
+27435,"I've sat through all of your little plots and plans. The least you can do is toss me a bone now and then. Yeesh, take their thunder for one conversation and they gets all touchy."
 27436,Let's get out of here. We've still got things to do.
 27437,"Yes, yes, you do what you can, not always what you want. The Big Little Book of Alaundo, right? Insightful."
-27438,"I am sorry, <CHARNAME>, I shouldn't be taking my anger out on you. Let's just get moving. I'll be all right in a while."
+27438,"I am sorry, I shouldn't be taking my anger out on you. Let's just get moving. I'll be all right in a while."
 27439,"Heh, a wise move. I will not have this situation made trite. I may be in a foul mood for a while, you understand? Yes, I think you do. Thank you."
 27863,"Are you trying to tell me, bard, that you do not remember us? You were working for that evil sorceress, Silke, when we ran into you."
 27865,"Well, you didn't have many thoughts in your head then, and it is obvious you do not have many now."
@@ -261,7 +261,7 @@ StrRef,Text
 33335,"Too... weak... I feel the curse within... Damn you, Ployer! I'll be cured yet..."
 33663,"Her cause seems just, and she is druid kin of a sort. Let us do our best to aid."
 34526,"I will find my own way, and... *cough*... and damned if I won't live to see you die on this path you've chosen. Ah, I will waste no more breath on you!"
-34528,You wish me gone! Iâ€” *cough* I shall seek help on my own. A word before I go: Beware your friends. No doubt they will eventually treat you as you treat them.
+34528,You wish me gone! I— *cough* I shall seek help on my own. A word before I go: Beware your friends. No doubt they will eventually treat you as you treat them.
 34529,"He was irredeemable when he was on trial. He lives because he ""donated"" to the state. I will make good use of our next meeting, but not just because of his attack."
 38634,"No! You do not know. This is not the time for this conversation, child."
 38636,"What are you babbling about, Imoen? I am not in the mood."
@@ -270,35 +270,35 @@ StrRef,Text
 38642,"Be quiet, child! No more!"
 38644,"You've seen some horrible things best forgotten. We all have, in our day. This will pass when we... avenge the fallen and... bury this son of a bitch."
 38646,Imoen! Enough! Let's go!
-38675,"We have done nothing to you. I see that you are an elf... We are prisoners here, as are you. Perhaps if we couldâ€”"
+38675,"We have done nothing to you. I see that you are an elf... We are prisoners here, as are you. Perhaps if we could—"
 38676,"Nonsense, he was secretive with everyone. We just had... mutual acquaintances."
 38692,"So... I see we have a name for our captor at last. Irenicus, is it? Tell me, dryads, why this Irenicus would go to such lengths to keep you three here?"
-38699,"Surely you won't refuse them the chance to return to their forest, <CHARNAME>? It takes no effort from us and would be a kindness to them. Think it over."
+38699,Surely you won't refuse them the chance to return to their forest? It takes no effort from us and would be a kindness to them. Think it over.
 38720,"It is monstrous that one would do such a thing to a servant, to lock him away in an eternity of pain. It offends nature."
 38726,"Nature does not intend her creations to live past their allotted time. Certainly not this forgotten servant, tormented and then left for dead, but not dead."
 38729,"I wonder how this master came to live such a life that he abandons much of it? The fault of ill-considered magic, no doubt. We shall see when we find him."
-38742,"<CHARNAME> will do as <PRO_HESHE> decides is best. While kind enough to give the beggar a coin, there is no need for <PRO_HIMHER> to give away everything <PRO_HESHE> owns."
-38761,"For shame, <CHARNAME>, that you could speak to a child so. Have you no compassion for the helpless?"
-38773,"Take care, <CHARNAME>. I have heard of these Cowled Wizards. Spellcasters of the highest order, the only magic-users allowed here in Amn, I believe."
+38742,"You will do as they decide is best. While kind enough to give the beggar a coin, there is no need for them to give away everything they owns."
+38761,"For shame, that you could speak to a child so. Have you no compassion for the helpless?"
+38773,"Take care. I have heard of these Cowled Wizards. Spellcasters of the highest order, the only magic-users allowed here in Amn, I believe."
 38862,"Greetings to you, good sir. I trust all is well?"
 38864,"I am not here in an official capacity, suspicious one. There is no need to worry."
 38877,"The gnome is dead. How he was able to perform these great feats of illusion will have to remain a mystery, it seems."
-38920,"That was unbecoming of you, <CHARNAME>, to be so forceful with one of such a lesser station. But I suppose you shall do as you wish regardless."
-38941,"It sounds like there is a trade of flesh going on, <CHARNAME>, but questioning this man will get us nowhere. Perhaps a more thorough inquiry is called for."
-38944,"I doubt this man is a prisoner, <CHARNAME>. More likely a slave, prohibitions notwithstanding. A revolting practice wherever it is carried out."
+38920,"That was unbecoming of you, to be so forceful with one of such a lesser station. But I suppose you shall do as you wish regardless."
+38941,"It sounds like there is a trade of flesh going on, but questioning this man will get us nowhere. Perhaps a more thorough inquiry is called for."
+38944,"I doubt this man is a prisoner. More likely a slave, prohibitions notwithstanding. A revolting practice wherever it is carried out."
 39178,"There is nothing wrong with a noble task duly undertaken. And perhaps it will be enjoyable to see you in a greener setting, dwarf."
-39181,"I hope you intend to go to this village soon, <CHARNAME>. A visit to greener lands would be welcome after our trek through this crowded city."
-39282,"You may wish to reconsider your refusal, <CHARNAME>. This may be a way to overcome the slavers here for good. It is the honorable path, if you are interested."
+39181,I hope you intend to go to this village soon. A visit to greener lands would be welcome after our trek through this crowded city.
+39282,"You may wish to reconsider your refusal. This may be a way to overcome the slavers here for good. It is the honorable path, if you are interested."
 39362,"Do not overly concern yourself with the pursuit of precious metals alone, Korgan. There are other matters that we must consider here."
-39364,"Ah, a chance to strike at the heart of slavery here in Athkatla. Think of it, <CHARNAME>; you could make a difference, if you wish. At least for a while."
+39364,"Ah, a chance to strike at the heart of slavery here in Athkatla. Think of it; you could make a difference, if you wish. At least for a while."
 39372,"A thoroughly despicable man... and an equally despicable place. This is the sort of thing that comes naturally with civilization, it seems."
 39398,"No, he is not. He has no interest in anything you might have to sell, woman."
-39402,"Druids would not attack a town without cause. It would be a very extreme reaction, <CHARNAME>, and is definitely something we should investigate."
+39402,"Druids would not attack a town without cause. It would be a very extreme reaction, and is definitely something we should investigate."
 39413,"You will not, Korgan. There is a disturbance in nature that we are to restore... I will not have you swinging about, heedless of the consequences."
 39414,"You may wish to reconsider, Korgan. Doves can carry several diseases, and I wouldn't wish you vomiting and cramps simply for being an ignorant lout."
 39415,"You're welcome to try, but you are not the only one trained in martial skill. Remember that in the forest, you are in my domain and at an extreme disadvantage."
-39422,"I thought such childish antics to be above you, <CHARNAME>. But if it makes you feel better, I suppose I cannot stop you."
-39424,"I cannot believe you would partake in such cruelty, <CHARNAME>. I refuse to watch this."
+39422,"I thought such childish antics to be above you. But if it makes you feel better, I suppose I cannot stop you."
+39424,I cannot believe you would partake in such cruelty. I refuse to watch this.
 39590,"So... I see we have a name for our captor at last. Irenicus, is it? Tell me, dryads, why this Irenicus would go to such lengths to keep you three here?"
 40725,"Get your hands off me! So help me, I'll..."
 42212,"Where are the mirrors, the switches to pull to show where he is hidden...? *sob* Khalid...!"
@@ -308,7 +308,7 @@ StrRef,Text
 42219,Shut up! No more words! Words are nothing!
 42221,Stranger! Nobody! I will not hear your words! Leave me!
 42223,"No words! No more words! Save your speeches, save your proverbs! The only voice I wish to hear is... is dead! No more! No..."
-42224,Imbecile! Affront to nature! What do you and your rodent know?! What can you know?!
+42224,Imbecile! Affront to nature! What do you and your rodent know? What can you know?
 42225,No...
 42226,"Khalid of my heart, let my love... my love guide the way..."
 42227,"Khalid? Silvanus, let him hear my vow... If I must, I shall empty this city of all within to find his killer... So do I swear."
@@ -316,18 +316,18 @@ StrRef,Text
 44178,"She seems distant. Those are not Imoen's eyes. Not the one we knew, anyway."
 47077,"An excellent warning, if vague. I shall think on your words, though I doubt I shall alter my course. What will come will come."
 48466,"Have you no sense of charity, dwarf? What is the sense of freeing such children only to subject them to starvation and destitution, then?"
-48475,"Really, <CHARNAME>, couldn't you have spared a little gold for the child? You may have rescued them only to subject them to starvation and worse."
+48475,"Really, couldn't you have spared a little gold for the child? You may have rescued them only to subject them to starvation and worse."
 48480,"And one wonders how long you have been able to hide your arrogance and disregard behind a semblance of honor, Anomen. Helm would disapprove, I think."
 48481,"I do not fear you, knight! Any moment you wish to meet on the field of battle, I will be there!"
-48485,"It comes as no surprise to me that an immoral dwarf such as you has a heart of stone, Korgan. I simply expect better from <CHARNAME>."
-48491,"That you did, <CHARNAME>, but there is a responsibility that comes with such actions as well. You might decide to ponder that at some point in the future."
+48485,"It comes as no surprise to me that an immoral dwarf such as you have a heart of stone, Korgan. I simply expect better from you."
+48491,"That you did, but there is a responsibility that comes with such actions as well. You might decide to ponder that at some point in the future."
 48512,"How sad, to have been kept prisoner in such a state. And by what? The presence in the sword? It does not make sense."
 48515,"A puzzle, obviously. We must find the four things spoken of to unlock whatever mystery is hidden here. Who would hide something in such a fashion, I wonder?"
 48530,I think it would be an excellent idea to get outside of the city and administer justice on such evil creatures. Tyranny is best matched with equal force.
 48534,"I've fought many an ogre in the past, dwarf, and many other powerful evil creatures aside from such. You should be wary that I do not add you to the list."
 48551,"Ah, Gorion once said that he and some Harpers dealt a humiliating blow to a dragon in the Stormhorn Mountains. I was not aware this was the same one."
-48573,"I am sure you have your reasons, <CHARNAME>, but be not quick to turn down an offer of sanctuary. I am not eager to battle paladins without need."
-48592,"Indeed. They seek your agreement before telling you what they wish you to do. The Cowled Wizards are not to be trusted, <CHARNAME>, as you well know."
+48573,"I am sure you have your reasons, but be not quick to turn down an offer of sanctuary. I am not eager to battle paladins without need."
+48592,"Indeed. They seek your agreement before telling you what they wish you to do. The Cowled Wizards are not to be trusted, as you well know."
 48599,"While surely all murderers must be brought to task, I wonder what manner of justice the Cowled Wizards would apply. It is something to consider."
 48630,"We will have to be careful with the Cowled Wizards now at our heels. But it is a righteous cause, and another companion to stand at our side is always welcome."
 48645,"And well you should be. This is coward's work, despicable to the core."
@@ -336,92 +336,88 @@ StrRef,Text
 48693,I think I should like to walk through this place when we no longer need anything from the devil we know.
 48762,"I... I am not always frowning, I... oh, go away, child. Why are the children of this city so annoying?"
 48814,Hmm... wait one moment... do I know you?
-48815,"I see. A Zhentish agent, if I recall, but one of no consequence. Pay him no heed, <CHARNAME>."
-48889,"Ah, yes. The infamous capacity for drow compassion is revealed once again. Ignore her, <CHARNAME>, and let us get this task over with quickly."
-48901,"Ah, Berinvar, <CHARNAME> is not a Harper, but I certainly am. Will you treat my guests as friends and answer? I assume the guardians are spectral harpists?"
+48815,"I see. A Zhentish agent, if I recall, but one of no consequence. Pay him no heed."
+48889,"Ah, yes. The infamous capacity for drow compassion is revealed once again. Ignore her, and let us get this task over with quickly."
+48901,"Ah, Berinvar is not a Harper, but I certainly am. Will you treat my guests as friends and answer? I assume the guardians are spectral harpists?"
 48907,He and the others seem preoccupied with the trinkets around their necks. I find it odd I have not heard of this before now. Harpers do not often wear symbols to make themselves *more* noticeable.
-48924,"This person makes me ill. <CHARNAME>, I suggest we move on before I ignore the greater balance and return him to the dust."
+48924,This person makes me ill. I suggest we move on before I ignore the greater balance and return him to the dust.
 48926,No doubt you have plied your trade on good folk as well in the past. Your balance will come in the end. Nothing goes unpunished.
 48951,"The confines of the city do much to chisel at the sanity of its inhabitants, but I wonder if there is some other force at work. We had best be wary."
 48960,"I'm not sure the lieutenant should go alone. We have evidence of the culprit, but we know nothing of his ability. There may be danger we are not aware of."
-48967,"His work?! What does he speak of? Quickly, <CHARNAME>, we must stop him before he escapes!"
-48976,"This... this place smells heavily of death, <CHARNAME>, and the evidence of it is all around us. Step carefully, for I believe we enter the workshop sanctum of a madman."
-48982,"I have little doubt, <CHARNAME>, that we will also find Lieutenant Aegisfield somewhere herein... Hopefully, the man is still alive."
+48967,"His work? What does he speak of? Quickly, we must stop him before he escapes!"
+48976,"This... this place smells heavily of death, and the evidence of it is all around us. Step carefully, for I believe we enter the workshop sanctum of a madman."
+48982,"I have little doubt, that we will also find Lieutenant Aegisfield somewhere herein... Hopefully, the man is still alive."
 49030,"You are mistaken, but I care not! Khalid will be avenged whether you stand aside willingly or not!"
 49206,"I should think not! Child, surely you are better than this? Are you certain of this choice?"
 49208,"That was unnecessarily harsh. I can see that we shall be at odds more often than not, drow."
 49248,Such a lack of compassion is unseemly for a knight. Would you have others judge you as quickly?
-49263,"One should not turn away an offered hand so quickly, <CHARNAME>, but I would be wary of its secretive origin. Perhaps we can find Imoen on our own."
+49263,"One should not turn away an offered hand so quickly, but I would be wary of its secretive origin. Perhaps we can find Imoen on our own."
 49282,Shadow Thieves? Perhaps we shall finally get answers as to their interest in us.
 49295,"My own Harpers have used us. I should have suspected... the gaudy necklaces, the invitation. Ah well. If Xzar was doing as she said, he deserved his fate."
 49322,"I was wondering when you would turn up, Zhent. I had suspected our parting would not be permanent when last we met, and it appears my suspicions were correct."
-49339,"Be wary, <CHARNAME>, the Harpers will not brook interference lightly, and this Zhent likely holds only the worst of intentions in his heart."
-49347,"Well, if you wish to investigate what has happened to the spy, that is up to you, <CHARNAME>. I suggest caution and perhaps some common sense."
+49339,"Be wary, the Harpers will not brook interference lightly, and this Zhent likely holds only the worst of intentions in his heart."
+49347,"Well, if you wish to investigate what has happened to the spy, that is up to you. I suggest caution and perhaps some common sense."
 49348,"If the Harpers will even speak to us, which I doubt, they certainly will not reveal what they did with the halfling. Best not to ask about him directly."
 49384,"It is good that this is the final of these tasks set for us. I've no taste for bounty hunting, but let us find this thief and have the deed done with quickly."
 49404,"Yes, this is an odd structure for the Harpers to erect. I have never heard of an opulent base such as this. Secrecy has always been the watchword before."
 49410,"I am a Harper, Meronia. May I be allowed to speak to these guardians? I assume they are spectral harpists. Perhaps they could satisfy my... curiosity."
 49419,"Yes... I've noticed the amulets you wear. I've heard of the Harper pins, but nothing of these. Is this a local custom?"
 49489,"Your memory is selective, Red Wizard. Why do you now work with Shadow Thieves, and what is your connection to our capture by Irenicus? Khalid is dead, and I will have an answer!"
-49540,"How about conscience, dwarf? Or morality? Perhaps <CHARNAME> knows what is best."
+49540,"How about conscience, dwarf? Or morality? Perhaps you knows what is best."
 49552,"Do not make us laugh, thief master. We have heard of your guild war. You would not approach outsiders if your own house were strong and solid, hm?"
-49553,<CHARNAME>! You would abandon Imoen here? I would rather leave myself than have you cast her away in this place. It is not right.
-49586,"You would leave a person in obvious distress to his own devices? I would have expected better of you, <CHARNAME>."
-49599,"But it is the truth, is it not? I am a Harper myself, and we simply wish to be treated as guests. <CHARNAME> did bring you your poisoned friend, after all."
-49606,"That was foolish, <CHARNAME>! The Harpers could have helped you. *sigh* But I suppose you will do as you always have, stubborn <PRO_MANWOMAN>."
+49553,You would abandon Imoen here? I would rather leave myself than have you cast her away in this place. It is not right.
+49586,You would leave a person in obvious distress to his own devices? I would have expected better of you.
+49599,"But it is the truth, is it not? I am a Harper myself, and we simply wish to be treated as guests. you did bring you your poisoned friend, after all."
+49606,"That was foolish! The Harpers could have helped you. *sigh* But I suppose you will do as you always have, stubborn person."
 49608,"I am a Harper, friend, and I think I see where this is heading... Is all this really necessary?"
 49609,"*sigh* If the Harpers have asked this task to judge your worthiness, then there is no way around it. Let us proceed and be done with these ""creatures."""
-49612,"Hmm, I am surprised they are letting us in, even after all this. I warn you, <CHARNAME>, be polite. Our reason for being here is questionable enough as it is."
+49612,"Hmm, I am surprised they are letting us in, even after all this. I warn you, be polite. Our reason for being here is questionable enough as it is."
 49627,"Hmmm... it's nice to know there's a ""softer"" and ""sweeter"" side to you... ""Eddie."""
 49631,"And all feared the Slayer, for it walked like a mortal, but in its wake there came murder, and in the future, there was death."
-49778,"This is a dark place to meet this woman, <CHARNAME>, and I sense an unnaturalness about her that is disturbing to me. Step carefully."
-49783,"How does she know of our link to the Shadow Thieves? And what would they think of this meeting? Be careful, <CHARNAME>, our lives may hang in the balance."
-49812,"Boldly said, creature, yet you do not face us. <CHARNAME> has been underestimated by far better. You will rue the day of conflict when it comes, I think."
+49778,"This is a dark place to meet this woman, and I sense an unnaturalness about her that is disturbing to me. Step carefully."
+49783,"How does she know of our link to the Shadow Thieves? And what would they think of this meeting? Be careful, our lives may hang in the balance."
+49812,"Boldly said, creature, yet you do not face us. you have been underestimated by far better. You will rue the day of conflict when it comes, I think."
 49886,"Step slowly, you do not look well at all. How do you feel?"
-49913,"You have your money, <CHARNAME>, but you could have avoided the inevitable reputation of a kidnapper. Sometimes I think you act without due consideration."
+49913,"You have your money, but you could have avoided the inevitable reputation of a kidnapper. Sometimes I think you act without due consideration."
 49920,"Are you well? I am growing very worried about you, you know. I should not like to lose you in this evil place."
-49924,"<CHARNAME>? Your lips move, but there is no sound. <CHARNAME>? <CHARNAME>!"
+49924,"Your lips move, but there is no sound. you!"
 49953,"Nature is not so vindictive, fool. It cares not who prostrates before it, it cares only that the balance is maintained."
-49963,"This is the hilt of a long sword. It appears to have been forged by a fine craftsman, even though the blade was broken off long ago and the pommel is obviously missing a large gem.
-
-STATISTICS:
-
-Weight: 2"
+49963,"This is the hilt of a long sword. It appears to have been forged by a fine craftsman, even though the blade was broken off long ago and the pommel is obviously missing a large gem. STATISTICS: Weight: 2"
 49969,You would have killed me if I had let you. You would have left me to rot in this place.
 49974,"I'm not sure you should try to control it. We must distance you from it, not embrace it. We will make do despite the danger."
 49975,"No, you should not be alone during this. We will get through, I am sure. We just have to keep going, no matter what comes."
 49976,You are not the only one affected by this! It is so hard to see you...
-49977,"<CHARNAME>, please, let's just keep moving. We'll get through, I'm sure of it. Really."
+49977,"Please, let's just keep moving. We'll get through, I'm sure of it. Really."
 50006,Are you well? It would only be fitting to take some time to rest. You have been through quite an ordeal.
 50011,"Very well, but keep me apprised of your condition. Imoen supposedly went through the same ritual, but she did not seem to suffer from sudden attacks like that."
 50013,"That is troubling. I do not know what effect having the ritual had on you, but it does appear to be different from what Imoen suffered. Odd."
-50037,"I am glad that you have chosen this course, <CHARNAME>. This cult stinks of wrongness, an affront against nature that must be stopped!"
-50053,"You align yourself with a temple that threatens its followers? You would bow down before a vindictive god, <CHARNAME>? You are strange indeed."
-50100,"Hold, <CHARNAME>, do not be foolish! You there... how can we be certain of your innocence? Why are you here if you are no longer members of the cult?"
-50121,"<CHARNAME>! This... this is the same child-killing gnome from Baldur's Gate! I remember! For the greater balance, his head must be brought to the authorities!"
+50037,"I am glad that you have chosen this course. This cult stinks of wrongness, an affront against nature that must be stopped!"
+50053,You align yourself with a temple that threatens its followers? You would bow down before a vindictive god? You are strange indeed.
+50100,"Hold, do not be foolish! You there... how can we be certain of your innocence? Why are you here if you are no longer members of the cult?"
+50121,"This... this is the same child-killing gnome from Baldur's Gate! I remember! For the greater balance, his head must be brought to the authorities!"
 50124,"I... I understand. It is an avatar of a faded god, left guarding an item that has waned in power. Loathing has replaced the worship of his followers. A lingering fate."
 50534,"I have no love for drow, or for this drow in particular... but it seems that she has done nothing to deserve this fate other than simply be a drow. This is not justice."
-50555,"Is that what you see as justice, <CHARNAME>? I sensed great sadness behind her darkness. With balance, she might have been... well, who knows?"
+50555,"Is that what you see as justice? I sensed great sadness behind her darkness. With balance, she might have been... well, who knows?"
 50566,"Truth be known, I am not opposed to having Viconia travel with us. Remember, though, that many will think less of us simply because she is here."
-50639,<CHARNAME>? Are you... yourself? That was... the Slayer! You became a form of the avatar of Bhaal... but the god is dead...
-50640,"<CHARNAME>, this is not right at all."
-50660,"<CHARNAME>, we had best move quickly! The mages you have let loose will need direction, or they will be impossible to control."
-50957,"We must be subservient, <CHARNAME>. To them, we are lesser drow and no doubt under suspicion. Any sign of disobedience would bring scrutiny upon us."
+50639,Are you... yourself? That was... the Slayer! You became a form of the avatar of Bhaal... but the god is dead...
+50640,This is not right at all.
+50660,"We had best move quickly! The mages you have let loose will need direction, or they will be impossible to control."
+50957,"We must be subservient. To them, we are lesser drow and no doubt under suspicion. Any sign of disobedience would bring scrutiny upon us."
 50958,"The drow have a harsh culture, one I am not overly familiar with. We must harden our hearts if we are to blend in. The alternative is discovery and death."
-51254,"Just what are you on to, <CHARNAME>? You think I am blind, not to see your foolish behavior with the drow woman? Why would you play such an idiotic game...? Do you not remember our situation?"
+51254,"Just what are you on to? You think I am blind, not to see your foolish behavior with the drow woman? Why would you play such an idiotic game...? Do you not remember our situation?"
 51261,Jealous of a simple drow that turns her eyes up at you? Is your opinion of me so low? I merely think that flirtations will gain nothing and endanger us all.
 51264,It is a foolish one. Drow enjoy neither affection nor intense attraction. Sex is nothing but a game to them. To indulge would be... disappointing.
 51265,"Oh? I am disappointed. Indulge your carnality, by all means, if it means so much to you. I shall say no more on that subject or any other."
-52240,"You spent quite some time in the drow woman's chambers, <CHARNAME>. Care to elaborate what you were about, as if I did not know?"
+52240,"You spent quite some time in the drow woman's chambers. Care to elaborate what you were about, as if I did not know?"
 52246,"I suppose that is true enough, although I can think of several lies you might have tried for our sake. But I trust you enough. Let us just... move on."
 52247,Hmph. You are just the sort to lie to me about this. And that this makes me uncomfortable is even worse. I think I prefer to be on my own for a time.
 52248,"I know the purpose. Simple self-gratification, or do you maintain there was no way to avoid the situation? Ahhh, enough... I do not want to hear any more."
 52249,"I am sorry too, and disappointed, but I suppose it could not be avoided... with you being male and in this guise. I shall... attempt to forget about it."
 52250,"No? Very well. I shall endeavor to keep my shrewish opinions to myself, on this and all other matters regarding us."
 52251,Hmmm... out so soon? Did the drow woman not dig her claws into you successfully? That is good. I shudder to think what might have happened otherwise.
-52293,"How can you refuse so coldly? I will not stand idly by. Nalia... we will aid you, as will <CHARNAME>, I am sure. What is the problem, precisely?"
-55188,"A bitter end to a terrible man. We did well, I think, but I am not certain that all has been restored to as it was. <CHARNAME>? Do you feel any different?"
-55210,"It... it is not finished, is it? This is death... and your strange power has dragged me here with you. ...So be it then. We stand together until the end."
+52293,"How can you refuse so coldly? I will not stand idly by. Nalia... we will aid you, as will you, I am sure. What is the problem, precisely?"
+55188,"A bitter end to a terrible man. We did well, I think, but I am not certain that all has been restored to as it was. Do you feel any different?"
+55210,"It... it is not finished, is it? This is death... and your strange power has dragged me here with you....So be it then. We stand together until the end."
 55650,I understand plenty already! This place reeks of corruption and deceit!
 55671,"Rest, child. None of this group shall harm you."
 55672,Oh? Is that what those retching noises were? I thought that perhaps there was a wounded seal somewhere onboard giving birth.
@@ -430,58 +426,58 @@ Weight: 2"
 55693,These are the same creatures we fought when we entered the lair of the vampire that was aligned against your own guild. Bodhi must be nearby indeed.
 55698,"Do you spend all your time in the guise of others, child? Do you not take solace in the balance of your true self?"
 55726,War? War amongst the elves? What could that mean? How could even Irenicus start such a thing? That would bring nothing but ruin!
-55740,"As much as I should not trust his advice, he may have a point, <CHARNAME>. There are powerful mages above who may be the difference between life and death."
+55740,"As much as I should not trust his advice, he may have a point. There are powerful mages above who may be the difference between life and death."
 55779,"What revenge do *you* have, wizard? You killed my Khalid with no more thought than one would give to a fly! I shall have *my* revenge! Nature's fury shall strike you down!"
-55788,"You think us fools?! You knew your ship was scuttled when you first spoke to us, didn't you?! You seek to use us somehow!"
+55788,"You think us fools? You knew your ship was scuttled when you first spoke to us, didn't you? You seek to use us somehow!"
 55809,She sees the universe unrestricted. It is amazing that she manages to be as lucid as she is.
 55813,"And what would you have to do with that, Edwin? Perhaps if ego were all that was required."
-55821,"I should have known. Once again your peculiar destiny has drawn us into something, <CHARNAME>. Even the shark gods flounder in anticipation of your arrival."
+55821,I should have known. Once again your peculiar destiny has drawn us into something. Even the shark gods flounder in anticipation of your arrival.
 55840,"I have never known you to be so judgmental, paladin. Surely you do not label all sahuagin so? Condemn them all to death and you are no better than they."
 55859,"Must it come to slaughter, sahuagin? Your priestesses speak of your entire people needing your blood... Have you attempted to resolve this with the king peacefully?"
 55876,"Well, Viconia. It would seem you carry less weight than you thought. He questions your worth, rightfully so."
-55889,"A most underhanded maneuver, <CHARNAME>. Although I am sure it is no less than Phaere might have planned for us. There is an ironic justice in this, no?"
+55889,"A most underhanded maneuver. Although I am sure it is no less than Phaere might have planned for us. There is an ironic justice in this, no?"
 55895,So... a war? Open battle between the drow and the surface has not occurred in... eons. With a greater demon to back them... I truly wonder why Irenicus would do this.
-55913,"You would commit such a sacrilege against nature?! Had I known, I would never have accompanied you! No, I will not let this be!"
+55913,"You would commit such a sacrilege against nature? Had I known, I would never have accompanied you! No, I will not let this be!"
 55921,"As much as I despise this form, it does seem to have captivated our friend here. He seems fearful."
-55934,"Despite what she says, <CHARNAME>, we may be able to use this situation to our advantage. Perhaps there is no need to kill Solaufein. Consider this, at least."
-55948,"Drow roaming the surface, even the most noble, should expect an occasional misunderstanding. I am sure this can be worked out, <CHARNAME>... I suggest you try."
-55966,"This drow is well respected by the Harpers, <CHARNAME>. I will not assist you fighting him. I will return to Athkatla; consider your idiocy before we speak again."
-55997,"An excellent idea, <CHARNAME>. Adding Drizzt and his companions to our battle against Bodhi will certainly tip the scales. You show great wisdom."
-56009,"I know of this one, <CHARNAME>, from the Harpers. A drow of good alignment and heroic reputation. He is deserving of respect."
+55934,"Despite what she says, we may be able to use this situation to our advantage. Perhaps there is no need to kill Solaufein. Consider this, at least."
+55948,"Drow roaming the surface, even the most noble, should expect an occasional misunderstanding. I am sure this can be worked out... I suggest you try."
+55966,This drow is well respected by the Harpers. I will not assist you fighting him. I will return to Athkatla; consider your idiocy before we speak again.
+55997,An excellent idea. Adding Drizzt and his companions to our battle against Bodhi will certainly tip the scales. You show great wisdom.
+56009,"I know of this one, from the Harpers. A drow of good alignment and heroic reputation. He is deserving of respect."
 56041,"A fine sentiment, Cernd, though we may be forced into more trouble than we wish."
 56080,That was close. We must make an effort to act as we appear.
 56083,The Seldarine? The collection of elven gods led by Corellon Larethian? How would he ever propose to join such ranks? Mad! Mad!
 56085,"Your soul is borrowed, and it shall be returned. You are a blight upon nature, and you shall be destroyed!"
 56087,"Edwin, in some another time... some other place, such a comment would get you a beating of mythic proportions. It may yet."
 56111,"No more platitudes, Irenicus. You have taken much from all of us. Now you die your final death!"
-56130,<CHARNAME>! I will not let you do this! You will not murder those that beg for aid! Who will follow me?!
+56130,I will not let you do this! You will not murder those that beg for aid! Who will follow me?
 56154,It would appear that neither of us have much of a choice in the matter. We must trust one another.
-56162,"Of course, my Lady Adalon. <CHARNAME>, do keep quiet."
+56162,"Of course, my Lady Adalon. do keep quiet."
 56165,It is unfortunate that they did not offend you in some way. We might have been spared the headache of this journey if they had to face an angry silver.
 56174,To become such a hated thing... I do not look forward to that.
 56176,"You should have made more of an effort. We have an obligation to destroy you, as if we needed more reasons."
-56413,"Knock him on the head? It is obvious this lout has no compassion for others and no inclination of how nature must be protected. Ignore him, <CHARNAME>."
-56417,"<CHARNAME>, you can't seriously consider poisoning this font. If there is evil there, we must cleanse it. To destroy it is sacrilege! I will not allow it!"
-56425,"No, <CHARNAME>, no! This is evil! You poison nature itself! I shall not partake in this... who stands with me?!"
+56413,Knock him on the head? It is obvious this lout has no compassion for others and no inclination of how nature must be protected. Ignore him.
+56417,"You can't seriously consider poisoning this font. If there is evil there, we must cleanse it. To destroy it is sacrilege! I will not allow it!"
+56425,"No, no! This is evil! You poison nature itself! I shall not partake in this... who stands with me?"
 56453,"These people are slaves, mentally as well as physically, controlled despite themselves. All we can offer them, unfortunately, is a quick death."
 56457,"There are many who easily sidestep laws through wealth. Perhaps, in this case, it would be best to see why the law has failed so."
 56461,"The law may not be able to do anything, Anomen, but such men as this Saerk always trip over their own schemes. If he is responsible, he will pay, as you say."
 56465,"Too many of the wealthy escape justice, yes. If you are sure that Saerk is responsible for the death of your sister, then we must ensure he pays dearly!"
-56470,By... by the gods! You foolish man! Can you say that this young woman was a murderer as well?! You have murdered an innocent!
-56474,"I have the feeling we are intruding on a very private matter, <CHARNAME>. I feel uncomfortable with our intrusion; perhaps we should leave..."
+56470,By... by the gods! You foolish man! Can you say that this young woman was a murderer as well? You have murdered an innocent!
+56474,I have the feeling we are intruding on a very private matter. I feel uncomfortable with our intrusion; perhaps we should leave...
 56481,"A fair line easily used by servants of the wizard themselves. We have been imprisoned and worse, and given many reasons to distrust strangers we encounter."
-56487,"You have extorted a payment from Raelis in return for our help, <CHARNAME>. I do not agree with this decision... it smacks of selfish greed."
-56498,"We must be calm, <CHARNAME>. Vengeance will only bring conflict with the guard. To help Nalia, we must prove that our cause is just... there is no other way."
+56487,You have extorted a payment from Raelis in return for our help. I do not agree with this decision... it smacks of selfish greed.
+56498,"We must be calm. Vengeance will only bring conflict with the guard. To help Nalia, we must prove that our cause is just... there is no other way."
 56508,"A mind flayer? Here? A spy perhaps, using its psionic powers to keep its secret. Strange that Jan's mad uncle should be aware of its presence."
 56516,"You speak as if unaware of class distinction, and yet your manner exudes it. A sign of immaturity... perhaps adventuring is not the place for you."
-56517,"You speak as if unaware of class distinction, and yet your manner exudes it. A sign of immaturity... good, then, that <CHARNAME> is sending you ahead."
+56517,"You speak as if unaware of class distinction, and yet your manner exudes it. A sign of immaturity... good, then, that you are sending you ahead."
 56528,You dare reprimand those who have died defending you? Even now they strive to protect you from evil you don't even understand! You could have been dead!
 56551,"I have no fear for his well-being, monster."
 56877,"Where? Where exactly is it being put to good use? We are not to be played with, Linvail. I should like to see results, and I should like to see them soon."
 56899,"Oh, how generous. Do you expect that to compensate while you delay our more important concerns? We have friends in need of rescue and vengeance both!"
 56906,And vengeance!
 57066,"I see. You must be the rogue, Jarlaxle, that was mentioned to us, yes?"
-57396,"A poor thing, <CHARNAME>. We could have done better by these people with minimal effort. It is a better fate than what the drow had in store, however."
+57396,"A poor thing. We could have done better by these people with minimal effort. It is a better fate than what the drow had in store, however."
 57455,"No. ""Veldrin"" would not be interested in such diversions, male. I... as a female, I command you to stand away from him. Slug."
 57903,"Yes, declare your loyalty, Viconia. When you eventually betray us, I will hold your statement up as proof of the untrustworthy nature of your kind."
 57911,"Cernd, I would normally bow to your wisdom, but in this matter, I think you are... mistaken. I make no protest; I merely wish to state my opinion."
@@ -491,7 +487,7 @@ Weight: 2"
 58186,"Not just thieves, but traitorous thieves. Our associations sink ever lower in Aran's service. Let's get this over with."
 58187,"I have heard some in the Harpers speak of it. It is more than a prison or supposed asylum; it is a place to forget people that are ""troublesome."""
 58198,"Long ago, I promised to assist you if your adopted father fell. That promise has not expired, nor has your worthiness. I stand with you if you will have me."
-58247,"It is not necessary to say anything, <CHARNAME>. I know what comes next... I know what may happen. To either of us."
+58247,It is not necessary to say anything. I know what comes next... I know what may happen. To either of us.
 58248,We have been through too much to let that stop what you must do. For all the pain that losing Khalid brought... I would not give up our years of good works.
 58249,Let us regain your soul and make you whole again. And what comes after... comes after. I look forward to it... should the gods prove willing.
 58518,"No, Valygar, we shall not give up on you. The Cowled Wizards believe much if they think to use everyone as they wish. You will receive nothing this day, mage!"
@@ -499,13 +495,13 @@ Weight: 2"
 60891,"I no more want the trip than you do, so I will not force and I will not leave, but I cannot rest easy until we go."
 60892,"If you wish, Dermin, you may return whence you came with the message that ""Jaheira the Harper"" is dead."
 60893,"Perhaps we will meet again, but I shall not look forward to it!"
-61015,I find it odd that this Irenicus would leave of his own volition. And why take Imoen when it is <CHARNAME> he is so obviously interested in? Perhaps he expects us to give chase?
+61015,I find it odd that this Irenicus would leave of his own volition. And why take Imoen when it is you he is so obviously interested in? Perhaps he expects us to give chase?
 61016,"We must step carefully then. We know little about him... whom he was fighting, who took him, or even where we are. We seem to be drawn into machinations not of our own making."
 61018,"Do not be foolish, Minsc. We must know our enemies... and the extent of our danger here... before we rush into anything."
-74583,"You can't work with such as this, <CHARNAME>. Have you forgotten all that Gorion taught you?"
-74809,"Take a moment and think, <CHARNAME>. What would Gorion say about this pointless bloodshed?"
-75712,"Careful, <CHARNAME>. We want to walk into the gorge, not fall into it."
-77110,"Beware, <CHARNAME>. You cannot trust a tanar'ri."
+74583,You can't work with such as this. Have you forgotten all that Gorion taught you?
+74809,Take a moment and think. What would Gorion say about this pointless bloodshed?
+75712,"Careful. We want to walk into the gorge, not fall into it."
+77110,Beware. You cannot trust a tanar'ri.
 81447,An evil one.
 87844,We must proceed with caution. The Red Wizards are devious. They will expect retaliation.
 88081,"Animals should be wild, not kept as pets by wandering heroes. Tell Barad the gift is appreciated but inappropriate."
@@ -513,9 +509,9 @@ Weight: 2"
 89488,"Ha. My advice has the virtue of being in the common tongue, at least. And I can take the shape of a bear when I please."
 89527,Refusing to engage with him further was wise. I sense that he is a part of the magic that infects this forest.
 96641,You disappoint me more than I could ever say. I am glad Gorion is not around to see this.
-100114,"<CHARNAME>, do you think it wise to spend so much time with Dorn? He seems to have taken an unhealthy interest in you."
+100114,Do you think it wise to spend so much time with Dorn? He seems to have taken an unhealthy interest in you.
 100115,He is not to be trusted.
 100116,He is a murderous half-orc with an unquenchable bloodlust. He is incapable of the feelings you and I possess.
 100117,"If you intend to take up with a barbaric half-orc, I must end this."
-100118,"I am relieved to hear that, <CHARNAME>."
+100118,I am relieved to hear that.
 100119,I am glad Gorion did not live to see this.

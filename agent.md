@@ -1,440 +1,342 @@
-# Agent Configuration & Requirements
+# Agent Responsibilities
 
-## Overview
+This document provides operational guidelines for AI agents working on this repository, including where new files should be placed.
 
-This document describes the AI agent configuration and required settings to successfully work with the BG2 Voiceover Automation project.
+## Mission
+- Maintain the BG2 voiceover pipeline from raw exports through WeiDU installation.
+- Ensure sanitization scripts and synthesis tooling remain functional.
+- Introduce blueprint enhancements without disrupting existing Chapter 1 workflows.
 
----
-
-## Required Environment Settings
-
-### 1. Index-TTS Configuration
-
-**Installation Path:**
-```
-C:\Users\tenod\source\repos\TTS\index-tts
-```
-
-**Virtual Environment:**
-- Location: `C:\Users\tenod\source\repos\TTS\index-tts\.venv`
-- Activation command: `.venv\Scripts\Activate.ps1` (PowerShell)
-- Python executable: `.venv\Scripts\python.exe`
-
-**Checkpoints:**
-- Location: `C:\Users\tenod\source\repos\TTS\index-tts\checkpoints`
-- Required files:
-  - `config.yaml` - Index-TTS configuration
-  - Model checkpoint files (downloaded during Index-TTS setup)
-
-**CLI Executable:**
-- Path: `C:\Users\tenod\source\repos\TTS\index-tts\.venv\Scripts\indextts.exe`
-- Invoked by `scripts/synth.py` with subprocess module
-
-### 2. BG2EE Game Installation
-
-**Game Directory:**
-```
-E:\SteamLibrary\steamapps\common\Baldur's Gate II Enhanced Edition
-```
-
-**Key Files:**
-- `Baldur.exe` - Game executable
-- `chitin.key` - Resource index (required for WeiDU detection)
-- `lang\en_us\dialog.tlk` - Dialogue string table (modified by WeiDU)
-- `override\` - Directory for mod overrides
-
-### 3. Repository Structure
-
-**Project Root:**
-```
-C:\Users\tenod\source\repos\BG2 Voiceover
-```
-
-**Critical Directories:**
-- `data/` - Input data (lines.csv, voices.json)
-- `scripts/` - Python automation scripts
-- `build/OGG/` - Generated audio output (StrRef.wav format)
-- `mod/vvoBG/OGG/` - Staged audio for WeiDU (OHStrRef.wav format)
-- `refs/` - Reference audio for voice cloning
+## Key References
+- `docs/workflows/COMPLETE_WORKFLOW.md`: **Complete end-to-end workflow documentation** - the definitive guide for the entire synthesis pipeline from data collection through packaging.
+- `docs/getting-started/CHAPTER_PIPELINE.md`: chapter-by-chapter checklist.
+- `docs/reference/ARCHITECTURE.md`: repository structure and data flow.
+- `docs/guides/`: how-to guides for specific tasks.
 
 ---
 
-## Python Environment
+## File Placement Guidelines
 
-### Dependencies
+### Where to Put New Files
 
-The project uses Python 3.10+ with the following requirements:
+#### **Scripts** → `scripts/`
 
+Place new Python scripts in the appropriate subdirectory:
+
+- **`scripts/core/`** - Essential workflow scripts
+  - Synthesis, deployment, data conversion
+  - Examples: synth.py, deploy.py, convert_d_to_csv.py
+  - **Add here if**: Script is part of main Chapter N workflow
+
+- **`scripts/voice_design/`** - Voice reference & audition tools
+  - Voice creation, testing, and preset management
+  - Examples: audition.py, create_reference.py, build_refs.py
+  - **Add here if**: Script helps design/test voices for characters
+
+- **`scripts/utils/`** - Helper & monitoring scripts
+  - Progress monitoring, verification, testing
+  - Examples: check_progress.py, verify_install.py, test_audio.py
+  - **Add here if**: Script is a utility/helper tool
+
+- **`scripts/stubs/`** - Experimental/incomplete scripts
+  - Not yet fully implemented or documented
+  - Examples: gen_pseudorefs.py, synth_cache.py
+  - **Add here if**: Script is experimental or work-in-progress
+
+**Important**: All scripts must use `ROOT = Path(__file__).resolve().parents[2]` to find project root.
+
+#### **Documentation** → `docs/`
+
+Place new documentation in the appropriate subdirectory:
+
+- **`docs/getting-started/`** - Quickstart & workflow guides
+  - Current status, integration testing, pipeline workflows
+  - **Add here if**: Doc helps someone get started or understand current state
+
+- **`docs/guides/`** - How-to guides
+  - Step-by-step instructions for specific tasks
+  - Examples: voice config, character setup, audition process
+  - **Add here if**: Doc explains HOW to do something specific
+
+- **`docs/reference/`** - Technical reference
+  - Architecture, API docs, presets, testing procedures
+  - **Add here if**: Doc explains technical details or serves as reference
+
+- **`docs/dev/`** - Development & contributing
+  - This file, development guidelines, Near Infinity tools
+  - **Add here if**: Doc is for contributors/developers
+
+#### **Data Files** → `data/` (active only)
+
+- **Active datasets**: lines.csv, voices.json, characters.csv, chapterN_lines.csv
+- **Chapter splits**: chapter1_split/, chapter2_split/, etc.
+- **Metadata**: chapterN_targets.csv
+
+**DO NOT add**: Analysis outputs, temporary files, experimental CSVs
+→ Those go to `archive/data/` if they need to be kept
+
+#### **Configuration** → `config/`
+
+- **Templates**: voices.sample.json (staging/experimentation)
+- **Defaults**: defaults.yaml (system paths and settings)
+
+**Production config**: `data/voices.json` (not in config/)
+
+#### **Source Code** → `src/bg2vo/`
+
+Python package modules only:
+- Core functionality used by multiple scripts
+- Examples: config.py, lines.py, voices.py, audit.py
+
+#### **Tests** → `tests/`
+
+All pytest test files.
+
+#### **Build Outputs** → `build/`
+
+Generated audio files (OGG/, split/, etc.)
+
+#### **Historical/Archive** → `archive/`
+
+- Planning documents no longer actively used
+- Old analysis CSVs that can be regenerated
+- Superseded documentation
+
+**Never add new files here** - archive is for moving old files only.
+
+---
+
+## Agent Playbook
+
+### 1. Starting Work
+- **Read `docs/workflows/COMPLETE_WORKFLOW.md` first** - this is the comprehensive guide covering all 10 stages of the pipeline with exact commands, file locations, and troubleshooting.
+- Check `docs/getting-started/INTEGRATION_STATUS.md` for current state
+- Review `docs/getting-started/CHAPTER_PIPELINE.md` for workflow checklist
+- Consult relevant guides in `docs/guides/` for specific tasks
+
+### 2. Creating New Scripts
 ```python
-# No external packages required for core synthesis
-# synth.py uses only standard library: subprocess, csv, json, pathlib
+# Template for new scripts:
+from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parents[2]  # Project root
+sys.path.insert(0, str(ROOT / "src"))
+
+from bg2vo.config import load_config
+from bg2vo.lines import load_lines
+# ... rest of imports
 ```
 
-### Running Python Scripts
+**Then**:
+1. Place script in appropriate `scripts/` subdirectory
+2. Update `scripts/README.md` with script description
+3. Add `--help` argument for documentation
+4. Test thoroughly
+5. Document usage in relevant guide
 
-**From Repository Root:**
-```powershell
-cd "C:\Users\tenod\source\repos\BG2 Voiceover"
-python scripts/synth.py
-```
+### 3. Creating New Documentation
+1. Determine category (getting-started, guides, reference, or dev)
+2. Create markdown file in appropriate subdirectory
+3. Update parent directory README if needed
+4. Use relative links for cross-references:
+   - Same directory: `[text](FILE.md)`
+   - Parent: `[text](../FILE.md)`
+   - Other subdir: `[text](../other-dir/FILE.md)`
 
-**Note:** The agent should use the system Python, not the Index-TTS venv, to run `synth.py`. The script invokes Index-TTS via subprocess with absolute paths.
+### 4. Adding Test Data
+- **Active workflow data** → `data/`
+- **Analysis output** → Run once, verify, then move to `archive/data/`
+- **Temporary test files** → Use temp directory or build/, clean up after
+
+### 5. Before Committing
+- Run `pytest tests/` (ensure 4/4 passing)
+- Test key scripts: `synth.py --help`, `check_progress.py --help`, `deploy.py --help`
+- Verify no broken doc links
+- Update relevant documentation
 
 ---
 
-## Audio Format Specifications
+## Common Patterns
 
-### Generated Audio Requirements
-
-All synthesized audio must meet BG2EE specifications:
-
-- **Format:** WAV (RIFF)
-- **Channels:** Mono (1 channel)
-- **Bit Depth:** 16-bit PCM
-- **Sample Rate:** 22050 Hz
-- **Naming:** `OH<StrRef>.wav` (e.g., `OH38606.wav`)
-
-### Index-TTS Output
-
-Index-TTS produces audio matching these specs by default when using:
-```bash
-indextts.exe -c checkpoints/config.yaml -v <voice> -o <output.wav> "<text>"
+### Pattern: Adding a Chapter N Workflow Script
+```
+1. Create: scripts/core/process_chapterN.py
+2. Use: ROOT = Path(__file__).resolve().parents[2]
+3. Import: from bg2vo.config import load_config
+4. Document: Update scripts/README.md
+5. Test: python scripts/core/process_chapterN.py --help
 ```
 
-**Verification Command:**
-```powershell
-# Check audio properties
-Get-Item "build\OGG\38606.wav" | Select-Object Name, Length
+### Pattern: Adding a Voice Tool
+```
+1. Create: scripts/voice_design/new_tool.py
+2. Follow: Same ROOT pattern as above
+3. Document: Create docs/guides/NEW_TOOL_GUIDE.md
+4. Test: With sample data
 ```
 
----
-
-## WeiDU Configuration
-
-### Setup Files
-
-**WeiDU Installer Stub:**
-- File: `mod/setup-vvoBG.exe`
-- Version: 24900 (or later)
-- Purpose: Self-extracting installer for mod deployment
-
-**TP2 Script:**
-- File: `mod/vvoBG.tp2`
-- Format: WeiDU scripting language
-- Contains:
-  - `BACKUP` directive (backup location)
-  - `AUTHOR` metadata
-  - `BEGIN` component definitions
-  - `STRING_SET` commands (update dialog.tlk)
-  - `COPY` commands (deploy audio files)
-
-### Installation Process
-
-**Required Files at Game Root:**
+### Pattern: Adding Analysis Scripts
 ```
-E:\SteamLibrary\steamapps\common\Baldur's Gate II Enhanced Edition\
-├── setup-vvoBG.exe        # WeiDU installer
-├── vvoBG.tp2              # Mod definition
-└── vvoBG\                 # Mod folder
-    └── OGG\               # Audio assets
-        └── OH38606.wav    # Example audio
-```
-
-**Execution:**
-```powershell
-cd "E:\SteamLibrary\steamapps\common\Baldur's Gate II Enhanced Edition"
-.\setup-vvoBG.exe
-```
-
-**Expected Behavior:**
-- Detects `chitin.key` to confirm game directory
-- Prompts: `[I]nstall, or [N]ot Install or [Q]uit?`
-- On install: copies audio to `override/`, updates `dialog.tlk`
-- Outputs: `SUCCESSFULLY INSTALLED`
-
----
-
-## Agent Tool Usage Guidelines
-
-### File Operations
-
-**Reading Files:**
-- Use `read_file` for structured data: `data/lines.csv`, `data/voices.json`, `mod/vvoBG.tp2`
-- Use `list_dir` to verify directory structure
-
-**Creating/Editing Files:**
-- Use `create_file` for new Python scripts or config files
-- Use `replace_string_in_file` for targeted edits to existing files (e.g., adding lines to TP2)
-
-### Terminal Commands
-
-**Shell:** PowerShell 5.1 (Windows)
-
-**Common Operations:**
-```powershell
-# Copy files
-Copy-Item "source.wav" "destination.wav"
-
-# Copy directories recursively
-Copy-Item "mod\vvoBG" "E:\SteamLibrary\steamapps\common\Baldur's Gate II Enhanced Edition\" -Recurse
-
-# Check file existence
-Test-Path "override\OH38606.wav"
-
-# Run Python scripts
-python scripts\synth.py
-
-# Run WeiDU installer
-.\setup-vvoBG.exe
-```
-
-**Notes:**
-- Use `;` to chain commands on one line
-- Prefer absolute paths to avoid navigation issues
-- Use `-Recurse` flag for directory copies
-
-### Python Execution
-
-**Preferred Tool:** `mcp_pylance_mcp_s_pylanceRunCodeSnippet`
-
-**Why:**
-- Uses workspace Python interpreter
-- No shell escaping issues
-- Clean output formatting
-- Direct memory execution (no temp files)
-
-**Example Usage:**
-```python
-# Verify Index-TTS executable
-import pathlib
-indextts_path = pathlib.Path(r"C:\Users\tenod\source\repos\TTS\index-tts\.venv\Scripts\indextts.exe")
-print(f"Index-TTS exists: {indextts_path.exists()}")
+1. Create: scripts/utils/analyze_something.py
+2. Output: to build/ or temp location
+3. Archive: Move valuable outputs to archive/data/ after review
 ```
 
 ---
 
-## Critical Path Information
+## Tool Preferences
+
+**For Python execution:**
+- ✅ `mcp_pylance_mcp_s_pylanceRunCodeSnippet` (preferred - clean output, no shell issues)
+- ⚠️ `run_in_terminal` (only when subprocess interaction needed)
+
+**For file operations:**
+- ✅ `create_file` for new files
+- ✅ `replace_string_in_file` for targeted edits
+- ✅ `read_file` to verify before editing
+
+**For testing:**
+- ✅ Always run `pytest tests/` after structural changes
+- ✅ Test scripts with `--help` after moving/creating
+- ✅ Verify doc links after restructuring
+
+---
+
+## Complete Workflow Overview
+
+For the full detailed workflow, see `docs/workflows/COMPLETE_WORKFLOW.md`.
+
+**Quick Reference - 10 Stage Pipeline:**
+
+1. **Data Collection** - Gather WeiDU files, voice references, emotion prompts
+2. **Database Building** - `build_complete_lines_db.py` → `data/all_lines.csv`
+3. **Data Cleaning** - `clean_placeholders.py` + `split_chapters.py`
+4. **Voice Configuration** - `map_chapter1_speakers.py` + lock voices in `voices.json`
+5. **Target Generation** - `filter_chapter1_for_synth.py` → `chapter1_unvoiced_only.csv`
+6. **Batch Synthesis** - `synth_batch.py` using Index-TTS `.venv` → `build/OGG/*.wav`
+7. **Verification** - Re-run filter scripts to confirm 0 gaps
+8. **Quality Assurance** - Manual listening and adjustments
+9. **Packaging** - `deploy.py` → `mod/vvoBG/`
+10. **Iteration** - Repeat for next chapters
+
+**Critical Command:**
+```powershell
+C:/Users/tenod/source/repos/TTS/index-tts/.venv/Scripts/python.exe scripts/core/synth_batch.py --input data/chapter1_unvoiced_only.csv
+```
+
+---
+
+## Workflows
+
+### Complete Chapter Workflow
+
+1. **Export from Game**
+   - Use Near Infinity to export dialogue files
+   - See `../guides/NEAR_INFINITY_EXPORT_STEPS.md`
+
+2. **Convert to CSV**
+   ```powershell
+   python scripts/core/convert_d_to_csv.py
+   python scripts/core/near_infinity_join.py
+   ```
+
+3. **Configure Voices**
+   - Update `data/voices.json` with character voice mappings
+   - Create reference files if needed: `python scripts/voice_design/create_reference.py`
+   - See `../guides/VOICES_JSON_GUIDE.md`
+
+4. **Synthesize Audio**
+   ```powershell
+   # Synthesize chapter dialogue
+   python scripts/core/synth.py --chapter 1
+   
+   # Monitor progress (in another terminal)
+   python scripts/utils/check_progress.py --chapter 1
+   ```
+
+5. **Deploy to Mod**
+   ```powershell
+   # Deploy and generate TP2 entries
+   python scripts/core/deploy.py --chapter 1 --generate-tp2
+   ```
+
+6. **Install to Game**
+   ```powershell
+   # Copy mod files to game directory
+   Copy-Item mod/setup-vvoBG.exe "E:\SteamLibrary\...\Baldur's Gate II Enhanced Edition\"
+   Copy-Item mod/vvoBG.tp2 "E:\SteamLibrary\...\Baldur's Gate II Enhanced Edition\"
+   Copy-Item mod/vvoBG "E:\SteamLibrary\...\Baldur's Gate II Enhanced Edition\" -Recurse
+   
+   # Run WeiDU installer
+   cd "E:\SteamLibrary\...\Baldur's Gate II Enhanced Edition"
+   .\setup-vvoBG.exe
+   ```
+
+7. **Test In-Game**
+   - Launch BG2EE
+   - Load save or start in relevant chapter
+   - Trigger dialogue to verify audio plays
+
+---
+
+## Data Flow Pipelines
 
 ### Synthesis Pipeline
 
-1. **Input:** `data/lines.csv` (StrRef, Speaker, Text)
-2. **Voice Mapping:** `data/voices.json` (Speaker → Index-TTS voice)
-3. **Synthesis:** `scripts/synth.py` invokes `indextts.exe`
-4. **Output:** `build/OGG/<StrRef>.wav`
+```
+data/lines.csv           → Input: StrRef, Speaker, Text
+    ↓
+data/voices.json         → Voice mapping: Speaker → Index-TTS voice/reference
+    ↓
+scripts/core/synth.py    → Invokes Index-TTS for each line
+    ↓
+build/OGG/<StrRef>.wav   → Generated audio (e.g., 38606.wav)
+```
 
 ### Packaging Pipeline
 
-1. **Staging:** Copy `build/OGG/<StrRef>.wav` → `mod/vvoBG/OGG/OH<StrRef>.wav`
-2. **TP2 Update:** Add `STRING_SET` and `COPY` commands to `mod/vvoBG.tp2`
-3. **Deployment:** Copy `setup-vvoBG.exe`, `vvoBG.tp2`, and `vvoBG/` to game directory
+```
+build/OGG/<StrRef>.wav              → Generated audio
+    ↓
+scripts/core/deploy.py              → Copies and renames
+    ↓
+mod/vvoBG/OGG/OH<StrRef>.wav        → Staged for WeiDU (OH prefix added)
+    ↓
+mod/vvoBG.tp2                       → TP2 entries generated (STRING_SET + COPY)
+```
 
 ### Installation Pipeline
 
-1. **Execution:** Run `setup-vvoBG.exe` from game root
-2. **WeiDU Actions:**
-   - Copy `vvoBG/OGG/OH<StrRef>.wav` → `override/OH<StrRef>.wav`
-   - Update `lang/en_us/dialog.tlk` with string reference mappings
-3. **Verification:** Check `override/` for audio files
+```
+mod/setup-vvoBG.exe + vvoBG.tp2 + vvoBG/  → Copied to game directory
+    ↓
+setup-vvoBG.exe (executed)                → WeiDU installer runs
+    ↓
+override/OH<StrRef>.wav                   → Audio installed to game
+    +
+lang/en_us/dialog.tlk                     → String table updated
+```
 
 ---
 
-## Testing Procedures
+## Environment Paths (Reference)
 
-### 1. Verify Index-TTS Installation
+See archived `agent.md` for detailed environment setup. Key paths:
 
-```powershell
-C:\Users\tenod\source\repos\TTS\index-tts\.venv\Scripts\indextts.exe --help
-```
-
-**Expected Output:** Index-TTS CLI help text
-
-### 2. Test Single Line Synthesis
-
-```powershell
-cd "C:\Users\tenod\source\repos\BG2 Voiceover"
-python scripts/synth.py
-```
-
-**Expected Output:**
-- `Synthesizing line 38606 (Imoen): Wow, a golem...`
-- `build/OGG/38606.wav` created (~421 KB)
-
-### 3. Verify Audio Format
-
-```powershell
-# PowerShell verification
-Get-Item "build\OGG\38606.wav" | Select-Object Name, Length
-
-# Or use Python snippet
-import wave
-with wave.open(r"build\OGG\38606.wav", 'rb') as wav:
-    print(f"Channels: {wav.getnchannels()}, Sample Rate: {wav.getframerate()}, Bit Depth: {wav.getsampwidth()*8}")
-```
-
-**Expected:** Channels: 1, Sample Rate: 22050, Bit Depth: 16
-
-### 4. Stage Audio for WeiDU
-
-```powershell
-Copy-Item "build\OGG\38606.wav" "mod\vvoBG\OGG\OH38606.wav"
-Test-Path "mod\vvoBG\OGG\OH38606.wav"
-```
-
-**Expected:** `True`
-
-### 5. Deploy to Game Directory
-
-```powershell
-$GameDir = "E:\SteamLibrary\steamapps\common\Baldur's Gate II Enhanced Edition"
-Copy-Item "mod\setup-vvoBG.exe" "$GameDir\"
-Copy-Item "mod\vvoBG.tp2" "$GameDir\"
-Copy-Item "mod\vvoBG" "$GameDir\" -Recurse
-
-Test-Path "$GameDir\setup-vvoBG.exe"
-Test-Path "$GameDir\vvoBG.tp2"
-Test-Path "$GameDir\vvoBG\OGG\OH38606.wav"
-```
-
-**Expected:** All return `True`
-
-### 6. Run WeiDU Installer
-
-```powershell
-cd "E:\SteamLibrary\steamapps\common\Baldur's Gate II Enhanced Edition"
-.\setup-vvoBG.exe
-```
-
-**User Input:** Type `I` and press Enter
-
-**Expected Output:**
-```
-Installing [BG2 Voiceover: Imoen GOLEM line]
-Copying 1 file ...
-[.\lang\en_us\dialog.tlk] created, 104201 string entries
-SUCCESSFULLY INSTALLED      BG2 Voiceover: Imoen GOLEM line
-```
-
-### 7. Verify Installation
-
-```powershell
-Test-Path "E:\SteamLibrary\steamapps\common\Baldur's Gate II Enhanced Edition\override\OH38606.wav"
-```
-
-**Expected:** `True`
-
-### 8. In-Game Testing
-
-1. Launch BG2EE
-2. Load save or start new game in Irenicus's Dungeon
-3. Navigate to golem encounter area
-4. Trigger Imoen dialogue about the golem (StrRef 38606)
-5. **Expected:** Synthesized voice plays: "Wow, a golem. Powerful magic stuff..."
+- **Index-TTS**: `C:\Users\tenod\source\repos\TTS\index-tts`
+- **BG2EE**: `E:\SteamLibrary\steamapps\common\Baldur's Gate II Enhanced Edition`
+- **Repository**: `C:\Users\tenod\source\repos\BG2 Voiceover`
 
 ---
 
-## Common Issues & Solutions
+## Questions & Clarifications
 
-### Issue: Index-TTS Not Found
+When uncertain about file placement:
+1. Check this guide first
+2. Look at similar existing files for precedent
+3. Review `scripts/README.md` or `docs/` structure
+4. When in doubt, ask the user
 
-**Symptom:** `FileNotFoundError: [Errno 2] No such file or directory: 'indextts.exe'`
+**Golden Rule**: Keep active workflow files separate from archives, experiments separate from production.
 
-**Solution:**
-- Verify Index-TTS venv path in `scripts/synth.py`
-- Update `INDEXTTS_EXE` variable to absolute path:
-  ```python
-  INDEXTTS_EXE = r"C:\Users\tenod\source\repos\TTS\index-tts\.venv\Scripts\indextts.exe"
-  ```
-
-### Issue: WeiDU "Not a game directory"
-
-**Symptom:** `setup-vvoBG.exe` refuses to run
-
-**Solution:**
-- Navigate to game directory before running installer
-- Verify `chitin.key` exists in the directory
-- Do not run from repository; copy files to game root first
-
-### Issue: Audio Doesn't Play In-Game
-
-**Symptom:** Dialogue text displays but no audio
-
-**Solutions:**
-1. Check file naming: must be `OH<StrRef>.wav` (not `<StrRef>.wav`)
-2. Verify audio format: mono, 16-bit, 22050 Hz
-3. Confirm `override/OH38606.wav` exists and is readable
-4. Check `dialog.tlk` was updated (file size should increase)
-5. Ensure StrRef matches the actual in-game dialogue trigger
-
-### Issue: Wrong Voice/Speaker
-
-**Symptom:** Audio plays but sounds incorrect
-
-**Solutions:**
-1. Review `data/voices.json` speaker mapping
-2. Verify reference audio path is correct and file exists
-3. Try a different Index-TTS preset voice
-4. Re-synthesize with updated voice configuration
-
----
-
-## Agent Memory Checklist
-
-When working on this project, the agent should be aware of:
-
-- ✓ Index-TTS is at `C:\Users\tenod\source\repos\TTS\index-tts`
-- ✓ BG2EE is at `E:\SteamLibrary\steamapps\common\Baldur's Gate II Enhanced Edition`
-- ✓ Repository is at `C:\Users\tenod\source\repos\BG2 Voiceover`
-- ✓ Generated audio goes to `build/OGG/<StrRef>.wav`
-- ✓ Staged audio goes to `mod/vvoBG/OGG/OH<StrRef>.wav`
-- ✓ Installed audio goes to `override/OH<StrRef>.wav` in game directory
-- ✓ WeiDU requires execution from game root directory
-- ✓ Audio format: mono, 16-bit PCM, 22050 Hz WAV
-- ✓ String reference 38606 is Imoen's golem line (test case)
-- ✓ Use `mcp_pylance_mcp_s_pylanceRunCodeSnippet` for Python verification
-- ✓ Use PowerShell 5.1 syntax for terminal commands
-- ✓ TP2 uses `STRING_SET` to link strrefs to audio files
-- ✓ TP2 uses `COPY` to deploy audio to override folder
-
----
-
-## Future Automation Considerations
-
-### Batch Processing
-
-To voice multiple lines efficiently:
-
-1. **Auto-Staging Script:** Rename `build/OGG/*.wav` → `mod/vvoBG/OGG/OH*.wav`
-2. **TP2 Generation:** Parse `data/lines.csv` to generate all `STRING_SET` and `COPY` commands
-3. **Incremental Updates:** Only re-synthesize changed lines
-
-### Quality Assurance
-
-1. **Audio Validation:** Check format, duration, and quality metrics
-2. **Reference Mapping:** Verify speaker-to-voice assignments
-3. **In-Game Testing:** Automated trigger checks (if possible with scripting mods)
-
----
-
-## Version History
-
-- **v1.0** (2025-10-26): Initial configuration document
-  - Confirmed working pipeline for single-line synthesis (StrRef 38606)
-  - Documented Index-TTS integration, WeiDU packaging, BG2EE installation
-  - Verified in-game audio playback
-
----
-
-## Agent Tool Preferences
-
-**For this project, prefer:**
-- `mcp_pylance_mcp_s_pylanceRunCodeSnippet` over `run_in_terminal` for Python code
-- `create_file` for new data files (CSV, JSON, TP2)
-- `replace_string_in_file` for targeted edits (adding lines to existing TP2)
-- `read_file` to verify file contents before editing
-- Absolute paths in all operations to avoid navigation issues
-
-**Avoid:**
-- Creating temp files when direct execution is possible
-- Running `python -c "..."` in terminal (escaping issues)
-- Editing files manually via terminal commands (use file edit tools)
-- Assuming file locations (always verify with `Test-Path` or `list_dir`)

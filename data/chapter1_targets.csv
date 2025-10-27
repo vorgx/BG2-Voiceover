@@ -1,9 +1,9 @@
-Speaker,StrRefCount,LegacyClips,HasLegacyVO,DLGFile,Priority,Notes
-Imoen,94,0,No,IMOENJ.DLG,1,Free Imoen from her cell
-Minsc,292,0,No,MINSCJ.DLG,1,Free Minsc and Boo
-Jaheira,779,0,No,JAHEIRAJ.DLG,1,Free Jaheira and Khalid reveal
-Yoshimo,68,0,No,YOSHIMO.DLG,1,Recruit Yoshimo
-Portal,18,0,No,PORTAL.DLG,1,Portal genie trade
-Dryad,10,0,No,DRYAD.DLG,2,Dryads request acorns
-Rielev,45,0,No,RIELEV.DLG,2,Rielev dying prisoner
-Ilyich,3,0,No,ILYICH.DLG,1,Duergar leader guarding the exit
+Speaker,StrRefCount,LegacyClips,HasLegacyVO,DLGFile,Priority,Notes,Ch1Lines,RefFile,Status
+Jaheira,779,166,Yes,JAHEIRAJ.DLG,1,Free Jaheira and Khalid reveal - Stern druid widow,516,refs/jaheira_ref.wav,Locked
+Minsc,292,91,Yes,MINSCJ.DLG,1,Free Minsc and Boo - Boisterous ranger,257,refs/minsc_ref.wav,Locked
+Imoen,94,102,Yes,IMOENJ.DLG,1,Free Imoen from her cell - Cheery thief,65,refs/imoen_ref_multi.wav,Locked
+Yoshimo,68,72,Yes,YOSHIMO.DLG,1,Recruit Yoshimo - Charming bounty hunter,37,,Pending
+Rielev,45,0,No,RIELEV.DLG,2,Rielev dying prisoner,16,,Pending
+Valygar,18,90,Yes,VALYGAR.DLG,2,Valygar Corthala heir (was mislabeled as Portal),8,,Pending
+Ilyich,3,0,No,ILYICH.DLG,2,Duergar leader guarding the exit,4,,Pending
+Dryad,10,0,No,DRYAD.DLG,3,Dryads request acorns,2,,Pending

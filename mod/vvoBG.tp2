@@ -1,10 +1,12 @@
 BACKUP ~vvoBG/backup~
 AUTHOR ~BG2 Voiceover Automation~
 
-BEGIN ~BG2 Voiceover: Imoen GOLEM line~
+BEGIN ~BG2 Voiceover: Test (2 Imoen Lines)~
 
-// Ensure the dialog entry points to the synthesized audio
+// StrRef 38537 - Imoen: "I can help you too..."
+STRING_SET 38537 ~I can help you too. Should I not try? I hate to see you cooped up like that.~ [OH38537]
+COPY ~vvoBG/OGG/OH38537.wav~ ~override/OH38537.wav~
+
+// StrRef 38606 - Imoen: "Wow, a golem..."
 STRING_SET 38606 ~Wow, a golem. Powerful magic stuff. Odd that it's not hostile. I suppose its maker didn't expect us to escape, so it never got orders for restraining us.~ [OH38606]
-
-// Ship the generated wave into the override so the game can play it
 COPY ~vvoBG/OGG/OH38606.wav~ ~override/OH38606.wav~

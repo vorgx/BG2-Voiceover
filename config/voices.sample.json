@@ -1,0 +1,31 @@
+{
+  "_default_": {
+    "voice": "narrator",
+    "speed": 0.0,
+    "pitch": 0.0
+  },
+  "Jaheira": {
+    "voice": "female_determined",
+    "speed": -0.03,
+    "pitch": -0.05,
+    "notes": "Stoic ranger/druid cadence. Keep sentences crisp with a controlled tone."
+  },
+  "Minsc": {
+    "voice": "male_big_hearted",
+    "speed": 0.05,
+    "pitch": 0.08,
+    "notes": "High energy heroic delivery. Occasional wide dynamic swings for Boo references."
+  },
+  "Imoen": {
+    "voice": "female_lighthearted",
+    "speed": 0.04,
+    "pitch": 0.12,
+    "notes": "Warm and youthful with playful edges; soften during sombre recollections."
+  },
+  "Yoshimo": {
+    "voice": "male_rogue",
+    "speed": -0.01,
+    "pitch": 0.02,
+    "notes": "Measured and sly; hint of continental accent without becoming parody."
+  }
+}

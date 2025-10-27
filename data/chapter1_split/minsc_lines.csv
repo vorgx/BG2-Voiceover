@@ -61,7 +61,7 @@ StrRef,Text
 29854,This is a foolish question! Who travels with you? Minsc does! What else matters?
 29857,"Oops. I apologize. Next time, I let Boo answer."
 30107,"You cannot have Boo, little girl! But you may pet him and make pretty cooing noises if you wishes."
-33134,"Boo is not food, <CHARNAME>. Maybe I should throw you to the cute little meat-eaters and see how you like it?"
+33134,Boo is not food. Maybe I should throw you to the cute little meat-eaters and see how you like it?
 38668,This is silly! Buttons are not how one escapes dungeons! I would smash the button and rain beatings liberally down on the wizard for playing such a trick!
 38696,"Irenicus? There is a special place in my bootprint for him, and I shall fill it in the name of Dynaheir! Such evil to keep forest spirits locked away!"
 38723,"I would hate being forgotten in a bottle. It might depend somewhat on the type of bottle, but overall I expect the effect would be similar. It is not right."
@@ -69,19 +69,19 @@ StrRef,Text
 38774,Owl wizards?
 38779,"It is no risk! Not so long as we have swords and braveness to the brim of the tall glass of goodness! Right, Boo?"
 38911,I will protect my witch! EVIL SHALL SUFFER AT THE HANDS OF MINSC AND HIS WITCH! WOE TO THOSE WHO WOULD BRING DANGER TO AERIE!
-38936,<CHARNAME>! We must aid him! Evil stands before me and demands a quick kick in the posterior!
+38936,We must aid him! Evil stands before me and demands a quick kick in the posterior!
 38943,"I will not stand and watch men carting slaves! THEY SHALL FEEL MY BLADE AND BOOT AND BACKHAND AS WELL! GO FOR THE EYES, BOO, GO FOR THE EYES!"
 38960,"Hmmm... the sphere is awfully big for only 500 gold pieces. It might be a good bargain. What say you, Boo?"
 39182,"We shall go and save the village for the boy! I will crush the evil! All of the evil! Even the small, rodent-sized evil... although that is more Boo's job."
 39270,They throw this man into a pit with a wild beast? This is a crime against man AND nature! They will surely feel my wrath for this travesty!
 39288,"We are going to free this warrior and his people? This is a task of great honor! We shall be great heroes for this, heroes doing heroic things for all to see!"
 39353,"This man is a great evil if he does such things! The shining blades of goodness must be raised against him! Justice demands a painful, pointy thrashing!"
-39365,"More children kept as slaves! Boo is outraged by the evil that leaps about this city like a hot-footed weasel! We must save the children, <CHARNAME>, we must!"
+39365,"More children kept as slaves! Boo is outraged by the evil that leaps about this city like a hot-footed weasel! We must save the children, we must!"
 39403,"It cannot be! I would sooner tear out my eyes than strike down innocent animals! Well, perhaps only one eye... but do not think me any less incensed!"
 39410,"You will not! I will fight to save each and every creature, dwarf! The forest feeds and nurtures, and I will not hesitate to put a birch up your backside!"
 39411,"Why? I have never heard such head-biting villainy, except perhaps in the larger cities, but what passes for entertainment these days is not for me to decide."
 39412,"Your strange jest is wearing thin, dwarf. I suggest you sate yourself with chicken in the proper place and time, and leave the woodland creatures as they were."
-39419,"You insult <CHARNAME>, and you insult Minsc! There will be liberal butt-kicking now!"
+39419,"You insult you, and you insult Minsc! There will be liberal butt-kicking now!"
 39425,You pay for dogs to fight in this filthy place? You cannot imagine my anger! I shall find properly heroic companions elsewhere if you continue such outrages!
 39591,"Irenicus? There is a special place in my bootprint for him, and I shall fill it in the name of Dynaheir! Such evil to keep forest spirits locked away here!"
 40230,"What? No, Boo is no glove! Boo is a hamster, and far more than a handful if he wishes, tiny woman!"
@@ -92,47 +92,47 @@ StrRef,Text
 44081,"Certainly! As I have my Boo, so too must you have your parrot. Boo likes parrots. They could wrassel."
 44176,"Little Imoen, it is Minsc. See, here's Boo... Boo, stop that. It's Imoen. Sure she looks a bit... stressed, but it's still her."
 44177,I don't know what's wrong. Boo is all jittery. Something is different about Imoen.
-47088,"Oooh! This is most goodness of news, is it not, Boo?!"
-48504,"What?! They have no shame in trading lives of others?! Evil, meet my trusty sword! Sword: MEET EVIL!"
+47088,"Oooh! This is most goodness of news, is it not, Boo?"
+48504,"What? They have no shame in trading lives of others? Evil, meet my trusty sword! Sword: MEET EVIL!"
 48525,Ooh! To take swords against monsters of great evil! Already I feel Boo wriggling in excited anticipation!
 48526,"Of course it is Boo. Boo is always happy when opportunities for heroism come! We shall crush these ogres, and rangers and hamsters everywhere shall rejoice!"
-48559,"I... would strike for goodness, <CHARNAME>... but this dragon is so... so... It would not be cowardice to come back another day with bigger swords!"
-48585,"<CHARNAME>, we must find this fiend who steals children and disguises knights as monsters and apply a butt-kicking for goodness! All must be avenged!"
-48615,"This changes everything! A fellow ranger plunged into peril by evil wizards! Even Boo cringes at what we have been sent to do! <CHARNAME>, this cannot be!"
-48618,"A fellow brother of the woods! Is this the man the wizards have sent us to kill? <CHARNAME>, tell me it is not so!"
-48623,"You... you would not lead Boo and me astray! We do good things; we are heroes! This man lies, I say, and I shall fight with <CHARNAME>!"
+48559,I... would strike for goodness... but this dragon is so... so... It would not be cowardice to come back another day with bigger swords!
+48585,We must find this fiend who steals children and disguises knights as monsters and apply a butt-kicking for goodness! All must be avenged!
+48615,This changes everything! A fellow ranger plunged into peril by evil wizards! Even Boo cringes at what we have been sent to do! this cannot be!
+48618,A fellow brother of the woods! Is this the man the wizards have sent us to kill? tell me it is not so!
+48623,"You... you would not lead Boo and me astray! We do good things; we are heroes! This man lies, I say, and I shall fight with you!"
 48624,"No! I will not allow you to kill a fellow brother of the woods! You have become evil, and I have allowed it to happen! No longer will I stand by!"
 48631,"Be welcome, brother of the woods! Together, you and Boo and I shall stride forward to crush all evil in our wake! Woe betide evil!"
 48713,"Me? No, Boo would never allow such a thing! My sword is meant only for being firmly planted in the heart of evil!"
-48783,"WHERE?! Where is there a rat? Oh, you have frightened Boo with your screeching. Calm yourself, Boo. See? We are leaving the loud woman."
+48783,"WHERE? Where is there a rat? Oh, you have frightened Boo with your screeching. Calm yourself, Boo. See? We are leaving the loud woman."
 48852,"*sniff* Ahh, even Boo cringes from such a foul odor. Surely this instrument will never make beautiful music again."
-48902,"They... they attack this funny man? Why?! This evil must be stopped with generous doses of sword-swinging! Come, Boo, we go for the eyes!"
+48902,"They... they attack this funny man? Why? This evil must be stopped with generous doses of sword-swinging! Come, Boo, we go for the eyes!"
 48946,"Heroes of goodness need no warning! Where we tread, evil trembles in our wake!"
 48959,"I would rather have given a sword. Give a man a fish and he eats for a day, but teach a man to fight and he can chow down on the meaty marrow of evil!"
-48968,"Wha-aat? This is the evil man who steals skins?! He must be stopped! He must be stopped, or all who have skins will sleep in fear!"
+48968,"Wha-aat? This is the evil man who steals skins? He must be stopped! He must be stopped, or all who have skins will sleep in fear!"
 48969,"We shall answer your attack, though even Boo sees no sense in it!"
 49023,"I understand none of this, but if the one who killed Dynaheir is beyond, Boo and Minsc will make short work of you!"
 49269,"We don't need money to find Imoen! We are heroes! We will crush wizard after wizard to find her! Hmm, we should start soon if we hope to be done by dinner..."
-49320,You! I remember you! And so does Boo! A craven wizard who travels with his untrustworthy halfling!
+49320,I remember you! And so does Boo! A craven wizard who travels with his untrustworthy halfling!
 49415,"Oh, I never step on toes... except by accident, maybe. If Boo had me step on toes for real, toes would gloriously be flying everywhere in the wake of my sword!"
 49474,"You shall be called what you are! You are an enemy of fair, departed Dynaheir and therefore an enemy of mine! You shall be destroyed for the good of all!"
-49479,"You will not speak of sweet Dynaheir in this fashion! Terrible hamster justice will be wreaked upon you! GO FOR THE EYES, BOO, GOâ€”"
+49479,"You will not speak of sweet Dynaheir in this fashion! Terrible hamster justice will be wreaked upon you! GO FOR THE EYES, BOO, GO—"
 49481,"I... no. No, our cause must not be disrupted. Righteous fury will wait for now, but one day the wizard shall pay for his words with blood! So swears Minsc!"
 49506,"My anger can only barely be contained! Speak to us as if we are anything but heroes, wizard, and you shall be receiving the rented-mule beating you deserve!"
-49510,"Dynaheir's enemy comes with us? Please, <CHARNAME>, say it will not be so! And if it is so, let it be brief! Boo shakes with such anger I cannot blame him!"
-49554,"We do the bidding of thieves now? Ehhh... this churns my belly like a hamster running endlessly within a wheel. This can't be a good sign, <CHARNAME>."
+49510,"Dynaheir's enemy comes with us? Please, say it will not be so! And if it is so, let it be brief! Boo shakes with such anger I cannot blame him!"
+49554,We do the bidding of thieves now? Ehhh... this churns my belly like a hamster running endlessly within a wheel. This can't be a good sign.
 49556,"Rashemen is my home, but I haven't seen it for many moons. I am on my dajemma. I... failed my last witch... but nothing will happen to Aerie! Nothing!"
-49557,"No, it will not be! <CHARNAME>, let Minsc and Boo take their chances here. Do not abandon Imoen to this place."
-49579,"Poisoned and dying! The tragedy of it sings in my skull! We must hurry and deliver this man to safe harbor, <CHARNAME>!"
-49784,Such an offer from this woman sends chills up and down my spine like angry weasels... but <CHARNAME> will know what to do. Even Boo is confident of this.
-49821,"It is an option that bears no questioning! <CHARNAME> is a champion of good, just as we all are! Always must we take the choice of righteousness!"
-49833,"No! Tell me this is not so! No heroes would commit such an act! <CHARNAME>, I could never look Boo in the eyes again if I took part in such a thing!"
-49840,"My hamster's heart is crushed that you have fallen so far, <CHARNAME>! How could this be? It is my fault, all mine, for letting it happen!"
+49557,"No, it will not be! let Minsc and Boo take their chances here. Do not abandon Imoen to this place."
+49579,Poisoned and dying! The tragedy of it sings in my skull! We must hurry and deliver this man to safe harbor!
+49784,Such an offer from this woman sends chills up and down my spine like angry weasels... but you will know what to do. Even Boo is confident of this.
+49821,"It is an option that bears no questioning! you are a champion of good, just as we all are! Always must we take the choice of righteousness!"
+49833,No! Tell me this is not so! No heroes would commit such an act! I could never look Boo in the eyes again if I took part in such a thing!
+49840,"My hamster's heart is crushed that you have fallen so far! How could this be? It is my fault, all mine, for letting it happen!"
 49843,"I... I must leave to drown in my sorrows. If you pick yourself up, I shall be in that Copper Coronet. It seemed like a grand place for adventure, oh yes!"
 49847,"This is more like it! A rescue from the hostage-takers! All shall quiver in the wake of our righteous fury! Yes, Boo, show them how they will quiver!"
 49856,We will charge into the midst of the den of thieves and fling them about like pancakes! All that is glory shall be ours! And then breakfast.
 49871,"Those who bury the living must be buried by our righteous fury! Woe betide those who would flout justice! So says Minsc, though ""betide"" was Boo's word."
-49909,You would keep this woman a prisoner? Boo is not convinced that this is right. I agree that it smells of evil. Bad <CHARNAME>! Bad!
+49909,You would keep this woman a prisoner? Boo is not convinced that this is right. I agree that it smells of evil. Bad you! Bad!
 49911,"So the woman is freed? What need is there to collect a reward from the man? Are we not heroes, you and Boo and I? This is most confusing."
 49968,"It is more dangerous to call Boo a vermin, as he may leap upon you and show you his true warrior spirit. Nothing can contend with the might of an angry hamster!"
 50041,"An assault on the most foul and evil of creatures! Such a victory shall make us heroes to be sung of throughout the land! Glory will be ours, oh yes!"
@@ -143,16 +143,16 @@ StrRef,Text
 50301,"Boo is my stalwart companion, and he says that if you must wear the skins of a dead animal around your neck, the evil sharp-toothed weasel is a good choice."
 50343,"Minsc and Boo fight with swords and teeth for goodness, not for countries. We are heroes, not soldiers, funny man."
 50416,"He attacks? Such a display of wrongness fills even Boo with disgust! For my hamster, I must land a blow for goodness!"
-50537,"They... they will not burn the pretty elf? There must be no burning if she has committed no crime! This is not justice! <CHARNAME>, we stop this travesty!"
+50537,They... they will not burn the pretty elf? There must be no burning if she has committed no crime! This is not justice! we stop this travesty!
 50557,"We do not rescue her? What was her crime? Maybe darker elves are not all good, but surely not all are totally evil? I am... confused. What does Boo think?"
 50578,"We have saved her, and she is our responsibility. What if she was captured again? Neither Boo nor I could live with ourselves. No, she must come."
-50670,"Boo is worried that these inmates will harm themselves, <CHARNAME>. We should see that they are safe and make sure they each have a hamster of their own."
+50670,Boo is worried that these inmates will harm themselves. We should see that they are safe and make sure they each have a hamster of their own.
 50671,That last part was my idea.
-52288,"True heroes demand no reward, <CHARNAME>, and Boo knows you to be a true hero! We need only know what foes we are to face before the boot-stomping can begin!"
-52295,"No! Say it cannot be so! <CHARNAME>, we must rescue the nice man's child and be off! Unless... unless you have some plan? Minsc is confused."
-52306,No! Has <CHARNAME> truly fallen so far?! A glorious rescue has turned into a nightmare of epic proportion! Minsc and Boo will stop you!
+52288,"True heroes demand no reward, and Boo knows you to be a true hero! We need only know what foes we are to face before the boot-stomping can begin!"
+52295,No! Say it cannot be so! we must rescue the nice man's child and be off! Unless... unless you have some plan? Minsc is confused.
+52306,No! Has you truly fallen so far? A glorious rescue has turned into a nightmare of epic proportion! Minsc and Boo will stop you!
 52607,Boo knows! Do not stow thrones in grass houses!
-55186,"The evil wizard is dead! Once again, Boo and Minsc and <CHARNAME> emerge as victorious heroes! Much rejoicing and celebrating must be commencing soon!"
+55186,"The evil wizard is dead! Once again, Boo and Minsc and you emerge as victorious heroes! Much rejoicing and celebrating must be commencing soon!"
 55208,"Oh, such a glorious death in battle for Minsc and Boo! We were well on our way to the great fields and halls of Rashemen, but we felt you needing us, so we came!"
 55668,"This young minstrel has lost his wits and his songs? Minds are common enough, but tunes of merit are few and far between."
 55680,"Yes! Such fire and conviction! A pity there are no actual enemies to warrant the screaming, but good show anyway. Boo applauds!"
@@ -168,10 +168,10 @@ StrRef,Text
 55861,"My skin may not have scales, but it has seen many suns come and go. Boo thinks you could use some sun too. Then you might not smell so much like wet laundry."
 55882,"Don't worry, Aerie. I'm here to protect my witch. Boo too, though I think he would leap to protect anyone in distress. It's his heroic nature, you know."
 55892,"Boo bristles at his words. I don't know the language, but he is insulting us for certain!"
-55915,I cannot believe my ears! You would stand against all that is good and right?! You shall suffer a terrible vengeance for this!
+55915,I cannot believe my ears! You would stand against all that is good and right? You shall suffer a terrible vengeance for this!
 55922,Yes! Hello! Minsc is a drow! And Boo is a shadow hamster!
-55968,"Another drow who speaks strange words! Even Boo bristles at his obvious lies! If <CHARNAME> fights, then so does Minsc! Prepare for liberal butt-kickings!"
-56017,"Ooh, another drow! I begin to see them everywhere, ever since the Underdark! They are so vicious even Boo cowers. What will we do, <CHARNAME>?"
+55968,"Another drow who speaks strange words! Even Boo bristles at his obvious lies! If you fights, then so does Minsc! Prepare for liberal butt-kickings!"
+56017,"Ooh, another drow! I begin to see them everywhere, ever since the Underdark! They are so vicious even Boo cowers. What will we do?"
 56018,I do not cause trouble! I merely seek it out and put the bootheels of justice to it! Ask Boo!
 56067,"Boo is impressed, Korgan. You remember well to act like drow."
 56086,"For Dynaheir and all fallen comrades, for what is good and right, for all these things shall Minsc and Boo fall upon you today! And we shall taste victory, evil man!"
@@ -185,7 +185,7 @@ StrRef,Text
 56198,Boo would have found her wherever she tried to put her evil foot! That's what we do!
 56409,"Irenicus is the most vile of villains if he dared destroy a whole city! I can't believe that, and I have believed some amazing things, let me tell you!"
 56420,"Groves are wonderful... you wouldn't really poison one, would you? Boo suggests that perhaps you are tricking this evil little man. Smart thinking, I agree."
-56429,"This is the evil killer who takes skins that do not belong to him! We have discovered him, <CHARNAME>! We must take the bootheel to his ways!"
+56429,This is the evil killer who takes skins that do not belong to him! We have discovered him! We must take the bootheel to his ways!
 56458,"To decide between justice and honor! Oh, it is a conundrum that would tie even Boo up in knots. I do not envy you. My decisions are usually easier than this."
 56471,No! Minsc did not come here to kill young girls! You cannot tell us that the young girl was anything but innocent! This is not right!
 56482,"We serve no evil mages, no sir! But Boo looks upon you with suspicion, little man. How is it you come to be here? Never have I seen Boo's whiskers quiver so!"
@@ -200,8 +200,8 @@ StrRef,Text
 56682,"Then Minsc and Boo will turn their attentions to more important things, like staying alive. We should get moving if you are through with your headache."
 56881,"Boo does not think so, despite your kind words. You smell of treachery. Prove me wrong or face the boot!"
 56886,You'd have bought a trip to the graveyard if you had spent the money we needed to rescue Imoen! Minsc and Boo would see to that!
-57740,"When all others stand numb, it falls to Minsc and Boo to make comment. <CHARNAME>..."
-57741,"<CHARNAME>, Boo just soiled my backpack."
+57740,"When all others stand numb, it falls to Minsc and Boo to make comment. you..."
+57741,Boo just soiled my backpack.
 57901,"Boo does not favor the odds, but I have no doubt we will succeed!"
 57905,Boo would have sensed any treachery long ago! She fights well with us!
 58137,Boo concurs! We must hurry and dispense with this errandry so we can get to the fighting of greater evils more worthy of my bootprint!
@@ -212,20 +212,20 @@ StrRef,Text
 58756,"A slap in the face of our trust! A sword to the heart of our confidence! A boot to the prunes of our friendship! Perhaps I go too far, but Boo is absolutely incensed!"
 59069,"Minsc and Boo are the greatest of warriors, small one! I will crush your foes into little foe-shaped chunky bits! Who dares pick on you? Just point the way!"
 59071,"No foes? I am relieved. I trust those who prey on children no farther than they can be thrown, even if I manage to throw them pretty far, and throw them I shall!"
-59072,"What?! Boo is outraged! See his fury! It's small, so look close. Trust me, it's there. What is wrong with your village, small one? How can we heroes help?"
+59072,"What? Boo is outraged! See his fury! It's small, so look close. Trust me, it's there. What is wrong with your village, small one? How can we heroes help?"
 59073,"Minsc has been inside out and angry before, and it is never a good thing. Sometimes it frightens even Boo."
 59075,"Oh! Minsc has never been crazy, no sir. Being inside out was bad enough! Is there more, little boy?"
-59076,"Then heroes are certainly needed! Heroes like Minsc and Boo and <CHARNAME>! Where is your village, small one? Together we will save the day!"
-59078,"Nothing removes fear better than a good sword and a swift kick in the evil! We shall go to your village and do what heroes do, right, <CHARNAME>?"
-59088,"There is always time to save the day! Don't worry, small one, we will go to your village as soon as I restore <CHARNAME> to <PRO_HISHER> senses. That is my job."
-59089,"Kicking the posterior of evil is never a fool's errand! Hmm, <CHARNAME> is not <PRO_HISHER> usual heroic self today. An evil influence? Or have <PRO_HISHER> thoughts wandered elsewhere?"
-59090,"Since <CHARNAME> is out of <PRO_HISHER> mind, I must step up as a hero should. We go to your village as soon as <CHARNAME> is better. So swear Minsc and Boo."
+59076,"Then heroes are certainly needed! Heroes like Minsc and Boo and you! Where is your village, small one? Together we will save the day!"
+59078,"Nothing removes fear better than a good sword and a swift kick in the evil! We shall go to your village and do what heroes do, right?"
+59088,"There is always time to save the day! Don't worry, small one, we will go to your village as soon as I restore you to their senses. That is my job."
+59089,Kicking the posterior of evil is never a fool's errand! Hmm is not their usual heroic self today. An evil influence? Or have their thoughts wandered elsewhere?
+59090,"Since you are out of their mind, I must step up as a hero should. We go to your village as soon as you are better. So swear Minsc and Boo."
 59091,Er... Boo wonders what you need a warrior for when you have no foes?
-59093,"Boo is curious and keeps bringing up the question of when we will travel to the Imnesvale village, and I heartily agree! We are heroes, and they are in need of heroesâ€”it is a match even Minsc can see!"
-59094,"We must go where evil is in most need of a beating, so Minsc will leave that decision up to you, <CHARNAME>. Still... we must not disappoint the little boy."
+59093,"Boo is curious and keeps bringing up the question of when we will travel to the Imnesvale village, and I heartily agree! We are heroes, and they are in need of heroes—it is a match even Minsc can see!"
+59094,"We must go where evil is in most need of a beating, so Minsc will leave that decision up to you. Still... we must not disappoint the little boy."
 59095,"Did Minsc miss something? Did we already go and save the Imnesvale village? Boo demands that it is not so, but I cannot remember. Surely we would not shirk out heroic duty for so long! It cannot be!"
 59421,"We come because the little boy, Delon, said that there was evil here in need of a butt-kicking! And good for us that we have our boots on, yes, sir!"
-59423,"No, we can't leave this place without having destroyed all evil! Tell Boo this is not so, <CHARNAME>! Do not destroy a young hamster's innocence!"
+59423,"No, we can't leave this place without having destroyed all evil! Tell Boo this is not so! Do not destroy a young hamster's innocence!"
 59424,Wolves? Ogres? Witches? Oh my! It is too much for Minsc's poor head to comprehend! Which of these are evil? The edge of my sword shall find the truth!
 59425,"Oh, most glorious day! One step closer we come to being true heroes, yes indeedy! Even little Boo's fur stands on end from his anticipation!"
 59542,Minsc agrees! It would be the essence of epic heroing! Dead dragons should litter our path wherever we go!
@@ -237,7 +237,7 @@ StrRef,Text
 60882,And a good sword...
 60883,"Ooh! And the occasional buffing, for the armor, you understand."
 61013,"No, this cannot be! The murderer of Dynaheir flees from righteous butt-kicking vengeance! And he takes Imoen with him too!"
-61014,"Something must be done, <CHARNAME>! We must find this evil wizard! All that is goodness cries out for this! Even little Boo, although he cannot cry out quite so loudly."
+61014,"Something must be done! We must find this evil wizard! All that is goodness cries out for this! Even little Boo, although he cannot cry out quite so loudly."
 61017,No! We must go quickly and save our friend Imoen! The wizard may be leering over her evilly even now!
 74513,"He's not that ugly. Boo's seen much uglier half-orcs. Haven't you, Boo?"
 74615,Are you calling Boo a fool?
@@ -246,13 +246,13 @@ StrRef,Text
 75728,"What do you think, Boo? Isn't this a nice tree?"
 75729,Boo doesn't think this is a nice tree.
 75730,I think Boo is right.
-77677,"Speak for yourself, <CHARNAME>! Boo is the warm center of the universe that I orbit during my slumber each night!"
+77677,Speak for yourself! Boo is the warm center of the universe that I orbit during my slumber each night!
 78870,Trusts?
 79469,"Boo dislikes this place. These people are trapped in a wheel that turns and turns, but never moves forward."
 79523,"Boo dislikes this place. These people are trapped in a wheel that turns and turns, but never moves forward."
-80995,"It's all right, Boo. They're dead, but I'm sure they're not badâ€”"
+80995,"It's all right, Boo. They're dead, but I'm sure they're not bad—"
 80996,"You were right, Boo. They weren't nice at all."
 81824,Boo says smoking isn't healthy.
-88082,"Minsc is torn! It seems only fair that <CHARNAME> be able to walk with a small animal to advise <PRO_HIMHER>, too. But Minsc also fears for Boo... Dings might have a bad attitude toward hamsters."
+88082,"Minsc is torn! It seems only fair that you be able to walk with a small animal to advise them, too. But Minsc also fears for Boo... Dings might have a bad attitude toward hamsters."
 90282,Boo says we should find the hairband! Boo believes the children are our future!
 93536,"You will need an advisor, heir to the throne! It is Minsc's opinion that hamsters make the best advisors."

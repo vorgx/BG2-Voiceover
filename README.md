@@ -33,25 +33,55 @@ This project uses **Index-TTS** to generate voice lines for Baldur's Gate II Enh
 
 ```
 BG2 Voiceover/
-├── data/
-│   ├── lines.csv          # Dialogue lines to synthesize (StrRef, Speaker, Text)
-│   └── voices.json        # Voice mapping (Speaker -> Index-TTS voice or ref audio)
-├── refs/
+├── data/                  # Active datasets
+│   ├── lines.csv          # Master dialogue dataset
+│   ├── voices.json        # Voice configuration (production)
+│   ├── characters.csv     # Character metadata library
+│   ├── chapter1_lines.csv # Chapter 1 dialogue
+│   └── chapter1_split/    # Split files for parallel processing
+├── config/                # Configuration templates
+│   ├── defaults.yaml      # Default paths and settings
+│   └── voices.sample.json # Voice preset staging/template
+├── refs/                  # Voice reference audio
 │   └── imoen_ref.wav      # Reference audio for voice cloning
-├── scripts/
-│   └── synth.py           # Synthesis driver script
-├── build/
+├── scripts/               # Python automation tools
+│   └── synth.py           # Main synthesis script
+├── src/bg2vo/             # Core Python package
+│   ├── config.py          # Configuration loader
+│   ├── lines.py           # CSV processing
+│   ├── voices.py          # Voice preset handling
+│   └── audit.py           # Dialogue auditing
+├── tests/                 # Test suite
+├── build/                 # Build outputs
 │   └── OGG/               # Generated WAV files (e.g., 38606.wav)
-├── mod/
+├── mod/                   # WeiDU mod structure
 │   ├── setup-vvoBG.exe    # WeiDU installer stub
 │   ├── vvoBG.tp2          # WeiDU mod definition
-│   └── vvoBG/
-│       └── OGG/           # Audio staged for WeiDU (e.g., OH38606.wav)
-├── BG2 Files/
-│   ├── dialog.tra         # Extracted BG2 dialogue strings
+│   └── vvoBG/OGG/         # Audio staged for WeiDU (e.g., OH38606.wav)
+├── docs/                  # Documentation
+│   ├── getting-started/   # Quickstart and workflow guides
+│   ├── guides/            # How-to guides
+│   ├── reference/         # Technical reference
+│   └── dev/               # Development docs
+├── archive/               # Historical documents
+└── BG2 Files/             # Game data exports
+    ├── dialog.tra         # Extracted BG2 dialogue strings
 │   └── WAV Files/         # Original BG2 audio files
 └── README.md              # This file
 ```
+
+---
+
+## Documentation
+
+- **[Complete Workflow](docs/workflows/COMPLETE_WORKFLOW.md)** - **START HERE**: Comprehensive end-to-end workflow covering all 10 stages from data collection through packaging
+- **[AGENT.md](AGENT.md)** - AI agent guide (file placement, workflows, patterns)
+- **[Getting Started](docs/getting-started/)** - Quick start guide and workflow
+- **[Integration Status](docs/getting-started/INTEGRATION_STATUS.md)** - Current testing status
+- **[Chapter Pipeline](docs/getting-started/CHAPTER_PIPELINE.md)** - Complete chapter workflow
+- **[Guides](docs/guides/)** - How-to guides for specific tasks
+- **[Reference](docs/reference/)** - Technical architecture and API docs
+- **[Development](docs/dev/)** - Contributing and development guidelines
 
 ---
 
