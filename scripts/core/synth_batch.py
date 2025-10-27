@@ -26,6 +26,8 @@ from bg2vo.emotions import detect_emotion, get_emotion_config  # type: ignore[im
 # Audio post-processing helpers
 sys.path.insert(0, str(ROOT / "scripts" / "utils"))
 from adjust_audio import change_pitch, change_speed  # type: ignore[import]
+# Vocalization detection
+from classify_vocalizations import classify_text, VocalizationType  # type: ignore[import]
 
 # ---------------------------------------------------------------------------
 # Configuration loading (mirrors synth.py defaults)
@@ -134,6 +136,135 @@ def sanitize(text: str) -> str:
     if cleaned and cleaned[0].islower():
         cleaned = cleaned[0].upper() + cleaned[1:]
     return cleaned
+
+
+# ---------------------------------------------------------------------------
+# Vocalization handling
+# ---------------------------------------------------------------------------
+def transform_vocalization_text(text: str, voc_type: VocalizationType) -> str:
+    """
+    Transform vocalization text for better TTS synthesis.
+    
+    Converts non-phonetic spellings to more TTS-friendly versions.
+    
+    Args:
+        text: Original vocalization text (e.g., "Gllgghh!")
+        voc_type: Detected vocalization type
+        
+    Returns:
+        Transformed text more suitable for TTS
+    """
+    text_lower = text.lower().strip()
+    
+    # Remove excessive punctuation but preserve one exclamation/period
+    has_exclaim = '!' in text
+    has_period = '.' in text
+    text_clean = re.sub(r'[!.]{2,}', '', text_lower)
+    text_clean = text_clean.rstrip('!.')
+    
+    # Type-specific transformations
+    transformations = {
+        VocalizationType.GRUNT: {
+            r'^g+l+[gh]+': 'aarrgh',
+            r'^u+g+h*': 'urgh',
+            r'^g+r+h*': 'grrr',
+            r'^u+h+': 'uhh',
+        },
+        VocalizationType.YELL: {
+            r'^n+o+': 'nooo',
+            r'^[ra]+[gh]*': 'raaagh',
+            r'^a+h*': 'aaah',
+        },
+        VocalizationType.SCREAM: {
+            r'^a+h*': 'aaaah',
+            r'^e+[k]*': 'eeeek',
+        },
+        VocalizationType.MOAN: {
+            r'^o+[hw]*': 'ohhh',
+            r'^u+h+': 'uhhh',
+        },
+        VocalizationType.GASP: {
+            r'^[ha]+[sp]*': 'hasp',
+        },
+        VocalizationType.LAUGH: {
+            r'^he+h*': 'hehe',
+            r'^ha+h*': 'haha',
+        },
+        VocalizationType.CRY: {
+            r'^[nw]+o+': 'wooo',
+        },
+        VocalizationType.COUGH: {
+            r'^c+o+u*g*h*': 'cough',
+            r'^\*\s*cough\s*\*': 'cough',
+        },
+        VocalizationType.SIGH: {
+            r'^[ha]+h*': 'ahhh',
+            r'^\*\s*sigh\s*\*': 'sigh',
+        },
+    }
+    
+    if voc_type in transformations:
+        for pattern, replacement in transformations[voc_type].items():
+            if re.match(pattern, text_clean):
+                text_clean = replacement
+                break
+    
+    # Restore punctuation
+    if has_exclaim:
+        text_clean += '!'
+    elif has_period:
+        text_clean += '...'
+    
+    return text_clean
+
+
+def get_vocalization_emotion_preset(
+    speaker: str,
+    voc_type: VocalizationType,
+    voice_config: dict[str, object]
+) -> dict[str, object] | None:
+    """
+    Get emotion preset for vocalization.
+    
+    Fallback chain:
+    1. Character-specific emotion preset
+    2. Character generic preset
+    3. Global generic preset
+    4. None (no emotion enhancement)
+    
+    Args:
+        speaker: Character name
+        voc_type: Vocalization type
+        voice_config: Character's voice configuration
+        
+    Returns:
+        Emotion configuration dict or None
+    """
+    # Check for emotion_presets in character config
+    emotion_presets = voice_config.get("emotion_presets")
+    if not emotion_presets or not isinstance(emotion_presets, dict):
+        # Check global generic emotions
+        global_emotions = VOICE_MAP.get("_generic_emotions_")
+        if global_emotions and isinstance(global_emotions, dict):
+            return global_emotions.get(voc_type.value)
+        return None
+    
+    # Try character-specific emotion for this vocalization type
+    preset = emotion_presets.get(voc_type.value)
+    if preset:
+        return preset
+    
+    # Try character generic fallback
+    preset = emotion_presets.get("generic")
+    if preset:
+        return preset
+    
+    # Try global generic
+    global_emotions = VOICE_MAP.get("_generic_emotions_")
+    if global_emotions and isinstance(global_emotions, dict):
+        return global_emotions.get(voc_type.value)
+    
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -292,13 +423,40 @@ def synth_batch(csv_path: Path) -> None:
 
         voice_ref, config_dict = resolve_voice_config(speaker)
 
-        # Emotion handling (match legacy behaviour)
+        # Check if text is a vocalization (NEW)
+        voc_result = classify_text(sanitized, min_confidence=0.6)
+        is_vocalization = voc_result is not None
+        
+        # Emotion handling
         emotion_config = None
         emotion_label = None
-        if manual_emotion and manual_emotion.strip():
+        
+        # Priority 1: Vocalization emotion presets (NEW)
+        if is_vocalization and voc_result:
+            voc_type = voc_result['type']
+            voc_confidence = voc_result['confidence']
+            
+            # Get emotion preset for this vocalization
+            voc_emotion = get_vocalization_emotion_preset(speaker, voc_type, config_dict)
+            
+            if voc_emotion:
+                emotion_config = voc_emotion.copy()
+                emotion_label = f"{voc_type.value} ({voc_confidence:.2f})"
+                
+                # Transform text for better TTS (if pure vocalization)
+                if voc_result.get('is_pure'):
+                    transformed = transform_vocalization_text(sanitized, voc_type)
+                    if transformed != sanitized:
+                        print(f"   📝 Transform: '{sanitized}' -> '{transformed}'")
+                        sanitized = transformed
+        
+        # Priority 2: Manual emotion from CSV
+        if not emotion_config and manual_emotion and manual_emotion.strip():
             emotion_label = manual_emotion.strip().lower()
             emotion_config = get_emotion_config(emotion_label, speaker)
-        elif speaker.lower() == "ilyich":
+        
+        # Priority 3: Auto-detect emotion (Ilyich special case)
+        if not emotion_config and speaker.lower() == "ilyich":
             emotion_label = detect_emotion(sanitized)
             emotion_config = get_emotion_config(emotion_label, speaker)
 

@@ -3,6 +3,44 @@
     "voice": "C:\\Users\\tenod\\source\\repos\\BG2 Voiceover\\refs\\imoen_ref.wav",
     "notes": "Fallback voice for characters without specific assignments"
   },
+  "_generic_emotions_": {
+    "grunt": {
+      "emo_text": "pained physical grunt",
+      "emo_alpha": 0.7
+    },
+    "yell": {
+      "emo_text": "urgent forceful yell",
+      "emo_alpha": 0.6
+    },
+    "scream": {
+      "emo_text": "frightened piercing scream",
+      "emo_alpha": 0.8
+    },
+    "cry": {
+      "emo_text": "sorrowful crying",
+      "emo_alpha": 0.75
+    },
+    "laugh": {
+      "emo_text": "amused chuckle",
+      "emo_alpha": 0.5
+    },
+    "gasp": {
+      "emo_text": "sudden gasp",
+      "emo_alpha": 0.7
+    },
+    "moan": {
+      "emo_text": "pained moan",
+      "emo_alpha": 0.7
+    },
+    "cough": {
+      "emo_text": "harsh cough",
+      "emo_alpha": 0.8
+    },
+    "sigh": {
+      "emo_text": "weary sigh",
+      "emo_alpha": 0.6
+    }
+  },
   "Imoen": {
     "ref": "refs/imoen_ref.wav",
     "preset": "female_bright",
