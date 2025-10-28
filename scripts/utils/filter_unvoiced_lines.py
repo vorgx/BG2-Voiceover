@@ -67,16 +67,16 @@ def filter_unvoiced_lines() -> None:
         if strref in voiced_strrefs:
             # Add WAV reference
             row_with_wav = row.copy()
-            row_with_wav['WAV_Reference'] = voiced_strrefs[strref]
+            row_with_wav['Original_VO_WAV'] = voiced_strrefs[strref]
             voiced_lines.append(row_with_wav)
         else:
             row_with_wav = row.copy()
-            row_with_wav['WAV_Reference'] = ''
+            row_with_wav['Original_VO_WAV'] = ''
             unvoiced_lines.append(row_with_wav)
     
     # Write complete CSV with WAV references
     with OUTPUT_WITH_WAV.open('w', encoding='utf-8', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=['StrRef', 'Speaker', 'Text', 'WAV_Reference'])
+        writer = csv.DictWriter(f, fieldnames=['StrRef', 'Speaker', 'Text', 'Original_VO_WAV'])
         writer.writeheader()
         writer.writerows(unvoiced_lines + voiced_lines)
     
@@ -89,8 +89,8 @@ def filter_unvoiced_lines() -> None:
     if unvoiced_lines:
         with OUTPUT_CSV.open('w', encoding='utf-8', newline='') as f:
             writer = csv.DictWriter(f, fieldnames=['StrRef', 'Speaker', 'Text'])
-            # Remove WAV_Reference column for unvoiced CSV
-            unvoiced_without_wav = [{k: v for k, v in row.items() if k != 'WAV_Reference'} for row in unvoiced_lines]
+            # Remove Original_VO_WAV column for unvoiced CSV
+            unvoiced_without_wav = [{k: v for k, v in row.items() if k != 'Original_VO_WAV'} for row in unvoiced_lines]
             writer.writeheader()
             writer.writerows(unvoiced_without_wav)
         
@@ -103,7 +103,7 @@ def filter_unvoiced_lines() -> None:
             print(f"\n📋 Example lines WITH voice acting (WAV references):")
             for row in voiced_lines[:5]:
                 text_preview = row['Text'][:50] + "..." if len(row['Text']) > 50 else row['Text']
-                print(f"   {row['StrRef']} ({row['Speaker']}) [{row['WAV_Reference']}]: {text_preview}")
+                print(f"   {row['StrRef']} ({row['Speaker']}) [{row['Original_VO_WAV']}]: {text_preview}")
         
         # Show some examples of unvoiced lines
         if unvoiced_lines:

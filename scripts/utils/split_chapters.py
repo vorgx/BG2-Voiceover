@@ -80,9 +80,9 @@ def split_by_chapter():
     updated_count = 0
     
     for line in all_lines:
-        source_file = line.get('Source_File', '').upper()
-        if source_file in dlg_to_chapter:
-            chapter_str = dlg_to_chapter[source_file]
+        dlg_file = line.get('DLG_File', '').upper()
+        if dlg_file in dlg_to_chapter:
+            chapter_str = dlg_to_chapter[dlg_file]
             chapter_num = extract_chapter_number(chapter_str)
             if chapter_num:
                 line['Chapter'] = str(chapter_num)
@@ -115,7 +115,7 @@ def split_by_chapter():
                 writer.writerows(chapter_lines)
             
             # Count voiced vs unvoiced
-            voiced = sum(1 for line in chapter_lines if line.get('WAV_Reference', ''))
+            voiced = sum(1 for line in chapter_lines if line.get('Original_VO_WAV', ''))
             unvoiced = len(chapter_lines) - voiced
             
             print(f"   ✅ {output_file.name}")
@@ -133,7 +133,7 @@ def split_by_chapter():
             writer.writeheader()
             writer.writerows(unassigned_lines)
         
-        voiced = sum(1 for line in unassigned_lines if line.get('WAV_Reference', ''))
+        voiced = sum(1 for line in unassigned_lines if line.get('Original_VO_WAV', ''))
         unvoiced = len(unassigned_lines) - voiced
         
         print(f"\n   ✅ {output_file.name}")
@@ -151,7 +151,7 @@ def split_by_chapter():
     for chapter_num in range(1, 8):
         count = len(chapters.get(chapter_num, []))
         if count > 0:
-            voiced = sum(1 for line in chapters[chapter_num] if line.get('WAV_Reference', ''))
+            voiced = sum(1 for line in chapters[chapter_num] if line.get('Original_VO_WAV', ''))
             print(f"   Chapter {chapter_num}: {count} lines ({voiced} voiced, {count - voiced} unvoiced)")
 
 

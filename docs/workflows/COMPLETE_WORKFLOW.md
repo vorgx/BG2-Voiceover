@@ -53,9 +53,10 @@ python scripts/utils/build_complete_lines_db.py
 - `StrRef` - String reference ID (unique identifier)
 - `Speaker` - Character/NPC name
 - `Text` - Dialogue text content
-- `WAV_Reference` - Original game WAV file (if exists)
+- `Original_VO_WAV` - Original game WAV file (if exists)
+- `Generated_VO_WAV` - Synthesized audio file (if generated)
 - `Chapter` - Game chapter assignment
-- `Source_File` - Origin `.D` file
+- `DLG_File` - Origin `.D` file
 
 ### What It Does
 1. Scans all `.D` dialogue files
@@ -559,14 +560,15 @@ Master dialogue database - single source of truth.
 - `StrRef` (int) - Unique dialogue ID
 - `Speaker` (string) - Character name
 - `Text` (string) - Dialogue content
-- `WAV_Reference` (string) - Original game WAV (if exists)
+- `Original_VO_WAV` (string) - Original game WAV (if exists)
+- `Generated_VO_WAV` (string) - Synthesized audio (if generated)
 - `Chapter` (string) - Game chapter
-- `Source_File` (string) - Origin `.D` file
+- `DLG_File` (string) - Origin `.D` file
 
 **Sample Row:**
 ```csv
-StrRef,Speaker,Text,WAV_Reference,Chapter,Source_File
-28533,Ilyich,"You will regret your interference!",ILYIC001.WAV,Chapter 1 - Irenicus Dungeon,ILYICH.D
+StrRef,Speaker,Text,Original_VO_WAV,Generated_VO_WAV,Chapter,DLG_File
+28533,Ilyich,"You will regret your interference!",ILYIC001,,1,ILYICH
 ```
 
 ---

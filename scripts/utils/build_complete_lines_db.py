@@ -106,9 +106,10 @@ def scan_all_dialog_files() -> List[Dict[str, str]]:
                     'StrRef': strref,
                     'Speaker': speaker,
                     'Text': text,
-                    'WAV_Reference': wav_ref,
+                    'Original_VO_WAV': wav_ref,
+                    'Generated_VO_WAV': '',  # Will be populated by synthesis
                     'Chapter': str(chapter) if chapter else '',
-                    'Source_File': d_file.stem
+                    'DLG_File': d_file.stem
                 })
         
         except Exception as e:
@@ -173,7 +174,7 @@ def main():
     OUTPUT_CSV.parent.mkdir(parents=True, exist_ok=True)
     
     with OUTPUT_CSV.open('w', encoding='utf-8', newline='') as f:
-        fieldnames = ['StrRef', 'Speaker', 'Text', 'WAV_Reference', 'Chapter', 'Source_File']
+        fieldnames = ['StrRef', 'Speaker', 'Text', 'Original_VO_WAV', 'Generated_VO_WAV', 'Chapter', 'DLG_File']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(all_lines)
@@ -182,7 +183,7 @@ def main():
     print(f"   Total lines: {len(all_lines)}")
     
     # Statistics
-    voiced_count = sum(1 for line in all_lines if line['WAV_Reference'])
+    voiced_count = sum(1 for line in all_lines if line['Original_VO_WAV'])
     unvoiced_count = len(all_lines) - voiced_count
     chapter1_count = sum(1 for line in all_lines if line['Chapter'] == '1')
     
@@ -205,7 +206,7 @@ def main():
     print(f"\n📋 Sample lines:")
     for line in all_lines[:5]:
         text_preview = line['Text'][:60] + "..." if len(line['Text']) > 60 else line['Text']
-        wav = f" [{line['WAV_Reference']}]" if line['WAV_Reference'] else ""
+        wav = f" [{line['Original_VO_WAV']}]" if line['Original_VO_WAV'] else ""
         ch = f" (Ch {line['Chapter']})" if line['Chapter'] else ""
         print(f"   {line['StrRef']} ({line['Speaker']}){wav}{ch}: {text_preview}")
 

@@ -16,7 +16,7 @@ with INPUT_CSV.open('r', encoding='utf-8') as f:
 unvoiced_lines = []
 for line in all_lines:
     strref = line['StrRef']
-    has_original = line.get('WAV_Reference', '').strip()
+    has_original = line.get('Original_VO_WAV', '').strip()
     has_generated = (BUILD_OGG / f"{strref}.wav").exists()
     
     if not has_original and not has_generated:

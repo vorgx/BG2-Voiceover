@@ -28,6 +28,8 @@ sys.path.insert(0, str(ROOT / "scripts" / "utils"))
 from adjust_audio import change_pitch, change_speed  # type: ignore[import]
 # Vocalization detection
 from classify_vocalizations import classify_text, VocalizationType  # type: ignore[import]
+# Statistics auto-update
+from update_project_stats import main as update_stats  # type: ignore[import]
 
 # ---------------------------------------------------------------------------
 # Configuration loading (mirrors synth.py defaults)
@@ -406,8 +408,14 @@ def synth_batch(csv_path: Path) -> None:
         speaker = row.get("Speaker", "").strip()
         text = row.get("Text", "")
         manual_emotion = row.get("Emotion")
+        original_vo = row.get("Original_VO_WAV", "").strip()
 
         if not strref or not speaker or not text:
+            skipped += 1
+            continue
+
+        # Skip lines that already have professional voice acting
+        if original_vo:
             skipped += 1
             continue
 
@@ -491,17 +499,31 @@ def synth_batch(csv_path: Path) -> None:
     print(f"   Elapsed:   {elapsed/60:.2f} minutes")
     print(f"   Avg time per line: {rtf:.2f} seconds")
 
+    return generated  # Return count for caller
+
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Batch Index-TTS synthesis that keeps models in memory")
     parser.add_argument("--input", type=Path, default=None, help="Input CSV (default: data/chapter1_unvoiced_only.csv)")
+    parser.add_argument("--auto-update", action="store_true", default=True, help="Auto-update project stats after synthesis (default: True)")
+    parser.add_argument("--no-auto-update", action="store_false", dest="auto_update", help="Disable auto-update of project stats")
     args = parser.parse_args()
 
     input_csv = args.input
     if input_csv is None:
         input_csv = ROOT / "data" / "chapter1_unvoiced_only.csv"
 
-    synth_batch(input_csv)
+    generated = synth_batch(input_csv)
+
+    # Auto-update statistics after successful synthesis
+    if args.auto_update and generated > 0:
+        print("\n📊 Updating project statistics...")
+        try:
+            update_stats()
+            print("   ✅ Statistics updated successfully")
+        except Exception as exc:
+            print(f"   ⚠️ Failed to update statistics: {exc}")
+            print("   💡 Run 'python scripts/utils/update_project_stats.py' manually if needed")
 
 
 if __name__ == "__main__":
