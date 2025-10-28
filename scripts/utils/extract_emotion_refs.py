@@ -60,7 +60,7 @@ class EmotionRefBuilder:
         """Save emotion reference mapping."""
         with open(self.mapping_file, 'w', encoding='utf-8') as f:
             json.dump(self.mapping, f, indent=2, ensure_ascii=False)
-        print(f"\n✅ Saved mapping to {self.mapping_file}")
+        print(f"\n[OK] Saved mapping to {self.mapping_file}")
     
     def _get_audio_duration(self, wav_path: Path) -> float:
         """Get audio duration in seconds (requires ffprobe)."""
@@ -86,13 +86,14 @@ class EmotionRefBuilder:
                 timeout=10
             )
         except Exception as e:
-            print(f"⚠️ Could not play audio: {e}")
+            print(f"[!] Could not play audio: {e}")
     
     def extract_for_character(
         self,
         character: str,
         wav_dir: Path,
-        lines_csv: Path,
+        all_lines_csv: Path,
+        characters_csv: Path,
         auto_detect: bool = False
     ):
         """
@@ -101,16 +102,17 @@ class EmotionRefBuilder:
         Args:
             character: Character name (e.g., "Jaheira")
             wav_dir: Directory containing original game WAV files
-            lines_csv: CSV file with StrRef,Text mapping
+            all_lines_csv: Path to all_lines.csv with Original_VO_WAV column
+            characters_csv: Path to characters.csv with character mapping
             auto_detect: Auto-detect vocalizations using classifier
         """
         print(f"\n{'='*60}")
         print(f"Extracting Emotion References: {character}")
         print(f"{'='*60}\n")
         
-        # Load character lines
-        lines_map = self._load_lines_csv(lines_csv)
-        print(f"Loaded {len(lines_map)} lines from {lines_csv.name}")
+        # Load character lines with Original_VO_WAV mapping
+        lines_map = self._load_lines_csv(all_lines_csv, characters_csv, character)
+        print(f"Loaded {len(lines_map)} voiced lines for {character} from {all_lines_csv.name}")
         
         # Create character emotion directory
         char_emotions_dir = self.refs_path / character.lower()
@@ -120,44 +122,39 @@ class EmotionRefBuilder:
         if character not in self.mapping:
             self.mapping[character] = {}
         
-        # Scan for existing WAV files
-        wav_files = sorted(wav_dir.glob("*.wav"))
-        print(f"Found {len(wav_files)} WAV files in {wav_dir}\n")
-        
         processed = 0
         added = 0
         skipped = 0
         
-        for wav_file in wav_files:
-            # Get StrRef from filename
-            try:
-                strref = wav_file.stem
-                if not strref.isdigit():
+        # Process each voice file
+        for original_vo_wav, (strref_int, text) in sorted(lines_map.items()):
+            # Find the corresponding WAV file
+            # Original_VO_WAV like "JAHEIR01", need to add .WAV extension
+            wav_file = wav_dir / f"{original_vo_wav}.WAV"
+            if not wav_file.exists():
+                # Try lowercase
+                wav_file = wav_dir / f"{original_vo_wav}.wav"
+                if not wav_file.exists():
                     continue
-                strref_int = int(strref)
-            except ValueError:
-                continue
-            
-            # Get text for this StrRef
-            text = lines_map.get(strref_int)
-            if not text:
-                continue
             
             processed += 1
+            emotion_type = None
+            confidence = 0.0
             
             # Auto-detect vocalization?
             if auto_detect:
                 voc_result = classify_text(text, min_confidence=0.7)
                 if not voc_result or not voc_result.get('is_pure'):
+                    skipped += 1
                     continue  # Skip non-vocalizations
                 
                 emotion_type = voc_result['type'].value
                 confidence = voc_result['confidence']
-                print(f"\n[Auto-detected] StrRef {strref}: '{text}'")
+                print(f"\n[Auto-detected] StrRef {strref_int}: '{text}'")
                 print(f"  Type: {emotion_type} (confidence: {confidence:.2f})")
             else:
                 # Manual classification
-                print(f"\n[{processed}/{len(lines_map)}] StrRef {strref}: '{text}'")
+                print(f"\n[{processed}/{len(lines_map)}] StrRef {strref_int}: '{text}'")
                 print(f"  WAV: {wav_file.name}")
                 
                 # Show options
@@ -187,7 +184,7 @@ class EmotionRefBuilder:
                     continue
             
             # Copy WAV to emotion refs
-            dest_file = char_emotions_dir / f"{emotion_type}_{strref}.wav"
+            dest_file = char_emotions_dir / f"{emotion_type}_{strref_int}.wav"
             shutil.copy2(wav_file, dest_file)
             
             # Add to mapping
@@ -202,7 +199,7 @@ class EmotionRefBuilder:
             })
             
             added += 1
-            print(f"  ✅ Added as {emotion_type} reference")
+            print(f"  [+] Added as {emotion_type} reference")
             
             # Auto-save every 10 additions
             if added % 10 == 0:
@@ -218,19 +215,70 @@ class EmotionRefBuilder:
         print(f"  Skipped: {skipped}")
         print(f"{'='*60}\n")
     
-    def _load_lines_csv(self, csv_path: Path) -> Dict[int, str]:
-        """Load StrRef -> Text mapping from CSV."""
+    def _load_lines_csv(self, all_lines_csv: Path, characters_csv: Path, character: str) -> Dict[str, tuple]:
+        """
+        Load Original_VO_WAV -> (StrRef, Text) mapping from all_lines.csv for a character.
+        
+        Args:
+            all_lines_csv: Path to all_lines.csv
+            characters_csv: Path to characters.csv
+            character: Character name to filter by
+            
+        Returns:
+            Dict mapping Original_VO_WAV (e.g., "JAHEIR01") to (strref, text) tuple
+        """
         import csv
         
+        # Load character DLGFiles mapping
+        char_dlg_files = set()
+        with open(characters_csv, 'r', encoding='utf-8-sig') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                canonical = row.get('Canonical', '').strip()
+                if canonical.lower() == character.lower():
+                    dlg_files = row.get('DLGFiles', '').strip()
+                    if dlg_files:
+                        # Split by pipe and store with .DLG extension
+                        for dlg in dlg_files.split('|'):
+                            dlg_clean = dlg.strip().upper()
+                            # Ensure .DLG extension is present
+                            if not dlg_clean.endswith('.DLG'):
+                                dlg_clean = dlg_clean + '.DLG'
+                            char_dlg_files.add(dlg_clean)
+                    break
+        
+        if not char_dlg_files:
+            print(f"[!] No DLGFiles found for {character} in {characters_csv}")
+            return {}
+        
+        print(f"   Looking for speakers: {', '.join(sorted(char_dlg_files))}")
+        
+        # Load lines from all_lines.csv
         lines = {}
-        with open(csv_path, 'r', encoding='utf-8') as f:
+        with open(all_lines_csv, 'r', encoding='utf-8-sig') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 try:
+                    # Check if this line's DLG_File matches the character's DLGFiles
+                    dlg_file = row.get('DLG_File', '').strip().upper()
+                    if not dlg_file:
+                        continue
+                    
+                    # Add .DLG extension for matching against char_dlg_files
+                    dlg_file_with_ext = dlg_file + '.DLG' if not dlg_file.endswith('.DLG') else dlg_file
+                    
+                    if dlg_file_with_ext not in char_dlg_files:
+                        continue
+                    
+                    # Get Original_VO_WAV column
+                    wav_ref = row.get('Original_VO_WAV', '').strip()
+                    if not wav_ref:
+                        continue
+                    
                     strref = int(row['StrRef'])
                     text = row['Text'].strip()
                     if text:
-                        lines[strref] = text
+                        lines[wav_ref] = (strref, text)
                 except (ValueError, KeyError):
                     continue
         
@@ -259,7 +307,7 @@ class EmotionRefBuilder:
     
     def create_generic_fallbacks(self):
         """Create generic emotion fallback references."""
-        print("\n📝 Creating generic fallback references...")
+        print("\n[*] Creating generic fallback references...")
         
         # For each character, create 'generic_<emotion>' fallbacks
         for character in self.mapping:
@@ -273,7 +321,7 @@ class EmotionRefBuilder:
                     generic_key = f"generic_{emotion}"
                     if generic_key not in self.mapping[character]:
                         self.mapping[character][generic_key] = first_ref
-                        print(f"  ✅ {character}: generic_{emotion} -> {first_ref['strref']}")
+                        print(f"  [+] {character}: generic_{emotion} -> {first_ref['strref']}")
         
         self._save_mapping()
 
@@ -294,9 +342,14 @@ def main():
         help="Directory with original WAV files (default: BG2 Files/WAV Files)"
     )
     parser.add_argument(
-        '--lines-csv',
+        '--all-lines-csv',
         type=Path,
-        help="CSV with StrRef,Text mapping (default: data/chapter1_split/<character>_lines.csv)"
+        help="CSV with StrRef,Speaker,Text,Original_VO_WAV mapping (default: data/all_lines.csv)"
+    )
+    parser.add_argument(
+        '--characters-csv',
+        type=Path,
+        help="CSV with character mapping (default: data/characters.csv)"
     )
     parser.add_argument(
         '--auto-detect',
@@ -324,23 +377,26 @@ def main():
     
     # Default paths
     wav_dir = args.wav_dir or (base_path / "BG2 Files" / "WAV Files")
-    lines_csv = args.lines_csv or (
-        base_path / "data" / "chapter1_split" / f"{args.character.lower()}_lines.csv"
-    )
+    all_lines_csv = args.all_lines_csv or (base_path / "data" / "all_lines.csv")
+    characters_csv = args.characters_csv or (base_path / "data" / "characters.csv")
     
     # Validate paths
     if not wav_dir.exists():
-        print(f"❌ WAV directory not found: {wav_dir}")
+        print(f"[X] WAV directory not found: {wav_dir}")
         return
-    if not lines_csv.exists():
-        print(f"❌ Lines CSV not found: {lines_csv}")
+    if not all_lines_csv.exists():
+        print(f"[X] Lines CSV not found: {all_lines_csv}")
+        return
+    if not characters_csv.exists():
+        print(f"[X] Characters CSV not found: {characters_csv}")
         return
     
     # Extract references
     builder.extract_for_character(
         args.character,
         wav_dir,
-        lines_csv,
+        all_lines_csv,
+        characters_csv,
         auto_detect=args.auto_detect
     )
     

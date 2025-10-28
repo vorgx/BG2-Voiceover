@@ -1,24 +1,24 @@
-Canonical,Aliases,DLGFiles,HasCanonicalVoice,Gender,AgeBand,Accent,Archetype,Energy,Timbre,Notes,VoicePreset,RefFile,Status
-Imoen,IMOEN;IMOEN2,IMOEN.DLG|IMOENJ.DLG,Yes,F,Young,Midwest-lite,Cheery,High,Bright,Iconic companion with extensive party banter (102 BG2 audio files),female_bright,refs/imoen_ref_multi.wav,Locked
-Minsc,MINSC,MINSC.DLG|MINSCJ.DLG,Yes,M,Adult,Neutral,Boisterous,VeryHigh,Boomy,Ranger with hamster Boo - heroic and simple (91 BG2 audio files),male_booming,refs/minsc_ref.wav,Testing
-Jaheira,JAHEIRA,JAHEIRA.DLG|JAHEIRAJ.DLG,Yes,F,Mature,Neutral,Stern,Medium,Mature,Druid widow - wise but sharp-tongued (166 BG2 audio files as JAHEIR*),female_mature,refs/jaheira_ref.wav,Locked
-Viconia,VICONIA;VVICONI,VICONIA.DLG|VVICONI.DLG,Yes,F,Adult,Drow,Sardonic,Medium,Cool,Drow cleric - aloof and sarcastic (126+ BG2 audio files),female_cool,,Pending
-Edwin,EDWIN,EDWIN.DLG|EDWINJ.DLG,Yes,M,Adult,Neutral,Arrogant,Medium,Sardonic,Red Wizard - scheming with internal monologue (142 BG2 audio files),male_sardonic,,Pending
-Aerie,AERIE,AERIE.DLG|AERIEJ.DLG,Yes,F,Young,Neutral,Timid,Low,Gentle,Avariel elf - shy and compassionate (133 BG2 audio files),female_gentle,,Draft
-Korgan,KORGAN,KORGAN.DLG|KORGANJ.DLG,Yes,M,Adult,Scottish,Aggressive,High,Gruff,Dwarven berserker - crude and bloodthirsty (85 BG2 audio files),male_gruff,,Draft
-Anomen,ANOMEN,ANOMEN.DLG|ANOMENJ.DLG,Yes,M,Young,Noble,Conflicted,Medium,Noble,Fighter/Cleric - proud but insecure (122 BG2 audio files),male_noble,,Draft
-Keldorn,KELDORN,KELDORN.DLG|KELDORJ.DLG,Yes,M,Mature,Neutral,Righteous,Medium,Wise,Paladin - noble and dutiful (104 BG2 audio files as KELDOR*),male_wise,,Draft
-Nalia,NALIA,NALIA.DLG|NALIAJ.DLG,Yes,F,Young,Upper-class,Idealist,Medium,Light,Noble mage - caring and idealistic (98 BG2 audio files),female_uplift,,Draft
-HaerDalis,HAERDALI;HAERDA,HAERDALI.DLG,Yes,M,Adult,Theatrical,Poetic,Medium,Smooth,Tiefling bard - flowery and romantic (96 BG2 audio files as HAERDA*),male_theatrical,,Draft
-Cernd,CERND,CERND.DLG|CERNDJ.DLG,Yes,M,Mature,Neutral,Philosophical,Low,Deep,Druid - contemplative and detached (85 BG2 audio files),male_deep,,Draft
-Mazzy,MAZZY,MAZZY.DLG|MAZZYJ.DLG,Yes,F,Adult,Neutral,Heroic,High,Strong,Halfling paladin - brave and determined (93 BG2 audio files),female_strong,,Draft
-Valygar,VALYGAR,VALYGAR.DLG|VALYGARJ.DLG,Yes,M,Adult,Neutral,Stoic,Low,Flat,Ranger - withdrawn and anti-magic (90+ BG2 audio files as VALYGA*),male_flat,,Draft
-Yoshimo,YOSHIMO,YOSHIMO.DLG,Yes,M,Adult,Asian-inspired,Charming,Medium,Smooth,Bounty hunter - friendly but secretive (72 BG2 audio files as YOSHIM*),male_smooth,,Draft
-Sarevok,SAREVOK,SAREVOK.DLG,Yes,M,Adult,Neutral,Menacing,Low,Deep,Former villain - dark and brooding (89 BG2 audio files as SAREVO*),male_menacing,,Draft
-Rielev,RIELEV,RIELEV.DLG,Yes,M,Adult,Neutral,Dying,Low,Deep,Dying prisoner in Irenicus dungeon - exposition NPC,male_deep,refs/rielev_ref.wav,Locked
-IDRYAD3,DRYAD,IDRYAD3.DLG,No,F,Adult,Neutral,Gentle,Low,Gentle,Dryad in the forest area requesting acorns,female_gentle,refs/dryad_ref.wav,Locked
-IDRYAD1,DRYAD,IDRYAD1.DLG,No,F,Adult,Neutral,Gentle,Low,Gentle,Dryad in the forest area requesting acorns,female_gentle,refs/dryad_ref.wav,Locked
-IDRYAD2,DRYAD,IDRYAD2.DLG,No,F,Adult,Neutral,Gentle,Low,Gentle,Dryad in the forest area requesting acorns,female_gentle,refs/dryad_ref.wav,Locked
-DRYAD,DRYAD,DRYAD.DLG,No,F,Adult,Neutral,Gentle,Low,Gentle,Dryad in the forest area requesting acorns,female_gentle,refs/dryad_ref.wav,Locked
-PORTAL,PORTAL,PORTAL.DLG,No,M,Unknown,Mystical,Magical,Medium,Resonant,Portal genie that trades energy cells,male_resonant,,Draft
-Ilyich,ILYICH,ILYICH.DLG,Yes,M,Adult,Scottish,Military,Medium,Gruff,Duergar clan chief - Scottish accent military commander,male_gruff,refs/ilyich_ref.wav,Locked
+﻿Canonical,Aliases,DLGFiles,HasCanonicalVoice,Gender,AgeBand,Accent,Archetype,Energy,Timbre,Notes,VoicePreset,RefFile,Status,Total_Lines,VO_Lines,No_VO_Yet
+Imoen,IMOEN;IMOEN2,BIMOEN2.DLG|BIMOEN25.DLG|CSIMOEN.DLG|IMOEN10.DLG|IMOEN2.DLG|IMOEN25A.DLG|IMOEN25J.DLG|IMOEN25P.DLG|IMOEN2J.DLG|IMOEN2P.DLG|IMOENJ.DLG|IMOENP.DLG|PPIMOEN.DLG|TBIMOEN.DLG|TBIMOENJ.DLG|TTIMOEN.DLG|TTIMOENJ.DLG,Yes,F,Young,Midwest-lite,Cheery,High,Bright,Iconic companion with extensive party banter (102 BG2 audio files),female_bright,refs/imoen_ref_multi.wav,Locked,465,88,377
+Minsc,MINSC,BMINSC.DLG|BMINSC25.DLG|MINSC25A.DLG|MINSC25J.DLG|MINSC25P.DLG|MINSCA.DLG|MINSCJ.DLG|MINSCP.DLG|TBMINSC.DLG|TBMINSCJ.DLG|TTMINSC.DLG|TTMINSCJ.DLG,Yes,M,Adult,Neutral,Boisterous,VeryHigh,Boomy,Ranger with hamster Boo - heroic and simple (91 BG2 audio files),male_booming,refs/minsc_ref.wav,Testing,549,477,72
+Jaheira,JAHEIRA,JAHEIRA.DLG|JAHEIRAJ.DLG|JAHEIRAP.DLG,Yes,F,Mature,Neutral,Stern,Medium,Mature,Druid widow - wise but sharp-tongued (166 BG2 audio files as JAHEIR*),female_mature,refs/jaheira_ref.wav,Locked,703,651,52
+Viconia,VICONIA;VVICONI,VICONIA.DLG|VVICONI.DLG,Yes,F,Adult,Drow,Sardonic,Medium,Cool,Drow cleric - aloof and sarcastic (126+ BG2 audio files),female_cool,,Pending,0,0,0
+Edwin,EDWIN,BEDWIN.DLG|BEDWIN25.DLG|EDWIN.DLG|EDWIN25A.DLG|EDWIN25J.DLG|EDWIN25P.DLG|EDWINJ.DLG|EDWINP.DLG|EDWINW.DLG,Yes,M,Adult,Neutral,Arrogant,Medium,Sardonic,Red Wizard - scheming with internal monologue (142 BG2 audio files),male_sardonic,,Pending,523,0,523
+Aerie,AERIE,AERIE.DLG|AERIE25A.DLG|AERIE25J.DLG|AERIE25P.DLG|AERIEJ.DLG|AERIEP.DLG|BAERIE.DLG|BAERIE25.DLG,Yes,F,Young,Neutral,Timid,Low,Gentle,Avariel elf - shy and compassionate (133 BG2 audio files),female_gentle,,Draft,1025,0,1025
+Korgan,KORGAN,BKORGAN.DLG|KORGANA.DLG|KORGANF.DLG|KORGANJ.DLG|KORGANP.DLG,Yes,M,Adult,Scottish,Aggressive,High,Gruff,Dwarven berserker - crude and bloodthirsty (85 BG2 audio files),male_gruff,,Draft,451,0,451
+Anomen,ANOMEN,ANOMEN.DLG|ANOMENJ.DLG|ANOMENP.DLG|BANOMEN.DLG,Yes,M,Young,Noble,Conflicted,Medium,Noble,Fighter/Cleric - proud but insecure (122 BG2 audio files),male_noble,,Draft,1033,0,1033
+Keldorn,KELDORN,KELDORN.DLG|KELDORJ.DLG,Yes,M,Mature,Neutral,Righteous,Medium,Wise,Paladin - noble and dutiful (104 BG2 audio files as KELDOR*),male_wise,,Draft,290,0,290
+Nalia,NALIA,BNALIA.DLG|BNALIA25.DLG|NALIA.DLG|NALIA25A.DLG|NALIA25J.DLG|NALIA25P.DLG|NALIAJ.DLG|NALIAMES.DLG|NALIAP.DLG,Yes,F,Young,Upper-class,Idealist,Medium,Light,Noble mage - caring and idealistic (98 BG2 audio files),female_uplift,,Draft,645,3,642
+HaerDalis,HAERDALI;HAERDA,HAERDALI.DLG,Yes,M,Adult,Theatrical,Poetic,Medium,Smooth,Tiefling bard - flowery and romantic (96 BG2 audio files as HAERDA*),male_theatrical,,Draft,223,0,223
+Cernd,CERND,BCERND.DLG|BCERND25.DLG|CERND.DLG|CERND25A.DLG|CERND25J.DLG|CERND25P.DLG|CERNDJ.DLG|CERNDP.DLG,Yes,M,Mature,Neutral,Philosophical,Low,Deep,Druid - contemplative and detached (85 BG2 audio files),male_deep,,Draft,463,0,463
+Mazzy,MAZZY,BMAZZY.DLG|BMAZZY25.DLG|MAZZY.DLG|MAZZY1.DLG|MAZZY2.DLG|MAZZY25A.DLG|MAZZY25J.DLG|MAZZY25P.DLG|MAZZY3.DLG|MAZZY4.DLG|MAZZY5.DLG|MAZZY6.DLG|MAZZYJ.DLG|MAZZYP.DLG|MAZZYP2.DLG,Yes,F,Adult,Neutral,Heroic,High,Strong,Halfling paladin - brave and determined (93 BG2 audio files),female_strong,,Draft,587,0,587
+Valygar,VALYGAR,VALYGAR.DLG|VALYGARJ.DLG|VALYGARP.DLG|VALYGARX.DLG,Yes,M,Adult,Neutral,Stoic,Low,Flat,Ranger - withdrawn and anti-magic (90+ BG2 audio files as VALYGA*),male_flat,,Draft,222,5,217
+Yoshimo,YOSHIMO,YOSHIMO.DLG|YOSHIMOX.DLG,Yes,M,Adult,Asian-inspired,Charming,Medium,Smooth,Bounty hunter - friendly but secretive (72 BG2 audio files as YOSHIM*),male_smooth,,Draft,66,59,7
+Sarevok,SAREVOK,SAREVOK.DLG,Yes,M,Adult,Neutral,Menacing,Low,Deep,Former villain - dark and brooding (89 BG2 audio files as SAREVO*),male_menacing,,Draft,0,0,0
+Rielev,RIELEV,RIELEV.DLG,Yes,M,Adult,Neutral,Dying,Low,Deep,Dying prisoner in Irenicus dungeon - exposition NPC,male_deep,refs/rielev_ref.wav,Locked,23,20,3
+IDRYAD3,DRYAD,IDRYAD3.DLG,No,F,Adult,Neutral,Gentle,Low,Gentle,Dryad in the forest area requesting acorns,female_gentle,refs/dryad_ref.wav,Locked,20,20,0
+IDRYAD1,DRYAD,IDRYAD1.DLG,No,F,Adult,Neutral,Gentle,Low,Gentle,Dryad in the forest area requesting acorns,female_gentle,refs/dryad_ref.wav,Locked,18,17,1
+IDRYAD2,DRYAD,IDRYAD2.DLG,No,F,Adult,Neutral,Gentle,Low,Gentle,Dryad in the forest area requesting acorns,female_gentle,refs/dryad_ref.wav,Locked,17,17,0
+DRYAD,DRYAD,DRYAD.DLG,No,F,Adult,Neutral,Gentle,Low,Gentle,Dryad in the forest area requesting acorns,female_gentle,refs/dryad_ref.wav,Locked,16,11,5
+PORTAL,PORTAL,PORTAL.DLG,No,M,Unknown,Mystical,Magical,Medium,Resonant,Portal genie that trades energy cells,male_resonant,,Draft,8,8,0
+Ilyich,ILYICH,ILYICH.DLG,Yes,M,Adult,Scottish,Military,Medium,Gruff,Duergar clan chief - Scottish accent military commander,male_gruff,refs/ilyich_ref.wav,Locked,4,3,1
